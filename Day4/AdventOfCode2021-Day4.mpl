@@ -60,16 +60,13 @@ answer2 := FAIL:
 numbingos := 0:
 for j to nops(numbers) while answer2 = FAIL do
     n := numbers[j];
-    #printf("Drawing %dth number %d\n", i, n);
     drawnumber(n);
     for i in theboards do
         if checkbingo(i) then
-            #printf("Bingo on board %d\n", i);
             if nops(theboards) = 1 then
                 answer2 := add(boards[i]-boards[i]*marks[i])*n;
             end if;
             theboards := subs(i=NULL, theboards); 
-            #printf("%d boards remain\n", nops(theboards));
         end if;
     end do;
 end do:
