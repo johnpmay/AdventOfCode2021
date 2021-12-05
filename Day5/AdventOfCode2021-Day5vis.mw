@@ -1,0 +1,681 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Worksheet>
+<Version major="2020" minor="2"/>
+<Label-Scheme value="2" prefix=""/>
+<View-Properties presentation="false" autoexpanding_sections="true" UserProfileName="Maple Default Profile" NumericFormat-ApplyInteger="true" NumericFormat-ApplyRational="true" NumericFormat-ApplyExponent="false" editable="true">
+</View-Properties>
+<MapleNet-Properties prettyprint="3" warnlevel="3" compactdisplay="false" preplot="" helpbrowser="standard" displayprecision="-1" echo="1" unitattributes="&quot;fontweight&quot; = &quot;bold&quot;" imaginaryunit="I" longdelim="true" elisiontermsthreshold="10000" elisiondigitsafter="100" elisiondigitsbefore="100" plotdevice="inline" errorbreak="1" plotoptions="" plotdriver="opengl" quiet="false" elisiontermsbefore="100" elisiontermsafter="100" historytimestamp="false" screenwidth="79" indentamount="4" plotoutput="terminal" screenpixelheight="1152" rtablesize="[10, 10]" useclientjvm="true" labelwidth="20" postplot="" typesetting="extended" ansi="false" ansicolor="[]" elisiondigitsthreshold="10000" showassumed="1" ansilprint="false" trailingsemicolon="true" errorcursor="false" labelling="true" screenheight="25" prompt="&gt; " verboseproc="1" latexwidth="8.0" ShowLabels="true"/>
+<Styles>
+<Font name="Heading 1" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Warning" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Output" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 4" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Line Printed Output" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 2" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="16" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Output" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Inert Output" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[144,144,144]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 3" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="14" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Diagnostic" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[40,120,40]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 1" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Input" background="[255,255,255]" bold="true" executable="true" family="Courier New" foreground="[120,0,14]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Text Output" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 2" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 3" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 4" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 5" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Annotation Title" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Header and Footer" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="HyperlinkError" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Atomic Variable" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[175,0,175]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="HyperlinkWarning" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Dictionary Hyperlink" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[147,0,15]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="2D Math" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Bullet Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Plot" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Annotation Text" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="List Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Dash Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Input" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Error" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Title" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Text" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Normal" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Caption Reference" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Code" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Input Placeholder" background="[255,255,255]" bold="true" executable="true" family="Courier New" foreground="[200,0,200]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="true"/>
+<Font name="Equation Label" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Author" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Hyperlink" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,128,128]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Caption Text" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Layout name="Heading 1" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="4" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Warning" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 4" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Line Printed Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="any" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 2" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="2" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Maple Output" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.3" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 3" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Diagnostic" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="any" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Ordered List 1" alignment="left" bullet="numeric" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Text Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="newline" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Ordered List 2" alignment="left" bullet="alphabetic" firstindent="0" leftmargin="36" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Ordered List 3" alignment="left" bullet="roman" firstindent="0" leftmargin="72" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Ordered List 4" alignment="left" bullet="ALPHABETIC" firstindent="0" leftmargin="108" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Ordered List 5" alignment="left" bullet="ROMAN" firstindent="0" leftmargin="144" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Annotation Title" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="12" spacebelow="12" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="HyperlinkError" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="HyperlinkWarning" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Bullet Item" alignment="left" bullet="dot" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Maple Plot" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="List Item" alignment="left" bullet="indent" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Dash Item" alignment="left" bullet="dash" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Error" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Title" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="12" spacebelow="12" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Normal" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Author" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="8" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Pencil-style name="Pencil 1" pen-color="[0,0,0]" pen-height="1.0" pen-width="1.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 2" pen-color="[0,0,255]" pen-height="1.0" pen-width="1.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 3" pen-color="[0,0,0]" pen-height="3.0" pen-width="3.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 4" pen-color="[0,0,255]" pen-height="3.0" pen-width="3.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 5" pen-color="[255,0,0]" pen-height="5.0" pen-width="5.0" pen-opacity="1.0"/>
+<Highlighter-style name="Highlighter 5" pen-color="[255,255,0]" pen-height="48.0" pen-width="48.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 3" pen-color="[51,255,0]" pen-height="24.0" pen-width="24.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 4" pen-color="[0,255,255]" pen-height="32.0" pen-width="32.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 1" pen-color="[255,153,255]" pen-height="12.0" pen-width="8.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 2" pen-color="[255,204,0]" pen-height="14.0" pen-width="14.0" pen-opacity="0.8"/>
+</Styles>
+<Startup-Code startupcode=""/>
+<Task-table>
+    <Task-category name="&lt;default&gt;"/>
+</Task-table>
+<Task/>
+<Group hide-input="false" labelreference="L1" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">#restart;</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L15" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">input:=&quot;242,601 -&gt; 242,18
+938,357 -&gt; 938,128
+920,574 -&gt; 750,574
+804,978 -&gt; 804,813
+955,932 -&gt; 68,45
+232,604 -&gt; 232,843
+69,570 -&gt; 467,968
+355,432 -&gt; 611,688
+945,19 -&gt; 700,19
+904,932 -&gt; 904,918
+455,65 -&gt; 516,65
+571,485 -&gt; 588,485
+717,142 -&gt; 217,142
+377,344 -&gt; 66,344
+510,818 -&gt; 132,818
+848,709 -&gt; 848,950
+785,50 -&gt; 785,857
+23,981 -&gt; 971,33
+938,45 -&gt; 938,327
+212,402 -&gt; 601,13
+749,142 -&gt; 651,240
+94,930 -&gt; 22,930
+436,467 -&gt; 820,851
+544,265 -&gt; 458,265
+517,708 -&gt; 517,785
+957,893 -&gt; 957,22
+684,610 -&gt; 526,452
+713,687 -&gt; 526,687
+220,781 -&gt; 988,13
+12,45 -&gt; 912,945
+854,677 -&gt; 646,677
+382,498 -&gt; 382,64
+676,879 -&gt; 148,351
+809,52 -&gt; 336,525
+959,951 -&gt; 41,33
+943,162 -&gt; 132,973
+897,732 -&gt; 897,308
+21,196 -&gt; 702,877
+938,972 -&gt; 656,972
+798,139 -&gt; 90,847
+213,597 -&gt; 582,966
+248,955 -&gt; 973,230
+985,606 -&gt; 985,885
+166,693 -&gt; 804,693
+807,897 -&gt; 28,118
+433,306 -&gt; 433,447
+899,61 -&gt; 60,900
+984,582 -&gt; 691,582
+803,583 -&gt; 910,583
+348,142 -&gt; 348,244
+352,775 -&gt; 352,430
+240,285 -&gt; 240,406
+394,541 -&gt; 394,655
+887,622 -&gt; 298,33
+62,37 -&gt; 861,836
+819,136 -&gt; 29,926
+717,332 -&gt; 717,408
+709,63 -&gt; 276,496
+384,441 -&gt; 150,441
+292,251 -&gt; 557,516
+518,311 -&gt; 52,777
+50,735 -&gt; 479,306
+932,865 -&gt; 139,72
+43,21 -&gt; 982,960
+63,927 -&gt; 796,194
+958,351 -&gt; 958,623
+643,451 -&gt; 35,451
+534,14 -&gt; 459,14
+20,649 -&gt; 924,649
+983,18 -&gt; 35,966
+84,668 -&gt; 203,668
+40,654 -&gt; 748,654
+474,760 -&gt; 85,371
+512,431 -&gt; 272,431
+588,93 -&gt; 112,569
+648,687 -&gt; 832,687
+988,867 -&gt; 116,867
+979,46 -&gt; 94,931
+242,307 -&gt; 800,865
+100,204 -&gt; 807,911
+890,962 -&gt; 88,962
+273,510 -&gt; 273,201
+184,748 -&gt; 813,119
+214,915 -&gt; 950,179
+960,975 -&gt; 89,104
+853,347 -&gt; 853,79
+853,308 -&gt; 884,308
+245,394 -&gt; 245,640
+850,554 -&gt; 604,800
+141,159 -&gt; 141,378
+635,632 -&gt; 897,894
+352,182 -&gt; 550,182
+748,613 -&gt; 748,887
+531,664 -&gt; 255,388
+785,414 -&gt; 432,767
+374,457 -&gt; 653,736
+451,535 -&gt; 444,535
+600,179 -&gt; 434,13
+489,605 -&gt; 845,961
+658,786 -&gt; 658,196
+305,556 -&gt; 305,914
+820,368 -&gt; 204,984
+903,70 -&gt; 548,425
+840,450 -&gt; 796,494
+289,183 -&gt; 768,662
+21,54 -&gt; 950,983
+765,294 -&gt; 209,850
+467,511 -&gt; 703,747
+354,645 -&gt; 730,645
+176,30 -&gt; 964,818
+290,259 -&gt; 345,259
+868,945 -&gt; 96,173
+536,884 -&gt; 536,94
+415,177 -&gt; 415,99
+250,140 -&gt; 466,140
+900,107 -&gt; 900,249
+74,394 -&gt; 137,394
+364,957 -&gt; 364,81
+718,477 -&gt; 718,227
+27,14 -&gt; 988,975
+491,956 -&gt; 154,956
+289,283 -&gt; 289,225
+479,583 -&gt; 604,583
+581,406 -&gt; 23,964
+837,526 -&gt; 732,526
+417,435 -&gt; 417,206
+502,184 -&gt; 20,666
+903,754 -&gt; 817,668
+381,284 -&gt; 967,870
+31,17 -&gt; 176,17
+225,377 -&gt; 179,377
+316,932 -&gt; 358,890
+605,841 -&gt; 559,841
+865,193 -&gt; 865,827
+836,834 -&gt; 142,140
+229,610 -&gt; 232,610
+26,13 -&gt; 872,859
+26,444 -&gt; 26,79
+272,690 -&gt; 531,949
+964,954 -&gt; 331,954
+545,91 -&gt; 335,91
+906,942 -&gt; 906,301
+608,778 -&gt; 608,364
+475,723 -&gt; 475,710
+454,207 -&gt; 614,207
+200,180 -&gt; 917,897
+966,44 -&gt; 71,939
+288,252 -&gt; 288,413
+795,791 -&gt; 66,62
+81,39 -&gt; 588,546
+249,244 -&gt; 892,244
+483,579 -&gt; 853,579
+220,921 -&gt; 220,286
+917,834 -&gt; 675,834
+569,692 -&gt; 569,521
+344,586 -&gt; 835,95
+116,153 -&gt; 888,925
+681,52 -&gt; 871,242
+980,976 -&gt; 27,23
+828,567 -&gt; 482,567
+660,432 -&gt; 660,441
+826,379 -&gt; 280,379
+42,839 -&gt; 259,622
+743,23 -&gt; 91,23
+318,400 -&gt; 318,528
+539,745 -&gt; 734,940
+831,194 -&gt; 831,210
+582,630 -&gt; 361,851
+284,900 -&gt; 213,829
+52,855 -&gt; 763,855
+215,753 -&gt; 452,753
+290,187 -&gt; 417,187
+69,48 -&gt; 69,126
+76,628 -&gt; 76,365
+257,694 -&gt; 54,694
+755,713 -&gt; 556,912
+519,265 -&gt; 342,265
+193,319 -&gt; 193,651
+496,231 -&gt; 900,231
+83,942 -&gt; 83,524
+524,59 -&gt; 989,524
+288,800 -&gt; 907,181
+458,138 -&gt; 586,138
+338,244 -&gt; 934,840
+843,728 -&gt; 843,476
+42,634 -&gt; 657,19
+827,634 -&gt; 369,176
+779,900 -&gt; 779,503
+20,20 -&gt; 870,870
+467,241 -&gt; 467,142
+677,483 -&gt; 501,483
+10,989 -&gt; 989,10
+11,989 -&gt; 989,11
+244,750 -&gt; 244,607
+479,497 -&gt; 48,928
+372,341 -&gt; 615,341
+817,941 -&gt; 339,941
+352,67 -&gt; 352,581
+590,747 -&gt; 590,405
+524,26 -&gt; 524,37
+501,300 -&gt; 117,300
+265,194 -&gt; 491,420
+397,891 -&gt; 983,305
+423,717 -&gt; 423,922
+197,863 -&gt; 197,217
+12,91 -&gt; 379,91
+364,426 -&gt; 364,185
+649,835 -&gt; 649,309
+517,380 -&gt; 485,380
+328,469 -&gt; 568,469
+781,298 -&gt; 781,264
+25,794 -&gt; 25,197
+570,744 -&gt; 570,544
+664,352 -&gt; 632,320
+528,944 -&gt; 528,696
+242,44 -&gt; 900,702
+486,775 -&gt; 486,556
+608,245 -&gt; 788,245
+114,11 -&gt; 114,508
+751,560 -&gt; 751,884
+211,513 -&gt; 448,513
+389,219 -&gt; 308,300
+638,200 -&gt; 105,200
+258,243 -&gt; 365,243
+120,558 -&gt; 556,122
+787,166 -&gt; 274,166
+617,666 -&gt; 185,234
+537,172 -&gt; 808,172
+633,980 -&gt; 282,980
+270,150 -&gt; 270,225
+925,32 -&gt; 48,909
+979,14 -&gt; 891,102
+98,278 -&gt; 98,485
+333,771 -&gt; 119,771
+132,673 -&gt; 132,189
+416,470 -&gt; 482,404
+762,151 -&gt; 925,151
+148,721 -&gt; 378,491
+255,576 -&gt; 255,474
+21,48 -&gt; 938,965
+876,615 -&gt; 777,615
+713,209 -&gt; 209,209
+250,474 -&gt; 271,453
+684,71 -&gt; 451,71
+406,614 -&gt; 519,501
+479,252 -&gt; 112,252
+721,768 -&gt; 284,331
+290,344 -&gt; 290,111
+359,934 -&gt; 544,934
+754,976 -&gt; 726,976
+358,544 -&gt; 358,904
+597,344 -&gt; 597,581
+915,222 -&gt; 915,255
+931,160 -&gt; 135,956
+160,657 -&gt; 348,657
+35,942 -&gt; 949,28
+298,837 -&gt; 298,356
+540,195 -&gt; 540,119
+29,140 -&gt; 29,955
+118,117 -&gt; 980,979
+240,384 -&gt; 464,608
+677,667 -&gt; 361,351
+982,987 -&gt; 11,16
+638,770 -&gt; 95,227
+135,285 -&gt; 135,349
+843,313 -&gt; 843,529
+208,220 -&gt; 945,957
+450,889 -&gt; 977,362
+876,69 -&gt; 283,69
+57,586 -&gt; 57,231
+602,78 -&gt; 602,564
+708,704 -&gt; 267,704
+697,336 -&gt; 697,264
+564,522 -&gt; 519,567
+195,217 -&gt; 274,138
+35,885 -&gt; 116,804
+680,28 -&gt; 148,28
+736,34 -&gt; 736,616
+918,454 -&gt; 52,454
+143,40 -&gt; 415,40
+985,469 -&gt; 985,282
+804,703 -&gt; 107,703
+707,59 -&gt; 296,470
+37,935 -&gt; 931,41
+45,723 -&gt; 45,531
+897,959 -&gt; 165,227
+691,948 -&gt; 523,948
+545,560 -&gt; 545,45
+251,24 -&gt; 748,521
+625,506 -&gt; 625,626
+302,702 -&gt; 989,15
+489,926 -&gt; 489,507
+405,830 -&gt; 405,871
+736,851 -&gt; 19,134
+712,848 -&gt; 48,184
+925,914 -&gt; 33,22
+593,254 -&gt; 369,478
+965,691 -&gt; 155,691
+758,931 -&gt; 349,522
+64,135 -&gt; 820,891
+79,933 -&gt; 79,683
+609,454 -&gt; 233,454
+617,853 -&gt; 309,545
+695,130 -&gt; 695,578
+508,198 -&gt; 363,198
+184,414 -&gt; 275,505
+627,901 -&gt; 519,901
+765,715 -&gt; 213,715
+445,134 -&gt; 669,134
+785,33 -&gt; 302,516
+563,218 -&gt; 470,125
+136,461 -&gt; 264,461
+523,643 -&gt; 674,643
+473,695 -&gt; 473,235
+616,835 -&gt; 757,976
+406,763 -&gt; 406,224
+483,111 -&gt; 203,111
+70,863 -&gt; 922,11
+738,141 -&gt; 738,54
+146,697 -&gt; 332,883
+939,16 -&gt; 23,932
+836,15 -&gt; 317,534
+853,586 -&gt; 853,596
+733,377 -&gt; 733,461
+378,597 -&gt; 378,640
+522,225 -&gt; 522,78
+875,886 -&gt; 875,130
+302,83 -&gt; 771,83
+969,588 -&gt; 419,38
+268,159 -&gt; 585,476
+658,955 -&gt; 33,330
+940,149 -&gt; 492,149
+157,254 -&gt; 962,254
+265,778 -&gt; 265,365
+414,494 -&gt; 608,494
+27,959 -&gt; 948,38
+220,160 -&gt; 220,891
+836,316 -&gt; 836,179
+843,727 -&gt; 163,47
+225,695 -&gt; 598,695
+678,249 -&gt; 892,249
+938,36 -&gt; 938,170
+190,486 -&gt; 40,336
+815,256 -&gt; 815,866
+961,200 -&gt; 961,89
+67,895 -&gt; 67,853
+480,727 -&gt; 852,727
+334,94 -&gt; 334,452
+67,622 -&gt; 987,622
+48,29 -&gt; 982,963
+90,29 -&gt; 963,902
+859,739 -&gt; 338,739
+869,254 -&gt; 474,649
+196,43 -&gt; 69,43
+336,439 -&gt; 336,837
+248,387 -&gt; 587,48
+378,729 -&gt; 162,513
+699,658 -&gt; 513,844
+447,410 -&gt; 670,410
+739,593 -&gt; 889,443
+83,970 -&gt; 964,89
+276,406 -&gt; 276,191
+860,75 -&gt; 247,688
+435,858 -&gt; 435,905
+691,893 -&gt; 691,757
+136,896 -&gt; 611,421
+693,211 -&gt; 477,427
+181,793 -&gt; 181,717
+674,326 -&gt; 664,336
+938,826 -&gt; 164,52
+833,380 -&gt; 833,753
+833,349 -&gt; 230,952
+662,870 -&gt; 662,23
+974,511 -&gt; 145,511
+38,579 -&gt; 57,579
+966,965 -&gt; 966,498
+641,217 -&gt; 240,618
+418,986 -&gt; 834,986
+971,716 -&gt; 971,263
+254,313 -&gt; 254,823
+61,790 -&gt; 61,834
+262,439 -&gt; 262,864
+345,856 -&gt; 894,307
+736,862 -&gt; 281,862
+814,636 -&gt; 814,240
+853,865 -&gt; 853,22
+792,106 -&gt; 207,106
+647,303 -&gt; 531,303
+506,706 -&gt; 337,706
+402,140 -&gt; 402,958
+899,796 -&gt; 669,796
+806,619 -&gt; 463,276
+340,347 -&gt; 340,363
+18,21 -&gt; 979,982
+395,214 -&gt; 395,862
+228,330 -&gt; 333,330
+723,950 -&gt; 723,150
+392,298 -&gt; 36,298
+916,118 -&gt; 114,920
+210,854 -&gt; 80,724
+212,206 -&gt; 513,507
+44,659 -&gt; 161,659
+771,44 -&gt; 198,617
+485,706 -&gt; 169,706
+385,455 -&gt; 308,455
+390,317 -&gt; 390,385
+492,532 -&gt; 56,968
+237,674 -&gt; 712,674
+988,909 -&gt; 254,175
+86,276 -&gt; 448,276
+688,418 -&gt; 927,179
+667,773 -&gt; 504,610
+968,974 -&gt; 109,115
+843,54 -&gt; 843,265
+19,249 -&gt; 19,437
+307,326 -&gt; 341,360
+531,891 -&gt; 531,202
+281,535 -&gt; 270,546
+503,305 -&gt; 164,644
+170,971 -&gt; 30,971
+763,247 -&gt; 946,247
+795,920 -&gt; 623,920
+673,16 -&gt; 899,16
+785,845 -&gt; 290,845
+68,614 -&gt; 68,711
+284,984 -&gt; 67,984
+787,942 -&gt; 120,942
+953,369 -&gt; 773,549
+927,727 -&gt; 315,115
+884,686 -&gt; 254,56
+432,276 -&gt; 432,287
+658,99 -&gt; 81,676
+622,917 -&gt; 679,917
+938,978 -&gt; 938,793
+945,15 -&gt; 369,15
+603,709 -&gt; 603,74
+670,422 -&gt; 222,870
+190,702 -&gt; 190,362
+354,349 -&gt; 369,334
+26,880 -&gt; 876,30
+636,31 -&gt; 636,731
+778,628 -&gt; 778,25
+23,483 -&gt; 170,483
+23,972 -&gt; 963,32
+725,308 -&gt; 384,308
+97,962 -&gt; 620,962
+136,929 -&gt; 136,768
+656,295 -&gt; 851,295
+125,801 -&gt; 755,171
+120,32 -&gt; 553,32
+698,196 -&gt; 286,608
+66,721 -&gt; 66,836
+931,680 -&gt; 931,499
+862,449 -&gt; 862,743
+71,143 -&gt; 180,252
+510,327 -&gt; 612,225
+932,874 -&gt; 352,874
+599,372 -&gt; 583,372
+821,770 -&gt; 126,75
+317,186 -&gt; 495,186
+557,710 -&gt; 56,209
+895,866 -&gt; 306,277
+571,948 -&gt; 571,738
+287,864 -&gt; 243,864
+802,728 -&gt; 802,198
+711,642 -&gt; 983,642
+969,922 -&gt; 969,645
+89,417 -&gt; 57,385
+567,967 -&gt; 567,781
+350,498 -&gt; 142,498
+92,931 -&gt; 988,35
+980,940 -&gt; 152,112
+55,944 -&gt; 679,320
+669,410 -&gt; 669,679
+151,431 -&gt; 241,431
+984,882 -&gt; 80,882
+431,374 -&gt; 431,39
+30,91 -&gt; 765,826
+730,228 -&gt; 80,878
+379,570 -&gt; 705,570
+67,398 -&gt; 67,136
+491,515 -&gt; 491,344
+396,453 -&gt; 749,453
+203,660 -&gt; 203,579
+912,900 -&gt; 912,280
+909,88 -&gt; 367,88
+41,942 -&gt; 825,158
+724,417 -&gt; 17,417
+463,536 -&gt; 170,536
+715,737 -&gt; 715,134
+627,453 -&gt; 805,453
+934,795 -&gt; 695,556
+404,729 -&gt; 738,729
+973,685 -&gt; 973,310
+563,348 -&gt; 771,556
+716,232 -&gt; 983,232
+975,183 -&gt; 975,759
+934,958 -&gt; 117,958
+538,806 -&gt; 538,84
+695,677 -&gt; 629,677&quot;:</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L2" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">tinput := &quot;0,9 -&gt; 5,9
+8,0 -&gt; 0,8
+9,4 -&gt; 3,4
+2,2 -&gt; 2,1
+7,0 -&gt; 7,4
+6,4 -&gt; 2,0
+0,9 -&gt; 2,9
+3,4 -&gt; 1,4
+0,0 -&gt; 8,8
+5,5 -&gt; 8,2&quot;:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L14" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L3" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">lines:=map(l-&gt;[[parse(l[1])],[parse(l[-1])]],{op(map(StringTools:-Split, StringTools:-Split<Font encoding="UTF-8">(input,&quot;\134n&quot;), &quot;-&gt;&quot;))}):</Font></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L4" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Pl := plots:-display(seq(plottools:-line(l[], thickness=0.005),l in lines));</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L5" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L10" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">pointcounts1 := table(sparse=0):
+pointcounts2 := table(sparse=0):
+
+for l in lines do
+    step := signum~(l[2] - l[1]);
+    ls := l[1];
+    pointcounts2[op(ls)] += 1;
+    if 0 in step then        
+        pointcounts1[op(ls)] += 1;
+    end if;
+    while ls &lt;&gt; l[2] do
+        ls := ls + step;
+        pointcounts2[op(ls)] += 1;
+        if 0 in step then        
+            pointcounts1[op(ls)] += 1;
+        end if;
+    end do;
+end do:
+</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L11" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">answer1:=nops(select(i-&gt;i&gt;1,[entries(pointcounts1, nolist)]));</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L29" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">answer2:=nops(select(i-&gt;i&gt;1,[entries(pointcounts2, nolist)]));</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L52" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">rng := [min,max](entries(pointcounts1,nolist));
+colors := [ColorTools:-Color(&quot;CVD 5&quot;),ColorTools:-Gradient(&quot;CVD 2&quot;..&quot;CVD 9&quot;, number=rng[2]-rng[1]-2)[]];</Text-field>
+</Input>
+</Group>
+<Group labelreference="L84" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">ep := [entries(pointcounts1,pairs)]:
+epc := [seq(Array(map([lhs], select(p-&gt;rhs(p)=i,ep))),i=rng[1]..rng[2])]:
+</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L56" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">plots:-display(
+ seq(plottools:-point(epc[i], symbol=solidcircle, color=colors[i], symbolsize=i*2),i=rng[1]..rng[2] ), size=[5000,5000], axes=none, background=&quot;Black&quot;);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L62" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L111" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+</Worksheet>
