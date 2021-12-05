@@ -1,8 +1,8 @@
 # Day 5
 
 Rich datastructures in Maple make the main solution pretty easy
-
-```pointcounts1 := table(sparse=0): pointcounts2 := table(sparse=0):
+```
+pointcounts1 := table(sparse=0): pointcounts2 := table(sparse=0):
 
 for l in lines do
     step := signum~(l[2] - l[1]);
