@@ -17,6 +17,8 @@ minpoly := LinearAlgebra:-MinimalPolynomial(U,x);
 # x^9 - x^2 - 1
 
 q := 100000007:
+
+# look for a power of x that is 1 modulo the minpoly in F_q[x]
 for i from 1 to 100 do
    qq := q^i-1;
    # x^qq ( mod minpoly ) in F_q[x]
@@ -25,16 +27,21 @@ for i from 1 to 100 do
    end if;
 end do:
 i, qq;
-
 # i=8, qq=10000005600001372000192080016807000941192032941720658834405764800
 
+# qq is the period of powers of U mod q
+
+# calculate googolplex mod qq
 n := Power(10, 10^100) mod qq;
 # 7308711993169798294967234678458568672383628022002873653735230400
+# so U^googolplex = U^n mod q
 
-
-g := Powmod(x, n, x^9-x^2-1, x) mod q;
+# I like computing powers of U using the minpoly
+g := Powmod(x, n, minpoly, x) mod q;
 # 46714893*x^8+75968618*x^7+86556894*x^6+35145482*x^5+7013179*x^4
 #  +30172454*x^3+81311138*x^2+30235098*x+46689635
+
+# g(U) = U^googolplex mod q
 
 add(eval(g, x=U) . lanternfish) mod q;
 # 52292574
