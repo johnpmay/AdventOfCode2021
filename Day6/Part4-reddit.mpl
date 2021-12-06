@@ -1,3 +1,5 @@
+# https://www.reddit.com/r/adventofcode/comments/ra88up/2021_day_6_part_4_day_googolplex/
+# Calculate the population at the googolplex generation mod nextprime(10^8)
 input := "4,1,7,7,4,7,6,2,5,4,3,1,4,7,2,4,5,2,2,1,3,7,4,5,1,3,3,5,5,7,6,3,3,3,7,7,5,4,6,3,1,7,6,1,3,5,1,2,6,6,5,5,4,3,2,6,5,3,7,5,4,2,1,3,6,2,7,2,2,6,5,6,7,6,3,3,1,1,1,3,7,3,3,5,4,7,2,1,4,4,1,2,5,5,4,3,4,4,7,4,2,1,2,2,4":
 tally := table(sparse=0,Statistics:-Tally(StringTools:-Split(input,","))):
 lanternfish := Vector([seq(tally[cat("",i)],i=0..8)]):
