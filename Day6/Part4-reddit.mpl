@@ -2,7 +2,7 @@ input := "4,1,7,7,4,7,6,2,5,4,3,1,4,7,2,4,5,2,2,1,3,7,4,5,1,3,3,5,5,7,6,3,3,3,7,
 tally := table(sparse=0,Statistics:-Tally(StringTools:-Split(input,","))):
 lanternfish := Vector([seq(tally[cat("",i)],i=0..8)]):
 
-UpdateMatrix := Matrix([
+U := Matrix([
  [0, 1, 0, 0, 0, 0, 0, 0, 0],
  [0, 0, 1, 0, 0, 0, 0, 0, 0],
  [0, 0, 0, 1, 0, 0, 0, 0, 0],
@@ -13,7 +13,7 @@ UpdateMatrix := Matrix([
  [0, 0, 0, 0, 0, 0, 0, 0, 1],
  [1, 0, 0, 0, 0, 0, 0, 0, 0]]):
 
-minpoly := LinearAlgebra:-MinimalPolynomial(UpdateMatrix,x);
+minpoly := LinearAlgebra:-MinimalPolynomial(U,x);
 # x^9 - x^2 - 1
 
 q := 100000007:
@@ -28,14 +28,14 @@ i, qq;
 
 # i=8, qq=10000005600001372000192080016807000941192032941720658834405764800
 
-gpm := Power(10, 10^100) mod qq;
+n := Power(10, 10^100) mod qq;
 # 7308711993169798294967234678458568672383628022002873653735230400
 
 
-gpp := Powmod(x, gpm, x^9-x^2-1, x) mod q;
+g := Powmod(x, n, x^9-x^2-1, x) mod q;
 # 46714893*x^8+75968618*x^7+86556894*x^6+35145482*x^5+7013179*x^4
 #  +30172454*x^3+81311138*x^2+30235098*x+46689635
 
-add(eval(gpp, x=UpdateMatrix) . lanternfish) mod q;
+add(eval(g, x=U) . lanternfish) mod q;
 # 52292574
 
