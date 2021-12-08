@@ -1,3 +1,5 @@
+input := FileTools:-Text:-ReadFile("AoC-2021-8-input.txt" ):
+
 lines := subs(""=NULL,(op@StringTools:-Split)~(StringTools:-Split(input, "\n"),"|"));
 
 # part 1, just count the 1, 4, 7, and 8s
