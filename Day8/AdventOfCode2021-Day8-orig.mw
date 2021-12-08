@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Worksheet>
+<Version major="2020" minor="2"/>
+<Label-Scheme value="2" prefix=""/>
+<View-Properties presentation="false" autoexpanding_sections="true" UserProfileName="Maple Default Profile" NumericFormat-ApplyInteger="true" NumericFormat-ApplyRational="true" NumericFormat-ApplyExponent="false" editable="true">
+</View-Properties>
+<MapleNet-Properties prettyprint="3" warnlevel="3" compactdisplay="false" preplot="" helpbrowser="standard" displayprecision="-1" echo="1" unitattributes="&quot;fontweight&quot; = &quot;bold&quot;" imaginaryunit="I" longdelim="true" elisiontermsthreshold="10000" elisiondigitsafter="100" elisiondigitsbefore="100" plotdevice="inline" errorbreak="1" plotoptions="" plotdriver="opengl" quiet="false" elisiontermsbefore="100" elisiontermsafter="100" historytimestamp="false" screenwidth="79" indentamount="4" plotoutput="terminal" screenpixelheight="1152" rtablesize="[10, 10]" useclientjvm="true" labelwidth="20" postplot="" typesetting="extended" ansi="false" ansicolor="[]" elisiondigitsthreshold="10000" showassumed="1" ansilprint="false" trailingsemicolon="true" errorcursor="false" labelling="true" screenheight="25" prompt="&gt; " verboseproc="1" latexwidth="8.0" ShowLabels="true"/>
+<Styles>
+<Font name="Heading 1" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Warning" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Output" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 4" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Line Printed Output" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 2" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="16" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Output" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Inert Output" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[144,144,144]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 3" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="14" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Diagnostic" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[40,120,40]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 1" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Input" background="[255,255,255]" bold="true" executable="true" family="Courier New" foreground="[120,0,14]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Text Output" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 2" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 3" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 4" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 5" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Annotation Title" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Header and Footer" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="HyperlinkError" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Atomic Variable" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[175,0,175]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="HyperlinkWarning" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Dictionary Hyperlink" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[147,0,15]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="2D Math" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Bullet Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Plot" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Annotation Text" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="List Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Dash Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Input" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Error" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Title" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Text" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Normal" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Caption Reference" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Code" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Input Placeholder" background="[255,255,255]" bold="true" executable="true" family="Courier New" foreground="[200,0,200]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="true"/>
+<Font name="Equation Label" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Author" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Hyperlink" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,128,128]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Caption Text" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Layout name="Heading 1" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="4" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Warning" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 4" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Line Printed Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="any" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 2" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="2" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Maple Output" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.3" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 3" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Diagnostic" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="any" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Ordered List 1" alignment="left" bullet="numeric" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Text Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="newline" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Ordered List 2" alignment="left" bullet="alphabetic" firstindent="0" leftmargin="36" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Ordered List 3" alignment="left" bullet="roman" firstindent="0" leftmargin="72" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Ordered List 4" alignment="left" bullet="ALPHABETIC" firstindent="0" leftmargin="108" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Ordered List 5" alignment="left" bullet="ROMAN" firstindent="0" leftmargin="144" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Annotation Title" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="12" spacebelow="12" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="HyperlinkError" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="HyperlinkWarning" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Bullet Item" alignment="left" bullet="dot" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Maple Plot" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="List Item" alignment="left" bullet="indent" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Dash Item" alignment="left" bullet="dash" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Error" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Title" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="12" spacebelow="12" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Normal" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Author" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="8" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Pencil-style name="Pencil 1" pen-color="[0,0,0]" pen-height="1.0" pen-width="1.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 2" pen-color="[0,0,255]" pen-height="1.0" pen-width="1.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 3" pen-color="[0,0,0]" pen-height="3.0" pen-width="3.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 4" pen-color="[0,0,255]" pen-height="3.0" pen-width="3.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 5" pen-color="[255,0,0]" pen-height="5.0" pen-width="5.0" pen-opacity="1.0"/>
+<Highlighter-style name="Highlighter 5" pen-color="[255,255,0]" pen-height="48.0" pen-width="48.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 3" pen-color="[51,255,0]" pen-height="24.0" pen-width="24.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 4" pen-color="[0,255,255]" pen-height="32.0" pen-width="32.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 1" pen-color="[255,153,255]" pen-height="12.0" pen-width="8.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 2" pen-color="[255,204,0]" pen-height="14.0" pen-width="14.0" pen-opacity="0.8"/>
+</Styles>
+<Startup-Code startupcode=""/>
+<Task-table>
+    <Task-category name="&lt;default&gt;"/>
+</Task-table>
+<Task/>
+<Group hide-input="false" labelreference="L1" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">#restart;</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L4" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">input := &quot;daegb gadbcf cgefda edcfagb dfg acefbd fdgab fg bdcfa fcgb | cdfgba fgbc dbfac gfadbc
+bdfc dcbegf bf egfbcda gebad cfgaed bfe edfgc aegfcb gebdf | fb fb bcdfaeg fcgdeb
+cebdgaf bfcd gceab bf bfcea gceafd ecdfa fegdab bfcade fba | dfcb dagfbe fbaged bfa
+efabcg aegcdb fgaed fac dgafbc becf eadcgbf aegfc fc cagbe | ecgfa agdef eagfc gdceab
+fcdae cdeabf fga gf gabfde cgadb gadebfc cgfe aegcdf afgcd | fbgadce gadefb fag bafegd
+gecadbf bgc dacgf gaecbf cbeda dbfg bgdca bg bafcgd gdacef | cdgfa fceabg dgfb dgabc
+fbecdga gcdbea cegab fc cafe cfg ebgdf cbgfe afbgec bagcdf | feac acegb bfagce gcafbe
+defgca fbdcga dbcfeg ag dabg cfagb dbcfg afcbe cga abgedcf | ag gefcbda afecdg ga
+gfecd cabgde bdfgcea ca cdfbag egadb bgfaed cga egcda acbe | ac ac egfbacd cdage
+adefg aecgd bfgae gfd dcgfea fd fcde dcfbag cdbega ecadbfg | gdfea df fd egafb
+eafbg bcefad abfcge bdga ad fgade bdafeg agefdcb fecgd dfa | cgbdeaf ad fdgec da
+fea fbadgc bagfc bgeafdc aegbd gbafe gcfe fagecb fe fbdcae | gefc dbfaceg feabg ef
+febda bacfd bagedc eadgfb dcb deacbgf abedcf fcabg fdce dc | bfcda cd dcfgbea efbda
+ab fbcea abc fedgac debfgca cfdea afbcdg ebad bfaced gefcb | abc abde adbe acefdgb
+afbedcg fcbegd aecbfg dfgab cdae cd dcf adbcf fabdec feabc | begfcda dc bfgda debgfac
+abdfge bef cgedfb eagfc bf geacdb aecdbfg gdbec dcfb gbfec | fbcged bf fgabed dfbc
+gfacbe fegcdba fa acdf cgebfd fag gbaed acdfge fdega gdecf | cfda adcbgfe cfegd af
+edc bgecad gfaced deacb de gdfcbae aecfb gabdc acdbfg egbd | gbdac edc cefdag afegdc
+bagdf cagfb acgbef dbfcag egbad bgecafd bdecaf daf df gcfd | bdfag bfgad fd cfadebg
+egd dcbgfe gecfd agfbdc egfb ge gcbeadf deafc bgcdf cbegad | edgcf ge efbg ge
+geadcf bfcda ab abd dagfc dbcfe eabdgc agfb bfegacd gbcadf | gcbfead bad dab abgf
+ecbgda gfc gfbe bafceg gf ecbfagd cbfda gbaec daefcg cfbag | afdbc fgc fg dcaefgb
+degbf aecfdb aced adbef gabcdf ea aef beafcg fbedcag dfabc | fae fae fdegb eaf
+fbeacd bfe bgfadc ef eafc fdcegb eacfgbd fadeb edagb cfbda | fdegbac ef dbfcge fdacegb
+eadgfb ae egcfb cdfab geca cdefbg bcafe eba bcefag abdefgc | gcae bea abe afbce
+fgace bef dcbfa eb dfcbeg efcab deab efdabgc bdfcae dbcgfa | be feb becfda aebfdc
+abfd da gad egbfd dbgeac adgef gecfa daebgf cfdbge abecgfd | ebcgfad gad gefca bfda
+gbaefc geabd gbfeadc ebgadf feb abcfd fe dacbge bfdea dgfe | ebfdgca fbe feb gcdbea
+ac edacf debacg acbf gcfed fbade cea afbdce edcbfga gfdbae | aedbfg abecfgd dfabecg dcabeg
+fabeg dcfgba deacbg bcagf adbgc caf gefcabd fc dfgc edcfab | afbge cdfg bcedfa cgfd
+fgdbae dbfeca gcbef egfdac edgfa cd cde dgaebfc cgad fcdeg | cde ecd cd eadgfc
+ga cfdea egfdbc gefad acbegfd geba abfgdc adg gebfd dafgbe | dga dfega egbdcfa gdbfe
+efcda dfgbea egf fdgab fbedcg ge bdcfga aebg edafg acgfdeb | fbcadg eg eg ge
+defcg gdcbae gfcbde ace afcg ca abfed cfebgad gacfde faedc | ca ac ace bcafegd
+egfdab bedac dbecaf cefd fbdac fagbc dbcgea fd adf bdgcaef | agbcf efdc cfadb dfce
+becdag eagd cgbed gdefbac agbcd bcdefg cfbeda acd ad gabcf | gdebfc ecadbg cgdfeb cbgad
+cdabg bedgac daec afbcgde cabgf dcb dc bagde ecgdfb febdga | debga dace bdgfeac cdagb
+bcgeafd gfb ebdcfa cbeagf bfcea fg afebg dagbe gfec bgdafc | cfge fegc gabef dgeacbf
+fdagecb fed dfabgc fe gabed bdecfg cgfe ebdfca cfbdg egfbd | gcef fgec dfe fde
+bfedc ac cfdbae gfbae acb bgfcde agdcbe facbe gfaecdb dcfa | bcfea bgdfeca efcbgda dcaf
+aecbdf eabgcd cb geacb ecb dcbg fabeg adegc fdcgae gbadfec | cafdeb efgba bc bc
+cfebag gcfbd bgadc fcegda dag beacg adbe ecgdab afbcedg ad | deab bacedgf gcefad fgcbd
+befdac gbdfca adebf dafcb edcafbg def edagb bcfe fe dgfcae | efd fcadb dgfbac ef
+bfcage dcbg edcbag gcadbef bc ebfda agcde deabc bca gdacef | fagbedc cb cbefdga dbgc
+eagfbd ebgafc abdcfe ed efgdb gabef fde geda degfabc gdfcb | gead feabg aedg dfe
+bcfdaeg cbedaf fgc gacfed eacfd gc bgfde aceg cedgf cdbgaf | cgf adefc cgfde dgfbe
+cadgbef gbaedf acebf efdgcb bdcgf fcbeg bcadgf eg gef cdge | fge efbdacg faedbg gef
+agdec gadbce ac cae acgb dfegab ebcdfa agebd fegcd gcebadf | aec bgaed ac ac
+beadgfc ea bceag fgbaec gbcaf cedbg ecaf dbeagf gea bacfdg | ceaf ae caebgf cbfdeag
+dfa fgadc cgefd cdfebga cebdfa gdabc af agfe gcbfed acefgd | fa egaf fbecdg fa
+fecbd fcgbd fdegbc deb abcfdg aegbdf cged ed aebfc bdefcag | gdcbf cedbf bed dcfgeb
+gfdec afbgedc bedga bafe gbfed bdf gfbaed bf gdcfab cbagde | bfae gdfeab bagcdf fgeabd
+cabe be efb decfgb agfbe edfgbac badfg deafcg cgfabe gaecf | be efabg dbafecg eb
+fbce agcdebf dcaefg dcgbaf dfb beadf cadfe bf fcbdae bgdea | faced dfceba adebg bf
+cagdbe agfdec dfega dgcf fabed gafec debfcag dg adg fgaceb | acbdge fdgc bfacge ecabgfd
+afce gebdcfa cbdage gfadec ecdgf fdbagc cf fgc bgefd adegc | bdfgac cf gabcfd cbaegfd
+edfacb cdaeg adgf gaebc agbdcef ead dfcage da degcbf egdcf | dgaf da fegcdba acedg
+ab bfacgd agdeb ebadfg adb defgcb gaedc dagebfc gfdbe eabf | beaf baedg ab dba
+fcag gdcfeab gebdfa af bgdfc abf acbfd cdfegb baced abgdfc | fa gafc fab gfca
+gf cdeabfg dcbfe edgba bcgfde ecfg gebdf fgb fdcabg cebadf | edbacf dfgeb gbead fbg
+gfbade da afdbg dag gbdef fade beadgc fdbgec cfbga cfeabdg | ad adg fbagd fegbd
+fdcbea dafbecg ebcfg eca aefcb fcadb ae cdefag dgacbf daeb | ae aedb ace eca
+ba dbga gbacf cab aebcdfg fgcad caedfg febcda adfcbg egcbf | agbd ba afebdc badg
+bgcef adfg dfegbca dacge abdfec gadebc af ecgaf gfaedc eaf | efa gdaf eacfdg cfgadbe
+bfa gcebaf gbfdaec ebga efgcb acbdef gcafd ab dfbgec gfbca | ba fgebdc bcfegd dcafebg
+befagd fbgadc cebdgf acegd bdc cb bfgda gdabc bagecfd cbfa | dfgebc cb fcab cgaed
+gadef dfgbac cfeabd abdge gab dcgaeb adceb cbge edbgacf gb | aebdfc gab efdag agb
+gfcde fgead ag agf gacd debfa gafcbe facedg gdbfec cegafdb | fga ga fga cbefag
+gfaed abedgf edbac cfabge egc bfdaegc cfgd fegadc dcgae cg | gacedf cebfga cafgbe ecgdbfa
+adefgc dg deg cegbad eadbfc abcefgd gdbc daecb eagfb adgbe | ecbda acbfed dg ebdga
+ebfda bdgcaf cbfeag gbdefca ecgfa fdc dgce egcadf cd cafde | bcfeagd aedfc gacebf fcd
+bdcgf bgecfad deaf feabgc ebgfad adfgb gadeb fa afb bgdeac | fa bfa dgafebc fa
+dagfcb fcbgdae adb cbea cbdgfe dfega dabgce agdbe ab gdecb | caeb dbcagef cgbde gcdfba
+fcaebg fdbgeac bcg bg efcgb ecbfa fdbace abgced fbga edgcf | bagf afbg gb befadc
+bdfc cdegb fgecb eabcfg db egdfcb aegbfd deb dgace gfcabed | fdaebcg ebd bd bd
+ba ecbfd fcebgad cdaeg adbce fbda fecbag bca cfedab cdbegf | dbfa febgdc cab bac
+dgbcfea cea ebgad cgef gdeafc ec agdcf dcgea dbagcf bcaefd | ec aec eac dbage
+dbcfeg ba abedfc fba dcgfa bafdc efbgac afcdgeb ebcdf daeb | ebadfc bdea ab baf
+gcdefab gd fbdag aefgb gade dgb cfbgde cfbda febgca bgefad | gd dg cfbedg dage
+ebdg cfedg gebcfa eb ceb bdgaecf edfcag dfbec gfedbc fbdca | be bec gbde cdfega
+dgecfa dab adbce ecgbd gcbfdea fcbgda ab aefb decaf ceabdf | ecdbafg ba adfcbge dgafcb
+acdbgf baefcg dcea dfegb edbcg cd dcg abcge dbcegfa gcbdae | abdgefc ceda cdg deca
+gabef fda afgcbe gabd ebafd gacedf ad eadgfb decbf bgcefda | edcfag adf cagdfe bdefc
+be cafdbe gcbaefd ebf dgabcf baedf debc fdbac eafgd agecbf | cadfeb dbce dfcbae efb
+gedf gadbc ed fbaegc efacdb feagb degfacb gaebfd ade dbaeg | fgabed cbgda gfeabdc ed
+agde dgcebfa fdbce badcgf dgfaec feg ge fgedc gefbac dafgc | ge geda aegd fedcb
+dcagb gfdbc egcdfba fedbca cfge fedcb dfbceg gfabed bgf fg | febacd edcfb gf abgecdf
+dabfecg dgefb bafgdc aedg efabg gd fbegda aefbgc dgf efdbc | fdecb cebdf gfd geda
+bfacg cgbaef cf gcf fdegbc adefbg feac gbcda abegf gdebafc | dgafceb efdabg ecgfbd gcf
+gdbcaf dcabgfe becg cb gebfa bca gfdbea efadc bfecag fbeca | gbce dcfbage ebcg bcge
+dgbaf faedbg abdgfce gabcd dbf gefd eacdfb faebg bcegaf df | dbf febadgc dfb fdb
+fcaegd db dcbe gcdbfe bfdeg efbga cadefbg dgb fedcg acdbgf | db efgbdca fcbdgae gdafbc
+gbacdf gafcbe dagcb dace ea dbgea cbdgae aeb debgf cfedbga | gbedac dacbge gaedbc afgdcbe
+fgceb abg badcfg dbaec feag ga cebagdf bdcfge agbce cefabg | feag degfcb acbgfd cagbe
+dbfgae fgade cgefba aecdbgf bfg bf befgd dbfa bcgde cedgfa | bdgec fbgcea dafb gfcabe
+ecgbf afgce gcbdfea ag fcadge dacfe bfacde eag dcga dgafeb | feadc acgd cdaefb cefbg
+cdabf gbdcaf fgceabd efa ae aecd fagebd ecfba cbgef eadcbf | eadc ea bgcef ea
+ega efadg eg bgef dbagec cbafde ebgafd dfebgca adefb afgdc | adegbfc ge eg fcdga
+ecadgf egdcf fdcbga fda afec fgaed eagbd dcgefb fa fbeagcd | daf fda gfabcd adbcgf
+gabef cbefa egabfd gbe badecfg agedf ecdafg gb gbda ebgdfc | gdba aebgf egb fecdga
+afcbe dcbae db efbd egcad bafcge gcbadfe dgcfab bcd dcabef | acbfe bd dbc cadbgfe
+dfcgabe bcafgd cafbed dgabe gbacd dae de egcd bgdeac gfbea | aed efbdgca de cdabge
+abd adcgfe bcdg bcdaeg adbec cegafdb agcde fceab adfebg db | deabc gedca db bad
+bdf efbagcd cgfde bfeg dfgeca bdfceg cgdfb agbcd bf dbfcae | fb gefb cefgd bf
+cga bgdcf ac bcgfa agbdfce gdabfe gcdabe bfcaeg gafbe eafc | ceaf ca bcfag faebg
+gdfb bd dbc adfcbg facbeg eadfbcg abgcf dbcga fecdab gceda | bd bagcf caged gbcfeda
+gabe fcdeab gbdfc fbgadec ebadf edg ge bfegd dfaebg dafgce | fbdage feadb bfagdec bgcdeaf
+aegdfb bcf cfbed ebcdgf cb cbdg defgb gcadefb fcgeab afced | fcedb cb bc cabefg
+cef fecag fdgbec agefb ce geafdb dbgceaf egcfba beca gdcfa | agfce aebgf beac fec
+bafdc dgbc bgcfad egafc dg fdg cafgd fbgdea cfgbeda cbdeaf | gfd fcage gd dfg
+aegf gbeac fg gdfcab agfecb bgefc bdgace bgf bfcde dcabfeg | dcgabfe caedbg gefcba gefa
+dcgab acfbed acfdgb gefbdca cbgae cfbgd ad gdfa bda bfedcg | da bafdec da acebg
+caf dafg cagfde fa efgac abcfged bcfdae fcegd gdefbc ecbag | af acbeg cabge fadg
+gfade gaefdc bagecfd dbfeg eacdfb ecfda fgdbac aceg ga gad | bcaegdf cgae bdfaec gda
+cbe edcbag ecfad dbeacfg abedc gcdbef eb agbfcd bega bgacd | bcdag gbdefc ecadbg geab
+fdcbega gaed fdbag fdbgea ag bag gbdfc fcegba edfba dcbefa | gab bafecgd bdagfe fbeadc
+daf ebcgaf edfb gdeca afdgbc dfega bgafe gcdaebf dbfage df | fd fdbe gbafce edfga
+gebfd eadbg bdcagef befcag df fde fbcd cgefbd gcdaef cfgeb | bgcef abedg afbcegd dbega
+gdcbe cbadgfe egafd agbc abe ecabfd cdbfge egbda ab cdebag | bdgace egfdcb aebgd fgade
+dbc efbad dgeca becda ecgb ecadfg cb gbdacef cdbfag egcdab | bc dcbafg dacgbe faebd
+gbafe dgbefca gdbfe fa ebgcdf bcgae bdaegf fga fead bdfcga | befacdg fa af efad
+feb gedbaf beafcgd fged bacgfd gbdfa dcbae caefgb efdab fe | fbdea gfabd bceda bef
+efg ef fagdceb fbagde dabfg gadef cadgfb defb gdeca afecgb | bceadfg fe cfaedgb abfdegc
+bafdc gabfd facgbd cbgd bfeadgc eadfbc acfegd gdf fbeag dg | bgcdfae faegb cedbaf dcgaef
+cadeg cdgafe cabge cbaefdg cgdb bfeca bag cbaegd gb dagbef | afebc cefdbag gba bga
+bce gdbcef fcebd dfegba cagbef bc fcdgabe dbgef dbcg ecdaf | bdgc cdafbge cbe bgdcfae
+afdcbge fcgdb gabf dabgfc dfcab bgd bg fedcba bedagc gdfce | bgfedac gb gb bg
+fgacbd bedgfa dfgbec ebgda adbce adfbg gfae eg bcfdgea ebg | ebgdcaf beg acbgfde edcba
+fdgb bdaec befda bf cbefag dcebafg dagef bafedg bef fgdcae | fb dgfb bdfg efgbadc
+cfebga fce beac gcafb egcbf gcebafd bedfg ce adbfgc fedacg | ec beacfg egcadbf bgefd
+begfda bfcg ecabdgf fb gdfbca cbeadg dbf acfde bgcad abcdf | eagdcb fb bdgca dcafb
+cadgb abd bgdfc gadf ad dfcgbea bagdcf gceab febadc cfgbed | acbge bcfgad cgbea bgcdaf
+cbdfga bdecf fgca gbc gcbdea cgdbaef abfdge dfcgb bafdg cg | fadebcg fcga cfga cbeagdf
+dbefagc fadbe gdbca cgfa fg bgafd bfdcga bgf gadecb dgcfbe | cgfa gbfedc gf dgfebac
+ecfgba fbeadc bagfe bgac ac gfabced bdeagf ecgaf dfgce caf | gcab ca cebafgd adfgebc
+gba gdbace gcea gabcd cbegadf abdefg gbcdf bfcdea acbed ag | bga ag gba gfbdc
+gfdce gcf aecgfb fegda fcdagbe dfbceg cg acefdb edfcb dbgc | gdbc adcbfge gc deabfc
+dcba bed cedfga fdeab bcfdge dbfagec cdebaf fabge db eadcf | edb bdac bd edb
+dcgb cfgae cdeba cedfab ged aecdg gd acbfedg acdgeb afgdbe | dcabef gd debac dg
+fecag bfedcg egf ef edfa geadbc dfbagec dcfeag acgfb caedg | dfae cfgab fe aecgfd
+degbca ebadg gafd af gfcbe bfagde fea cgfbade bdeacf gfbea | gdaf fcbge gfabedc fbegc
+dgcfa abcedf bcegad bedg cge fagbce caegd ge dfgacbe bdeca | gedb afbgdce aebdc ge
+befad afdcb fcbdga bacfged cfb gafc cf dbagc cdbage ebfdgc | efbda cadbefg dgaebcf bfc
+afgecd fgaec bf begfca bgacfd efab gcbed fbc bgecfda bgfec | fcb bfae ebaf edfbagc
+be afbced agcde cfabd bed dceba cefb gafbcd agedcfb degfab | ecbf fcbe deb cfgdaeb
+ecgadb cebfdg face egdfac gfe gdeaf fe egfcdab aedgc fagdb | acfgbde afec fe acegdb
+fead adbegc cdgefb adcgef gbcaf bgfeacd gedcf da dgafc adc | bgfdec facgb adef cgefd
+baedfcg gd gfcae efgbda bagd bgdefc fdg ecafdb gfaed edfba | gefbdac gbda fdg ebdfga
+cbdafg bgfec efcdbag ed gdcef cafdg fde dfaecg aced efagdb | def ed aecd adfcg
+fae cfeba gabe dcbfa ae fcaedg gebafdc dfcbge gcebf acfebg | fbcda egacdbf eaf afe
+cgaf dbgfa cdg gc bacgd bdfacg aedcfgb bdfgce aedbgf badec | dcgbef bdcfag agebdf fdagb
+bdf acgedf dgcfa gafb adecb fadcbg fcdba cfaegbd gdbecf fb | fb abedc fbadc gafb
+cdbegaf dcf afgdbc agbdef cefbd dbefa afce baedcf debgc fc | cf fc ecfa acef
+db fgcbde dfcb bfged dbgcea dgbecaf bdg afdceg gafeb fgedc | db ecfgd cgadbe gdfacbe
+caedgbf cgd gcfbe cfdeg fdcbag dc bedgfc dfega ebcfag bced | cadebgf ebcd cgbefa fegabdc
+ed adfbcge bfgdac edac dcefgb abcgd gadeb dceagb aegfb dge | feagb baefdgc egabf aegbd
+efdcab gfbead cf begdc fcbde acfe afbed dgbecaf dagcfb fbc | cgaefdb cadgfb bfecd cgbed
+agbfcd bdfcaeg acdbg cdebg bed bgcef de geabcd bacfed gdae | geda gcfeb gade cbdefa
+bcaegd bcd cbfge afbd gfcbd gabfcde db gecdaf dgafcb cdgaf | gfadc afcbgde dfacge gdbceaf
+acfdeb fgabd dfb gdcf gcbaf bgfcad aegbfc fd gbecafd bgade | fbd cfgd bdaefc gafebc
+bedgc dgceba gdacb aebg ebd bdcafg cadfbe ecdfg eb dgecafb | dbe geba be decfg
+cebg geafcbd ecfag gfcda dabefg cfgaeb ce efc bedcfa abefg | ec ce bgec agcef
+fbgde bgfec cb cfaeg adbecg ecfdgb bfdega bcfd bgdacfe ebc | ceb gabedfc dcfb eagfc
+degfa fceag aegbc gefcad dcgfabe cfad fc fgaebd dgbcfe fce | agecb cf cf dafc
+febdga gabec abgdc aegdfc adgcf cgbdaf bcfd bd beacgdf gbd | cfdga dfabecg dbcf bcfd
+gabce dacbge ebg eacgd fegdba baecdgf cdbg fbaec gb edfcga | ebg degcfa fdeacbg geb
+agecb begda bfdae deafbg adgcef fcdageb dg dbfg edg fecbad | dbeafc dbfg gd fbgdace
+cgfdab efabgdc eagbdf ed bgdace dcegb dgcab befgc deca dge | ecad ed dcea agbdc
+bdfce dbfeg fc egfbad fbgc dcf fdgbec ecgafdb cfegad edcab | fbcg gefbd fc cdf
+gdb gbead cgbdaef cabd aegcdf geadc bdaceg fagbe dfbgce bd | aedgb cbfgade geadc cegdfb
+bgefdca aefc gdafb bgdcae ac dfegc gfdbce dgaecf fagcd dca | ac cda adc gebcafd
+gdbcea fadcebg cebfad af cedfg abfcgd daf fbae debca efcad | faeb gbcaefd facde adf
+daebcg fgbeacd dfegcb cbfagd acbde ecbfa gade ed bdcag cde | bcdae bagcdfe cegafdb gcdfab
+bgcedf dfbec efagcd adfbg afdceb ebagcfd dbgfe bgce eg gde | gceb gaecdbf dbfge bcdeaf
+edbca cbdfega fceg dcf fc dfbge fdabeg fdbgec bdgcaf fdebc | dfecbg fc cbaed fc
+fgdc fdaeg cdegfa dga cgaef bgcaef ecfbadg abdef cgeadb dg | adg gda aecbdg gda
+gbce edgbfac dcgfa bg adecfb bcefgd debgfa gdb dcfbe cfbgd | gceb gecb gb gb
+fcgebda deafb dgb gdefb bcgf cdefg bdefcg gafced bg ebcdga | bg cgfdeb gedfb bg
+deabc cfgbe bfa gaedbc afdc dcegbaf eafdbg fa afcbe daecfb | dacbef fa fa abf
+feg degcba gbade gdfcea gacebdf fbgdc bafged beaf ef dfgbe | ebfa fe fegbad ef
+ebagf abegdc befgca dg bdefc gdbefa dgebf agebfdc dbg dfga | dgaf gd afcbdge adfg
+defbgc gbd degfab cfbge fbcdg fegcadb fcdag cdbe bd fegabc | db gdb cfebg gdb
+cbedfga gefac bfa ba abdg efgbd afecdb efgab gfbdea bcegdf | debacfg ab ab ba
+gfbdeca cebfg abg gdea fcdgba ga eabfg ebadfg fedab ebcafd | cgdefba ga dfcagb gebfda
+caegdfb bcdgfa ecadg bagefc cebga edcb dac gcebad fdgae cd | cedb bcfgda cad adegc
+egdcaf ged gd fdeac gdfc efadg dbafec becdfag cgdaeb gabfe | edagf dgfc gfcd gd
+cbeafg baedcg bedcgfa gdebf abgfd dbcegf edg ed cdfe febgc | de cbgafe gde acgfebd
+fcd bdacg fd ebdgfc ecagbf gafcde cagdf fecga eadf gebcafd | fd ecgdabf df bfcdeag
+cb agefbc aegfbd dgbc eacbd ecdgba degab cab fdgceba eafcd | fdabgec cgeabf cb cdeaf
+ebacdg cbd badf bdcfe db efbadgc abfec aebfdc faecgb efgcd | db dfab dcefg ecafbd
+daefgc bdcafe fcbega bfcda bgfcdea dcabg fbed bafce fdc df | dbef df acfgdbe cgdab
+caefd fcaebg bdcfe afdge geafcdb caf ac dagc edgafb agdfce | edcgfa cfa dcga fac
+gcfedb daegbc bcfad gedcf fgecda ae eda agef gadcebf afdce | abgced fgecd adecfg ae
+gf aebfgc cabef cbdge aegfbd acfg gfb ecdbfa fdcegab bfecg | gcfbe bfgeca gf fgdaeb
+baegf cebaf bfcade bga bfacedg bg egbacd bcfg fcbeag gafed | cefba befcga fedbgca geafd
+fgcd fg adebfcg daebg gdfba fdacbe cbadf gfa gcafeb gdabfc | ebdag fcgd afcbd gf
+bdfegca ae aed ebfgdc gbdae cdaefg gedbf gbfdea ebfa bcdga | dea dcbegf dfebag cdegbf
+eagfdc bdfe geafcdb bf afegdb fdega agebf bgcae baf gcdbaf | baf edcgfa bf cabfgd
+fagbcd bfdac bedacg fgcb bc cba acfde gfabd afbdge fdacbge | cbgf bc bcfgeda bcgf
+bgafcde dgc adfgcb bceadg fecda bcage ebgcaf gdeca gd gbed | bdeg cdg agecb acbeg
+&quot;:</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L5" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">tinput := &quot;be cfbegad cbdgef fgaecd cgeb fdcge agebfd fecdb fabcd edb |
+fdgacbe cefdb cefbgd gcbe
+edbfga begcd cbg gc gcadebf fbgde acbgfd abcde gfcbed gfec |
+fcgedb cgb dgebacf gc
+fgaebd cg bdaec gdafb agbcfd gdcbef bgcad gfac gcb cdgabef |
+cg cg fdcagb cbg
+fbegcd cbd adcefb dageb afcb bc aefdc ecdab fgdeca fcdbega |
+efabcd cedba gadfec cb
+aecbfdg fbg gf bafeg dbefa fcge gcbea fcaegb dgceab fcbdga |
+gecf egdcabf bgf bfgea
+fgeab ca afcebg bdacfeg cfaedg gcfdb baec bfadeg bafgc acf |
+gebdcfa ecba ca fadegcb
+dbcfg fgd bdegcaf fgec aegbdf ecdfab fbedc dacgb gdcebf gf |
+cefg dcbef fcge gbcadfe
+bdfegc cbegaf gecbf dfcage bdacg ed bedf ced adcbefg gebcd |
+ed bcgafe cdgba cbgef
+egadfb cdbfeg cegd fecab cgb gbdefca cg fgcdab egfdb bfceg |
+gbdfcae bgc cg cgb
+gcafb gcf dcaebfg ecagb gf abcdeg gaef cafbge fdbac fegbdc |
+fgae cfgab fg bagce&quot;;</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L14" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">ttinput := &quot;acedgfb cdfbe gcdfa fbcad dab cefabd cdfgeb eafb cagedb ab |
+cdfeb fcadb cdfeb cdbaf&quot;;</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L6" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">lines := subs(&quot;&quot;=NULL,(op@StringTools:-Split)~(<Font encoding="UTF-8">StringTools:-Split(input, &quot;\134n&quot;),&quot;|&quot;));</Font></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L13" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">total := 0:
+for i from 2 to nops(lines) by 2 do
+    tal := table(sparse=0,Statistics:-Tally(map(length, StringTools:-Split(lines[i]))));
+    total := total + tal[2] + tal[3] + tal[4] + tal[7];
+end do:
+total;</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L15" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L7" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">code := lines[1];</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L8" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">sortstring := s-&gt;StringTools:-Join( sort( StringTools:-Explode(s) ), &quot;&quot;);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L19" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Decode := proc( code, output )local lookups, alphab, j, displays, cypher, i, decoded, w, wl, l, wc, n;lookups := [&quot;abcefg&quot;=&quot;0&quot;, &quot;acdeg&quot;=&quot;2&quot;, &quot;acdfg&quot;=&quot;3&quot;, &quot;abdfg&quot;=&quot;5&quot;, &quot;abdefg&quot;=&quot;6&quot;, &quot;abcdfg&quot;=&quot;9&quot;];
+alphab := {seq(j,j in &quot;abcdefg&quot;)};displays := sort( StringTools:-Split(StringTools:-Trim(code),&quot; &quot;), length );cypher := table([seq(i={seq(j,j in &quot;abcdefg&quot;)},i in &quot;abcdefg&quot;)]):
+decoded := table();
+for w in displays do
+wl := {seq(i, i in w)};
+   if length(w) = 2 and not assigned(decoded[&quot;1&quot;]) then # 1
+       decoded[&quot;1&quot;] := sortstring(w);
+       # may be
+       cypher[&quot;c&quot;] := cypher[&quot;c&quot;] intersect wl;
+       cypher[&quot;f&quot;] := cypher[&quot;f&quot;] intersect wl;
+       # can't be
+       for l in &quot;abdeg&quot; do
+           cypher[l] := cypher[l] minus wl;
+       end do;
+   elif length(w) = 3 and not assigned(decoded[&quot;7&quot;])then # 7
+       decoded[&quot;7&quot;] := sortstring(w);
+       cypher[&quot;c&quot;] := cypher[&quot;c&quot;] intersect {seq(i, i in w)};
+       cypher[&quot;f&quot;] := cypher[&quot;f&quot;] intersect {seq(i, i in w)};
+       cypher[&quot;a&quot;] := cypher[&quot;a&quot;] intersect {seq(i, i in w)};
+       if assigned(decoded[&quot;2&quot;]) then
+           cypher[&quot;a&quot;] := cypher[&quot;a&quot;] intersect {seq(i, i in w)} minus cypher[&quot;c&quot;];
+       end if;
+       if nops( cypher[&quot;a&quot;] ) = 1 then
+           for l in alphab minus {&quot;a&quot;} do
+               cypher[l] := cypher[l] minus cypher[&quot;a&quot;];
+           end do;
+       end if;
+       for l in &quot;bdeg&quot; do
+           cypher[l] := cypher[l] minus wl;
+       end do;
+   elif length(w) = 4 and not assigned(decoded[&quot;4&quot;])then # 4
+       decoded[&quot;4&quot;] := sortstring(w);
+       cypher[&quot;b&quot;] := cypher[&quot;b&quot;] intersect {seq(i, i in w)};
+       cypher[&quot;d&quot;] := cypher[&quot;d&quot;] intersect {seq(i, i in w)};
+       cypher[&quot;c&quot;] := cypher[&quot;c&quot;] intersect {seq(i, i in w)};
+       cypher[&quot;f&quot;] := cypher[&quot;f&quot;] intersect {seq(i, i in w)};
+       for l in &quot;aeg&quot; do
+           cypher[l] := cypher[l] minus wl;
+       end do;
+   elif length(w) = 7 and not assigned(decoded[&quot;8&quot;]) then # 8
+       decoded[&quot;8&quot;] := sortstring(w);
+       cypher[&quot;b&quot;] := cypher[&quot;b&quot;] intersect {seq(i, i in w)};
+       cypher[&quot;d&quot;] := cypher[&quot;d&quot;] intersect {seq(i, i in w)};
+       cypher[&quot;c&quot;] := cypher[&quot;c&quot;] intersect {seq(i, i in w)};
+       cypher[&quot;f&quot;] := cypher[&quot;f&quot;] intersect {seq(i, i in w)};
+   elif length(w) = 6 then # 0, 6, 9 missing letters must be c,d,e
+       wc := alphab minus wl;
+       for l in &quot;abf&quot; do
+           cypher[l] := cypher[l] minus wc;
+       end do; 
+   elif length(w) = 5 then # 2, 3, 5 missing letters must be b,c,e,f
+       wc := alphab minus wl;
+       for l in &quot;adg&quot; do
+           cypher[l] := cypher[l] minus wc;
+       end do; 
+   end if;
+end do:
+sort([entries(cypher,pairs)]);
+for l in alphab do
+   if nops(cypher[l]) = 1 then
+   
+       for n in alphab minus {l} do
+           cypher[n] := cypher[n] minus cypher[l];
+       end do;
+   end if;
+end do;
+for l in alphab do
+    if nops(cypher[l]) &lt;&gt; 1 then
+        error &quot;need more!&quot;;
+    end if;
+    cypher[l] := op(cypher[l]);
+end do:
+cypher := sort((rhs=lhs)~([entries(cypher,pairs)]));
+
+decoded := sort((rhs=lhs)~([entries(decoded,pairs)]));
+
+#print(cypher, decoded);#print(&quot;&quot;);local tmp := map(sortstring, StringTools:-Split(output,&quot; &quot;));#print(tmp);tmp := map2(subs, decoded, tmp);#print(tmp);
+tmp := (StringTools:-Join([seq]( subs(lookups, StringTools:-Join(sort( subs(cypher, convert(w,list)) ),&quot;&quot;)), w in tmp), &quot;&quot;) );#print(tmp);return parse(tmp);end proc:</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L20" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">add( Decode(lines[i], lines[i+1]), i=1..nops(lines), 2);</Text-field>
+</Input>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkjbW5HNiMvSSttb2R1bGVuYW1lRzYiSSxUeXBlc2V0dGluZ0dJKF9zeXNsaWJHRic2JFEoMTAxMDQ2MEYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJw==">IihnLywi</Equation></Text-field>
+</Output>
+</Group>
+<Group hide-input="false" labelreference="L18" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L11" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" spaceabove="0" linebreak="space" rightmargin="0" linespacing="0.0" initial="0" firstindent="0" leftmargin="0" bulletsuffix="" alignment="left" bullet="none" spacebelow="0" pagebreak-before="false"></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L16" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L17" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+</Worksheet>
