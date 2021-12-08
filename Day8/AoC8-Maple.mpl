@@ -8,7 +8,8 @@ for i from 2 to nops(lines) by 2 do
     tal := table(sparse=0,Statistics:-Tally(map(length, StringTools:-Split(lines[i]))));
     total := total + tal[2] + tal[3] + tal[4] + tal[7];
 end do:
-total;
+
+answer1 := total;
 
 # part 2
 
@@ -25,7 +26,7 @@ local j, displays, cypher, i, decoded, w, wl, l, wc, n;
     decoded := table();
 
     for w in displays do
-    wl := {seq(i, i in w)};
+        wl := {seq(i, i in w)};
         if length(w) = 2 and not assigned(decoded["1"]) then # 1
             decoded["1"] := sortstring(w);
             # may be
@@ -78,8 +79,6 @@ local j, displays, cypher, i, decoded, w, wl, l, wc, n;
             end do; 
         end if;
     end do:
-
-    sort([entries(cypher,pairs)]);
     
     for l in alphab do
         if nops(cypher[l]) = 1 then
@@ -106,4 +105,5 @@ local j, displays, cypher, i, decoded, w, wl, l, wc, n;
     return parse(tmp);
 
 end proc:
-add( Decode(lines[i], lines[i+1]), i=1..nops(lines), 2);
+
+answer2 := add( Decode(lines[i], lines[i+1]), i=1..nops(lines), 2);
