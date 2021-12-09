@@ -34,17 +34,16 @@ Decode := proc( code, output )
     decode["6"] := select(d->not decode["1"] subset d, sixes)[1];
     # 9 contains 4
     decode["9"] := select(d->decode["4"] subset d, sixes)[1];
-    # otherwise 0
+    # otherwise 0 - 0 contains 7 also works
     decode["0"] := op(1,sixes minus {decode["6"], decode["9"]});
 
     # length five 2,3,5
     # 3 contains 1
     decode["3"] := select(d->decode["1"] subset d, fives)[1];
-    fives := fives minus {decode["3"]};
-    # 5 is contained in 9 (so is 3 so we removed it first)
-    decode["5"] := select(d->d subset decode["9"], fives)[1];
-    # otherwise 2
-    decode["2"] := op(1,fives minus {decode["5"]});
+    # 5 is contained in 6
+    decode["5"] := select(d->d subset decode["6"], fives)[1];
+    # otherwise 2 
+    decode["2"] := op(1,fives minus {decode["5"], decode["3"]});
 
     local decodsubs := sort((rhs=lhs)~([entries(decode,pairs)]));
 
