@@ -20,6 +20,7 @@ for j to nops(lines) do
                 points += scores[lines[j][i]];
                 badlines := badlines, j;
                 break;
+            end if;
         end if;
     end do;
 
