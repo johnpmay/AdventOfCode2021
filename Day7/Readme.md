@@ -3,7 +3,7 @@
 ## Maple
 
 This was a very fast optimization problem, brute force got both answers pretty quickly (although you might have needed to know 
-`sum(i,i=1..n) = (n^2+n)/2` to be really competitive: 2s vs. 75s in Maple O(N^3) vs. O(N^4)). I managed 1860th / 1712th places.
+`sum(i,i=1..n) = (n^2+n)/2` to be really competitive: 2s vs. 75s in Maple O(N^2) vs. O(N^3)). I managed 1860th / 1712th places.
 
     pos := parse~(StringTools:-Split(input,",")):
     answer1 := min(seq(add(abs~(pos-~i)),i=min(pos)..max(pos)));
