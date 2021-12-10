@@ -7,6 +7,7 @@ scores2 := table( ["("=1, "["=2, "{"=3, "<"=4] ):
 points := 0:
 badlines := NULL:
 for j to nops(lines) do
+
     bracestack := DEQueue();
     for i to length(lines[j]) do    
         if lines[j][i] in { "[", "{", "<", "(" } then       
@@ -19,11 +20,6 @@ for j to nops(lines) do
                 points += scores[lines[j][i]];
                 badlines := badlines, j;
                 break;
-            else
-                
-            end if;
-        else
-            error "ugg", i, j;
         end if;
     end do;
 
