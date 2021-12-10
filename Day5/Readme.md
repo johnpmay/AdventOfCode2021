@@ -37,6 +37,7 @@ and then added the intersections to a second list.  But, I had to search in thos
 
 So, I decided to make a table, as in Maple, but it was too hard to do it sparse, so I made a dense table to hold all 1,000,000 
 points on the grid.  Scratch limits lists to 200,000 elements, so I made it using 10 lists of size 100,000.  For each point I 
-used the first digit to choose a table, and the other 5 to choose an index.  It's ugly but takes only about 20 seconds to run.
+used the first digit to choose a table, and the other 5 to choose an index. It's ugly but takes only about 20 seconds to run.
+Next time I might try a real hash table, in theory I could have gotten away with fewer lists here.
 
-![Many Scratch Blocks](https://github.com/johnpmay/AdventOfCode2021/blob/main/Day5/Scratch with a hash)
+![Many Scratch Blocks](https://github.com/johnpmay/AdventOfCode2021/blob/main/Day5/Advent%20of%20Code%202021%20Day%205%20-%20Scratch%20with%20a%20hash.png)
