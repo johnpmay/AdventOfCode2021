@@ -31,3 +31,5 @@ the mean to speed up part 2, there is no good way to get the median for part 1 w
 So, it's slow.  So I added an animated crab.
 
 https://scratch.mit.edu/projects/613773533/
+
+![scratch blocks](https://github.com/johnpmay/AdventOfCode2021/blob/main/Day7/AoC2021-ScratchDay7.png)
