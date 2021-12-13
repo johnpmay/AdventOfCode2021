@@ -1,14 +1,3 @@
-input := "4738615556
-6744423741
-2812868827
-8844365624
-4546674266
-4518674278
-7457237431
-4524873247
-3153341314
-3721414667";
-
 #sample
 tinput := "5483143223
 2745854711
@@ -27,6 +16,8 @@ tinput := "11111
 19191
 19991
 11111";
+
+input := FileTools:-Text:-ReadFile("AoC-2021-11-input.txt" ):
 
 ogrid := map((parse~),StringTools:-Explode~(StringTools:-Split(input)));
 gridw := nops(ogrid[1]); gridl := nops(ogrid);

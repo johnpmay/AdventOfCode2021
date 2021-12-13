@@ -1,3 +1,5 @@
+input := FileTools:-Text:-ReadFile("AoC-2021-10-input.txt" ):
+
 lines := StringTools:-Split(input):
 matchlookup := table( [ "]"="[", "}"="{", ">"="<", ")"="(",
     "["="]", "{"="}", "<"=">", "("=")" ] );

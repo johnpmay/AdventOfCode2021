@@ -1,29 +1,3 @@
-input := "DA-xn
-    KD-ut
-    gx-ll
-    dj-PW
-    xn-dj
-    ll-ut
-    xn-gx
-    dg-ak
-    DA-start
-    ut-gx
-    YM-ll
-    dj-DA
-    ll-xn
-    dj-YM
-    start-PW
-    dj-start
-    PW-gx
-    YM-gx
-    xn-ak
-    PW-ak
-    xn-PW
-    YM-end
-    end-ll
-    ak-end
-    ak-DA":
-
 toy_input := "start-A
     start-b
     A-c
@@ -62,6 +36,8 @@ sample_input := "fs-end
     pj-fs
     start-RW":
 
+input := FileTools:-Text:-ReadFile("AoC-2021-12-input.txt" ):
+
 nodes := map(s->{StringTools:-Split(s,"-")[]}, StringTools:-Split(input)):
 G := GraphTheory:-Graph( {nodes[]} );
 small := select(StringTools:-IsLower,{map(op, nodes)[]}) minus {"end"};
@@ -78,7 +54,7 @@ local newex, newvs2;
 #       print([path[],"end"]);
        return 1;
     end if;
-    
+
     local nb := {GraphTheory:-Neighborhood(G, a)[]} minus excluding;
     if a = s2 and visited_s2 = false then
          newex := excluding;
@@ -96,5 +72,5 @@ local newex, newvs2;
  end proc:
 
 answer1 := numpaths("start");
-answer2 := answer1 + add(numpaths("start", pp), pp in small minus {"start"}); 
+answer2 := answer1 + add(numpaths("start", pp), pp in small minus {"start"});
 
