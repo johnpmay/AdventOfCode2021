@@ -22,7 +22,7 @@ testinput := "6,10
 fold along y=7
 fold along x=5";
 
-split:=StringTools:-Split(input, "\n\n"):
+split:=StringTools:-Split(input, "\n"):
 member("", split, 'loc'); loc;
 
 coords := split[1..loc-1]:
