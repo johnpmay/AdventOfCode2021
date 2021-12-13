@@ -878,7 +878,8 @@ fold along x=40
 fold along y=27
 fold along y=13
 fold along y=6":
-tinput := "6,10
+
+testinput := "6,10
 0,14
 9,10
 0,3
@@ -899,6 +900,7 @@ tinput := "6,10
 
 fold along y=7
 fold along x=5";
+
 split:=StringTools:-Split(input, "\n\n");
 member("", split, 'loc'); loc;
 
@@ -906,22 +908,24 @@ coords := split[1..loc-1];
 folds := split[loc+1..-1];
 coords := {map(p->[parse(p)], coords)[]};
 folds := parse~(map(s->StringTools:-SubstituteAll(s, "fold along ", ""), folds));
-vis := coords->plots:-display(plottools:-point(map(c->[c[1],-c[2]], [coords[]]), symbol=solidbox, symbolsize=20), axes=boxed, scaling=constrained):
-vis(coords);
+
+vis := coords->plots:-display(plottools:-point(map(c->[c[1],-c[2]], [coords[]]),
+    symbol=solidbox, symbolsize=20), axes=boxed, scaling=constrained):
+
 newcoords := coords:
-
 for f in folds do
-if lhs(f) = 'y' then
-    (c1,c2) := selectremove(p->p[2]<rhs(f), newcoords);
-    c2 := map(p->[p[1], 2*rhs(f)-p[2]], c2);
-    newcoords := c1 union c2;
-else
-    (c1,c2) := selectremove(p->p[1]<rhs(f), newcoords);
-    c2 := map(p->[2*rhs(f)-p[1], p[2]], c2);
-    newcoords := c1 union c2;
-end if;
-
+    if lhs(f) = 'y' then
+        (c1,c2) := selectremove(p->p[2]<rhs(f), newcoords);
+        c2 := map(p->[p[1], 2*rhs(f)-p[2]], c2);
+        newcoords := c1 union c2;
+    else
+        (c1,c2) := selectremove(p->p[1]<rhs(f), newcoords);
+        c2 := map(p->[2*rhs(f)-p[1], p[2]], c2);
+        newcoords := c1 union c2;
+    end if;
+    if f = folds[1] then
+        answer1 := nops(newcoords);
+    end if;
 end do:
-P:=vis(newcoords):
-plots:-display(P, view=[0..20, -5..0]);
-
+answer1;
+vis(newcoords);
