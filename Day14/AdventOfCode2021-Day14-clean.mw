@@ -194,7 +194,7 @@ SH -&gt; F&quot;:</Text-field>
 </Input>
 </Group>
 <Group hide-input="false" labelreference="L2" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
-<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">testinput := &quot;NNCB
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">test;input := &quot;NNCB
 
 CH -&gt; B
 HH -&gt; N
@@ -213,38 +213,41 @@ BC -&gt; B
 CC -&gt; N
 CN -&gt; C&quot;;</Text-field>
 </Input>
-<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEqdGVzdGlucHV0RicvJSdpdGFsaWNHUSV0cnVlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkjbW9HRiQ2LVEpJkFzc2lnbjtGJy9GM1Enbm9ybWFsRicvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRj0vJSlzdHJldGNoeUdGPS8lKnN5bW1ldHJpY0dGPS8lKGxhcmdlb3BHRj0vJS5tb3ZhYmxlbGltaXRzR0Y9LyUnYWNjZW50R0Y9LyUnbHNwYWNlR1EsMC4yNzc3Nzc4ZW1GJy8lJ3JzcGFjZUdGTC1JI21zR0YkNiNRYHNOTkNCfCt8K0NIfi0+fkJ8K0hIfi0+fk58K0NCfi0+fkh8K05Ifi0+fkN8K0hCfi0+fkN8K0hDfi0+fkJ8K0hOfi0+fkN8K05Ofi0+fkN8K0JIfi0+fkh8K05Dfi0+fkJ8K05Cfi0+fkJ8K0JOfi0+fkJ8K0JCfi0+fk58K0JDfi0+fkJ8K0NDfi0+fk58K0NOfi0+fkNGJ0Y5">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSp0ZXN0aW5wdXRHRihRYHNOTkNCfCt8K0NIfi0+fkJ8K0hIfi0+fk58K0NCfi0+fkh8K05Ifi0+fkN8K0hCfi0+fkN8K0hDfi0+fkJ8K0hOfi0+fkN8K05Ofi0+fkN8K0JIfi0+fkh8K05Dfi0+fkJ8K05Cfi0+fkJ8K0JOfi0+fkJ8K0JCfi0+fk58K0JDfi0+fkJ8K0NDfi0+fk58K0NOfi0+fkNGKDcjRi4=</Equation></Text-field>
-</Output>
 </Group>
 <Group hide-input="false" labelreference="L3" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
 <Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Font encoding="UTF-8">split := StringTools:-Split(input,&quot;\134n&quot;):</Font></Text-field>
 </Input>
 </Group>
 <Group hide-input="false" labelreference="L4" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
-<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">polymer := split[1];rules := map(s-&gt;StringTools:-Split(s)[[1,3]], split[3..-1]):rulestable := table(map(`=`@op, rules)):</Text-field>
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">polymer := split[1];
+rules := table(map(`=`@op, map(s-&gt;StringTools:-Split(s)[[1,3]], split[3..-1]))):
+</Text-field>
 </Input>
-<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEocG9seW1lckYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RKSZBc3NpZ247RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtSSNtc0dGJDYjUTVCTkJCTkNGSEhLT1NDSEJLS1NITkYnRjk=">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SShwb2x5bWVyR0YoUTVCTkJCTkNGSEhLT1NDSEJLS1NITkYoNyNGLg==</Equation></Text-field>
-</Output>
 </Group>
 <Group hide-input="false" labelreference="L12" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
-<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
-</Input>
-</Group>
-<Group hide-input="false" labelreference="L17" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
-<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">init_rules := map(r-&gt;[StringTools:-SearchAll(r[1],polymer)], rules):
-init_rules := rhs~(sort( map(r-&gt;seq(s=rhs(r), s in lhs(r)), (remove(r-&gt;lhs(r)=[], zip(`=`, init_rules, rules)))) )):paircount := table(sparse=0):for c in init_rules do    paircount[c[1]] += 1;end do:</Text-field>
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">paircount := table(sparse=0):for i to length(polymer)-1 do   paircount[polymer[i..i+1]] += 1;end do:
+</Text-field>
 </Input>
 </Group>
 <Group hide-input="false" labelreference="L19" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
-<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">for i from 1 to 40 doupdate := indices(paircount, 'pairs');paircount := table(sparse=0):lettercount := table(sparse=0):for u in update do    c := [lhs(u), rulestable[lhs(u)]];    paircount[ cat(c[1][1],c[2]) ] += rhs(u);
-    paircount[ cat(c[2],c[1][2]) ] += rhs(u);    lettercount[ c[1][1] ] += rhs(u);    lettercount[ c[1][2] ] += rhs(u);    lettercount[ c[2] ] += 2*rhs(u);
-end do:lettercount[&quot;B&quot;] += 1;lettercount[&quot;N&quot;] += 1;t:=[entries(lettercount, 'nolist')];if i = 10 or i = 40 then
-print( i=(t[max[index](t)] - t[min[index](t)]) / 2);end if;end do:</Text-field>
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">for i to 40 do
+    update := indices(paircount, 'pairs');
+    paircount := table(sparse=0):
+    lettercount := table(sparse=0):
+    for u in update do        b := lhs(u); c := rules[lhs(u)];
+        paircount[ cat(b[1],c) ] += rhs(u);
+        paircount[ cat(c,b[2]) ] += rhs(u);
+        lettercount[ b[1] ] += rhs(u);
+        lettercount[ b[2] ] += rhs(u);
+        lettercount[ c ] += 2*rhs(u);
+    end do:
+    lettercount[&quot;B&quot;] += 1; lettercount[&quot;N&quot;] += 1;
+    if i = 10 or i = 40 then
+        t:=[entries(lettercount, 'nolist')];
+        print( i=(t[max[index](t)] - t[min[index](t)]) / 2);
+    end if;
+end do:</Text-field>
 </Input>
-<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbW5HRiQ2JFEjMTBGJy8lLG1hdGh2YXJpYW50R1Enbm9ybWFsRictSSNtb0dGJDYtUSkmZXF1YWxzO0YnRi8vJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRjgvJSlzdHJldGNoeUdGOC8lKnN5bW1ldHJpY0dGOC8lKGxhcmdlb3BHRjgvJS5tb3ZhYmxlbGltaXRzR0Y4LyUnYWNjZW50R0Y4LyUnbHNwYWNlR1EsMC4yNzc3Nzc4ZW1GJy8lJ3JzcGFjZUdGRy1GLDYkUSUzMDA5RidGL0Yv">LyIjNSIlNEk=</Equation></Text-field>
-</Output>
-<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbW5HRiQ2JFEjNDBGJy8lLG1hdGh2YXJpYW50R1Enbm9ybWFsRictSSNtb0dGJDYtUSkmZXF1YWxzO0YnRi8vJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRjgvJSlzdHJldGNoeUdGOC8lKnN5bW1ldHJpY0dGOC8lKGxhcmdlb3BHRjgvJS5tb3ZhYmxlbGltaXRzR0Y4LyUnYWNjZW50R0Y4LyUnbHNwYWNlR1EsMC4yNzc3Nzc4ZW1GJy8lJ3JzcGFjZUdGRy1GLDYkUS4zNDU5ODIyNTM5NDUxRidGL0Yv">LyIjUyIuXiVSRCMpZk0=</Equation></Text-field>
-</Output>
 </Group>
 <Group hide-input="false" labelreference="L20" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
 <Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
