@@ -23,7 +23,7 @@ for i to 40 do
         lettercount[ b[2] ] += rhs(u);
         lettercount[ c ] += 2*rhs(u);
     end do:
-    lettercount["B"] += 1; lettercount["N"] += 1;
+    lettercount[polymer[1]] += 1; lettercount[polymer[-1]] += 1;
     if i = 10 or i = 40 then
         t:=[entries(lettercount, 'nolist')];
         print( i=(t[max[index](t)] - t[min[index](t)]) / 2);
