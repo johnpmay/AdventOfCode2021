@@ -1,0 +1,1577 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Worksheet>
+<Version major="2020" minor="2"/>
+<Label-Scheme value="2" prefix=""/>
+<View-Properties presentation="false" autoexpanding_sections="true" UserProfileName="Maple Default Profile" NumericFormat-ApplyInteger="true" NumericFormat-ApplyRational="true" NumericFormat-ApplyExponent="false" editable="true">
+</View-Properties>
+<MapleNet-Properties prettyprint="3" warnlevel="3" compactdisplay="false" preplot="" helpbrowser="standard" displayprecision="-1" echo="1" unitattributes="&quot;fontweight&quot; = &quot;bold&quot;" imaginaryunit="I" longdelim="true" elisiontermsthreshold="10000" elisiondigitsafter="100" elisiondigitsbefore="100" plotdevice="inline" errorbreak="1" plotoptions="" plotdriver="opengl" quiet="false" elisiontermsbefore="100" elisiontermsafter="100" historytimestamp="false" screenwidth="79" indentamount="4" plotoutput="terminal" screenpixelheight="1152" rtablesize="[10, 10]" useclientjvm="true" labelwidth="20" postplot="" typesetting="extended" ansi="false" ansicolor="[]" elisiondigitsthreshold="10000" showassumed="1" ansilprint="false" trailingsemicolon="true" errorcursor="false" labelling="true" screenheight="25" prompt="&gt; " verboseproc="1" latexwidth="8.0" ShowLabels="true"/>
+<Styles>
+<Font name="Heading 1" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Warning" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Output" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 4" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Line Printed Output" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 2" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="16" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Output" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Inert Output" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[144,144,144]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 3" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="14" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Diagnostic" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[40,120,40]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 1" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Input" background="[255,255,255]" bold="true" executable="true" family="Courier New" foreground="[120,0,14]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Text Output" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 2" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 3" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 4" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 5" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Annotation Title" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Header and Footer" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="HyperlinkError" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Atomic Variable" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[175,0,175]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="HyperlinkWarning" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Dictionary Hyperlink" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[147,0,15]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="2D Math" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Bullet Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Plot" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Annotation Text" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="List Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Dash Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Input" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Error" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Title" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Text" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Normal" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Caption Reference" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Code" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Input Placeholder" background="[255,255,255]" bold="true" executable="true" family="Courier New" foreground="[200,0,200]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="true"/>
+<Font name="Equation Label" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Author" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Hyperlink" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,128,128]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Caption Text" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Layout name="Heading 1" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="4" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Warning" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 4" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Line Printed Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="any" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 2" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="2" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Maple Output" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.3" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 3" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Diagnostic" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="any" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Ordered List 1" alignment="left" bullet="numeric" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Text Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="newline" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Ordered List 2" alignment="left" bullet="alphabetic" firstindent="0" leftmargin="36" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Ordered List 3" alignment="left" bullet="roman" firstindent="0" leftmargin="72" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Ordered List 4" alignment="left" bullet="ALPHABETIC" firstindent="0" leftmargin="108" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Ordered List 5" alignment="left" bullet="ROMAN" firstindent="0" leftmargin="144" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Annotation Title" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="12" spacebelow="12" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="HyperlinkError" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="HyperlinkWarning" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Bullet Item" alignment="left" bullet="dot" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Maple Plot" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="List Item" alignment="left" bullet="indent" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Dash Item" alignment="left" bullet="dash" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Error" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Title" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="12" spacebelow="12" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Normal" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Author" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="8" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Pencil-style name="Pencil 1" pen-color="[0,0,0]" pen-height="1.0" pen-width="1.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 2" pen-color="[0,0,255]" pen-height="1.0" pen-width="1.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 3" pen-color="[0,0,0]" pen-height="3.0" pen-width="3.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 4" pen-color="[0,0,255]" pen-height="3.0" pen-width="3.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 5" pen-color="[255,0,0]" pen-height="5.0" pen-width="5.0" pen-opacity="1.0"/>
+<Highlighter-style name="Highlighter 5" pen-color="[255,255,0]" pen-height="48.0" pen-width="48.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 3" pen-color="[51,255,0]" pen-height="24.0" pen-width="24.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 4" pen-color="[0,255,255]" pen-height="32.0" pen-width="32.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 1" pen-color="[255,153,255]" pen-height="12.0" pen-width="8.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 2" pen-color="[255,204,0]" pen-height="14.0" pen-width="14.0" pen-opacity="0.8"/>
+</Styles>
+<Startup-Code startupcode=""/>
+<Task-table>
+    <Task-category name="&lt;default&gt;"/>
+</Task-table>
+<Task/>
+<Group labelreference="L1" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">restart; with(StringTools):</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L2" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">input := &quot;020D64AEE52E55B4C017938FBBAC2D6002A53D21F9E90C18023600B80021D0862DC1700043232C2284D3B0105007251DE33CF281802D0E7001A0958C3B6EB542D2014340010B89112E228803518E2047E0004322B4128352DFE72BFE1CC77000E226B92FF7F7F0F4899CCEB788FBA632A444019349E40A801CA941898B661ECBC40820061A78E254024C126797B31A804B27C0582B2D7D4AF02791E431531100B2458A6219D29CB6C4247F7D6DB27BCBA4065138014C05B00801CC0513280108047020106460079801000332200B60002832801C200718012801503801A800B02801723F9B90009D6600D44A87B0CC8010B89D0661F980331F20A44470076767F8EF75AA94F5E1E6E9790C9008BF801AB8002171CA2A45C100661FC508B911C8043EC00C224BB8A753A6677FDB7B8EA85932F4600BE0039138612F684AB86392889C4A201253C013100623D464834200CC1787D09E76FC78200A16603A543E6D9E695E4C74C012D004646D08CAF74391B4232BDD1E4FFEE033805B3DAB074ACF351399FCCEA5F592697E1CB802B2D1D0BCFE410C015B004E46BE17973C949C213153005A6932C0129BDF675DD2CBF3482401BE7802D37AA4DFE6F549BD4A42363A200D5F40149985FEDF2ACF35AB4BD3003004A730F74019B8803F08A0943B1007A21C2487C0002DC578BC600A497B35A8050020F24432444401415002AF07A7F7FE004DB93001A931FC33A802B37FB517A4A52254010E2374C637895BF7E5CC66F53EB0CC2F4C92080292B1E7A0DB26BE6008CE1ACC801804938F530A1227F2A6A4004349A31009F7801A900021908A18C5D100722C43C8F9312CFD4040269934949661E0096FE75092ACA4F0B6A005CD6CBE1218027258AA3F00439377F5D566E338D121C0239DD9C4942FA4E8F73DFA62656402704E523896FAE9E00B4E779DE6BF15595C56DBF0ACD391802F400FA4FEADD769FD5BAE7318FCF32AB8&quot;:</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L3" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">t1input := &quot;8A004A801A8002F478&quot;;</Text-field>
+</Input>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEodDFpbnB1dEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RKSZBc3NpZ247RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtSSNtc0dGJDYjUTM4QTAwNEE4MDFBODAwMkY0NzhGJ0Y5">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSh0MWlucHV0R0YoUTM4QTAwNEE4MDFBODAwMkY0NzhGKDcjRi4=</Equation></Text-field>
+</Output>
+</Group>
+<Group hide-input="false" labelreference="L14" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">t2input := &quot;620080001611562C8802118E34&quot;;</Text-field>
+</Input>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEodDJpbnB1dEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RKSZBc3NpZ247RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtSSNtc0dGJDYjUTs2MjAwODAwMDE2MTE1NjJDODgwMjExOEUzNEYnRjk=">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSh0MmlucHV0R0YoUTs2MjAwODAwMDE2MTE1NjJDODgwMjExOEUzNEYoNyNGLg==</Equation></Text-field>
+</Output>
+</Group>
+<Group hide-input="false" labelreference="L15" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">t3input := &quot;C0015000016115A2E0802F182340&quot;;</Text-field>
+</Input>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEodDNpbnB1dEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RKSZBc3NpZ247RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtSSNtc0dGJDYjUT1DMDAxNTAwMDAxNjExNUEyRTA4MDJGMTgyMzQwRidGOQ==">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSh0M2lucHV0R0YoUT1DMDAxNTAwMDAxNjExNUEyRTA4MDJGMTgyMzQwRig3I0Yu</Equation></Text-field>
+</Output>
+</Group>
+<Group hide-input="false" labelreference="L16" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">t4input := &quot;A0016C880162017C3686B18A3D4780&quot;;</Text-field>
+</Input>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEodDRpbnB1dEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RKSZBc3NpZ247RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtSSNtc0dGJDYjUT9BMDAxNkM4ODAxNjIwMTdDMzY4NkIxOEEzRDQ3ODBGJ0Y5">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSh0NGlucHV0R0YoUT9BMDAxNkM4ODAxNjIwMTdDMzY4NkIxOEEzRDQ3ODBGKDcjRi4=</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L10" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L11" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">binstr2dec := proc(b) convert(parse(b),decimal,2) end:</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L4" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">hex2bits := ([&quot;0&quot; = &quot;0000&quot;,
+&quot;1&quot; = &quot;0001&quot;,
+&quot;2&quot; = &quot;0010&quot;,
+&quot;3&quot; = &quot;0011&quot;,
+&quot;4&quot; = &quot;0100&quot;,
+&quot;5&quot; = &quot;0101&quot;,
+&quot;6&quot; = &quot;0110&quot;,
+&quot;7&quot; = &quot;0111&quot;,
+&quot;8&quot; = &quot;1000&quot;,
+&quot;9&quot; = &quot;1001&quot;,
+&quot;A&quot; = &quot;1010&quot;,
+&quot;B&quot; = &quot;1011&quot;,
+&quot;C&quot; = &quot;1100&quot;,
+&quot;D&quot; = &quot;1101&quot;,
+&quot;E&quot; = &quot;1110&quot;,
+&quot;F&quot; = &quot;1111&quot;]):</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L5" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">bitinput := Join(subs(hex2bits, Explode(input)),&quot;&quot;);</Text-field>
+</Input>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEpYml0aW5wdXRGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUSkmQXNzaWduO0YnL0YzUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGPS8lKXN0cmV0Y2h5R0Y9LyUqc3ltbWV0cmljR0Y9LyUobGFyZ2VvcEdGPS8lLm1vdmFibGVsaW1pdHNHRj0vJSdhY2NlbnRHRj0vJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZMLUkjbXNHRiQ2I1FbamBsMDAwMDAwMTAwMDAwMTEwMTAxMTAwMTAwMTAxMDExMTAxMTEwMDEwMTAwMTAxMTEwMDEwMTAxMDExMDExMDEwMDExMDAwMDAwMDAwMTAxMTExMDAxMDAxMTEwMDAxMTExMTAxMTEwMTExMDEwMTEwMDAwMTAxMTAxMDExMDAwMDAwMDAwMDAxMDEwMTAwMTAxMDAxMTExMDEwMDEwMDAwMTExMTExMDAxMTExMDEwMDEwMDAwMTEwMDAwMDExMDAwMDAwMDAwMTAwMDExMDExMDAwMDAwMDAwMTAxMTEwMDAwMDAwMDAwMDAwMTAwMDAxMTEwMTAwMDAxMDAwMDExMDAwMTAxMTAxMTEwMDAwMDEwMTExMDAwMDAwMDAwMDAwMDEwMDAwMTEwMDEwMDAxMTAwMTAxMTAwMDAxMDAwMTAxMDAwMDEwMDExMDEwMDExMTAxMTAwMDAwMDAxMDAwMDAxMDEwMDAwMDAwMDAxMTEwMDEwMDEwMTAwMDExMTAxMTExMDAwMTEwMDExMTEwMDExMTEwMDEwMTAwMDAwMDExMDAwMDAwMDAwMTAxMTAxMDAwMDExMTAwMTExMDAwMDAwMDAwMDAxMTAxMDAwMDAxMDAxMDEwMTEwMDAxMTAwMDAxMTEwMTEwMTEwMTExMDEwMTEwMTAxMDEwMDAwMTAxMTAxMDAxMDAwMDAwMDAxMDEwMDAwMTEwMTAwMDAwMDAwMDAwMDAxMDAwMDEwMTExMDAwMTAwMTAwMDEwMDAxMDAxMDExMTAwMDEwMDAxMDEwMDAxMDAwMDAwMDAwMTEwMTAxMDAwMTEwMDAxMTEwMDAxMDAwMDAwMTAwMDExMTExMTAwMDAwMDAwMDAwMDAwMTAwMDAxMTAwMTAwMDEwMTAxMTAxMDAwMDAxMDAxMDEwMDAwMDExMDEwMTAwMTAxMTAxMTExMTExMTAwMTExMDAxMDEwMTExMTExMTExMDAwMDExMTAwMTEwMDAxMTEwMTExMDAwMDAwMDAwMDAwMTExMDAwMTAwMDEwMDExMDEwMTExMDAxMDAxMDExMTExMTExMDExMTExMTEwMTExMTExMTAwMDAxMTExMDEwMDEwMDAxMDAxMTAwMTExMDAxMTAwMTExMDEwMTEwMTExMTAwMDEwMDAxMTExMTAxMTEwMTAwMTEwMDAxMTAwMTAxMDEwMDEwMDAxMDAwMTAwMDAwMDAwMDExMDAxMDAxMTAxMDAxMDAxMTExMDAxMDAwMDAwMTAxMDEwMDAwMDAwMDAwMTExMDAxMDEwMTAwMTAxMDAwMDAxMTAwMDEwMDExMDAwMTAxMTAxMTAwMTEwMDAwMTExMTAxMTAwMTAxMTExMDAwMTAwMDAwMDEwMDAwMDEwMDAwMDAwMDAwMTEwMDAwMTEwMTAwMTExMTAwMDExMTAwMDEwMDEwMTAxMDAwMDAwMDAxMDAxMDAxMTAwMDAwMTAwMTAwMTEwMDExMTEwMDEwMTExMTAxMTAwMTEwMDAxMTAxMDEwMDAwMDAwMDEwMDEwMTEwMDEwMDExMTExMDAwMDAwMDEwMTEwMDAwMDEwMTAxMTAwMTAxMTAxMDExMTExMDEwMTAwMTAxMDExMTEwMDAwMDAxMDAxMTExMDAxMDAwMTExMTAwMTAwMDAxMTAwMDEwMTAxMDAxMTAwMDEwMDAxMDAwMDAwMDAxMDExMDAxMDAxMDAwMTAxMTAwMDEwMTAwMTEwMDAxMDAwMDExMDAxMTEwMTAwMTAxMDAxMTEwMDEwMTEwMTEwMTEwMDAxMDAwMDEwMDEwMDAxMTExMTExMDExMTExMDEwMTEwMTEwMTEwMTEwMDEwMDExMTEwMTExMTAwMTAxMTEwMTAwMTAwMDAwMDAxMTAwMTAxMDAwMTAwMTExMDAwMDAwMDAwMDEwMTAwMTEwMDAwMDAwMTAxMTAxMTAwMDAwMDAwMTAwMDAwMDAwMDAxMTEwMDExMDAwMDAwMDEwMTAwMDEwMDExMDAxMDEwMDAwMDAwMDAwMTAwMDAxMDAwMDAwMDAxMDAwMTExMDAwMDAwMTAwMDAwMDAwMTAwMDAwMTEwMDEwMDAxMTAwMDAwMDAwMDAxMTExMDAxMTAwMDAwMDAwMDAxMDAwMDAwMDAwMDAwMDAxMTAwMTEwMDEwMDAxMDAwMDAwMDAwMTAxMTAxMTAwMDAwMDAwMDAwMDAwMDEwMTAwMDAwMTEwMDEwMTAwMDAwMDAwMDAxMTEwMDAwMTAwMDAwMDAwMDAxMTEwMDAxMTAwMDAwMDAwMDAxMDAxMDEwMDAwMDAwMDAwMTAxMDEwMDAwMDAxMTEwMDAwMDAwMDAwMTEwMTAxMDAwMDAwMDAwMDAxMDExMDAwMDAwMTAxMDAwMDAwMDAwMDEwMTExMDAxMDAwMTExMTExMTAwMTEwMTExMDAxMDAwMDAwMDAwMDAwMTAwMTExMDEwMTEwMDExMDAwMDAwMDAwMTEwMTAxMDAwMTAwMTAxMDEwMDAwMTExMTAxMTAwMDAxMTAwMTEwMDEwMDAwMDAwMDAwMTAwMDAxMDExMTAwMDEwMDExMTAxMDAwMDAxMTAwMTEwMDAwMTExMTExMDAxMTAwMDAwMDAwMDExMDAxMTAwMDExMTExMDAxMDAwMDAxMDEwMDEwMDAxMDAwMTAwMDExMTAwMDAwMDAwMDExMTAxMTAwMTExMDExMDAxMTExMTExMTAwMDExMTAxMTExMDExMTAxMDExMDEwMTAxMDEwMDEwMTAwMTExMTAxMDExMTEwMDAwMTExMTAwMTEwMTExMDEwMDEwMTExMTAwMTAwMDAxMTAwMTAwMTAwMDAwMDAwMTAwMDEwMTExMTExMTAwMDAwMDAwMDAxMTAxMDEwMTExMDAwMDAwMDAwMDAwMDEwMDAwMTAxMTEwMDAxMTEwMDEwMTAwMDEwMTAxMDAxMDAwMTAxMTEwMDAwMDEwMDAwMDAwMDAxMTAwMTEwMDAwMTExMTExMTAwMDEwMTAwMDAxMDAwMTAxMTEwMDEwMDAxMDAwMTExMDAxMDAwMDAwMDAxMDAwMDExMTExMDExMDAwMDAwMDAwMDExMDAwMDEwMDAxMDAxMDAxMDExMTAxMTEwMDAxMDEwMDExMTAxMDEwMDExMTAxMDAxMTAwMTEwMDExMTAxMTExMTExMTEwMTEwMTEwMTExMTAxMTEwMDAxMTEwMTAxMDEwMDAwMTAxMTAwMTAwMTEwMDEwMTExMTAxMDAwMTEwMDAwMDAwMDAxMDExMTExMDAwMDAwMDAwMDAxMTEwMDEwMDAxMDAxMTEwMDAwMTEwMDAwMTAwMTAxMTExMDExMDEwMDAwMTAwMTAxMDEwMTExMDAwMDExMDAwMTExMDAxMDAxMDEwMDAxMDAwMTAwMTExMDAwMTAwMTAxMDAwMTAwMDAwMDAwMTAwMTAwMTAxMDAxMTExMDAwMDAwMDAwMTAwMTEwMDAxMDAwMDAwMDAwMTEwMDAxMDAwMTExMTAxMDEwMDAxMTAwMTAwMTAwMDAwMTEwMTAwMDAxMDAwMDAwMDAwMTEwMDExMDAwMDAxMDExMTEwMDAwMTExMTEwMTAwMDAxMDAxMTExMDAxMTEwMTEwMTExMTExMDAwMTExMTAwMDAwMTAwMDAwMDAwMDEwMTAwMDAxMDExMDAxMTAwMDAwMDAxMTEwMTAwMTAxMDEwMDAwMTExMTEwMDExMDExMDExMDAxMTExMDAxMTAxMDAxMDEwMTExMTAwMTAwMTEwMDAxMTEwMTAwMTEwMDAwMDAwMDAxMDAxMDExMDEwMDAwMDAwMDAxMDAwMTEwMDEwMDAxMTAxMTAxMDAwMDEwMDAxMTAwMTAxMDExMTEwMTExMDEwMDAwMTExMDAxMDAwMTEwMTEwMTAwMDAxMDAwMTEwMDEwMTAxMTExMDExMTAxMDAwMTExMTAwMTAwMTExMTExMTExMTEwMTExMDAwMDAwMDExMDAxMTEwMDAwMDAwMDEwMTEwMTEwMDExMTEwMTEwMTAxMDExMDAwMDAxMTEwMTAwMTAxMDExMDAxMTExMDAxMTAxMDEwMDAxMDAxMTEwMDExMDAxMTExMTExMDAxMTAwMTExMDEwMTAwMTAxMTExMTAxMDExMDAxMDAxMDAxMTAxMDAxMDExMTExMTAwMDAxMTEwMDEwMTExMDAwMDAwMDAwMTAxMDExMDAxMDExMDEwMDAxMTEwMTAwMDAxMDExMTEwMDExMTExMTEwMDEwMDAwMDEwMDAwMTEwMDAwMDAwMDAxMDEwMTEwMTEwMDAwMDAwMDAxMDAxMTEwMDEwMDAxMTAxMDExMTExMDAwMDEwMTExMTAwMTAxMTEwMDExMTEwMDEwMDEwMTAwMTAwMTExMDAwMDEwMDAwMTAwMTEwMDAxMDEwMTAwMTEwMDAwMDAwMDAxMDExMDEwMDExMDEwMDEwMDExMDAxMDExMDAwMDAwMDAwMTAwMTAxMDAxMTAxMTExMDExMTExMDExMDAxMTEwMTAxMTEwMTExMDEwMDEwMTEwMDEwMTExMTExMDAxMTAxMDAxMDAwMDAxMDAxMDAwMDAwMDAwMTEwMTExMTEwMDExMTEwMDAwMDAwMDAxMDExMDEwMDExMDExMTEwMTAxMDEwMDEwMDExMDExMTExMTExMDAxMTAxMTExMDEwMTAxMDAxMDAxMTAxMTExMDEwMTAwMTAxMDAxMDAwMDEwMDAxMTAxMTAwMDExMTAxMDAwMTAwMDAwMDAwMDExMDEwMTAxMTExMTAxMDAwMDAwMDAwMTAxMDAxMDAxMTAwMTEwMDAwMTAxMTExMTExMTAxMTAxMTExMTAwMTAxMDEwMTEwMDExMTEwMDExMDEwMTEwMTAxMDExMDEwMDEwMTExMTAxMDAxMTAwMDAwMDAwMDAxMTAwMDAwMDAwMDEwMDEwMTAwMTExMDAxMTAwMDAxMTExMDExMTAxMDAwMDAwMDAwMTEwMDExMDExMTAwMDEwMDAwMDAwMDAxMTExMTEwMDAwMTAwMDEwMTAwMDAwMTAwMTAxMDAwMDExMTAxMTAwMDEwMDAwMDAwMDAxMTExMDEwMDAxMDAwMDExMTAwMDAxMDAxMDAxMDAwMDExMTExMDAwMDAwMDAwMDAwMDAwMDEwMTEwMTExMDAwMTAxMDExMTEwMDAxMDExMTEwMDAxMTAwMDAwMDAwMDEwMTAwMTAwMTAwMTAxMTExMDExMDAxMTAxMDExMDEwMTAwMDAwMDAwMTAxMDAwMDAwMDAwMDEwMDAwMDExMTEwMDEwMDEwMDAxMDAwMDExMDAxMDAxMDAwMTAwMDEwMDAxMDAwMDAwMDAwMTAxMDAwMDAxMDEwMTAwMDAwMDAwMDAxMDEwMTAxMTExMDAwMDAxMTExMDEwMDExMTExMTEwMTExMTExMTExMTAwMDAwMDAwMDAxMDAxMTAxMTAxMTEwMDEwMDExMDAwMDAwMDAwMDAxMTAxMDEwMDEwMDExMDAwMTExMTExMTAwMDAxMTAwMTExMDEwMTAwMDAwMDAwMDEwMTAxMTAwMTEwMTExMTExMTEwMTEwMTAxMDAwMTAxMTExMDEwMDEwMDEwMTAwMTAxMDAxMDAwMTAwMTAxMDEwMDAwMDAwMDAxMDAwMDExMTAwMDEwMDAxMTAxMTEwMTAwMTEwMDAxMTAwMDExMDExMTEwMDAxMDAxMDEwMTEwMTExMTExMDExMTExMTAwMTAxMTEwMDExMDAwMTEwMDExMDExMTEwMTAxMDAxMTExMTAxMDExMDAwMDExMDAxMTAwMDAxMDExMTEwMTAwMTEwMDEwMDEwMDEwMDAwMDEwMDAwMDAwMDAxMDEwMDEwMDEwMTAxMTAwMDExMTEwMDExMTEwMTAwMDAwMTEwMTEwMTEwMDEwMDExMDEwMTExMTEwMDExMDAwMDAwMDAwMTAwMDExMDAxMTEwMDAwMTEwMTAxMTAwMTEwMDEwMDAwMDAwMDAwMTEwMDAwMDAwMDEwMDEwMDEwMDExMTAwMDExMTEwMTAxMDAxMTAwMDAxMDEwMDAwMTAwMTAwMDEwMDExMTExMTEwMDEwMTAxMDAxMTAxMDEwMDEwMDAwMDAwMDAwMDEwMDAwMTEwMTAwMTAwMTEwMTAwMDExMDAwMTAwMDAwMDAwMTAwMTExMTEwMTExMTAwMDAwMDAwMDAxMTAxMDEwMDEwMDAwMDAwMDAwMDAwMDEwMDAwMTEwMDEwMDAwMTAwMDEwMTAwMDAxMTAwMDExMDAwMTAxMTEwMTAwMDEwMDAwMDAwMDAxMTEwMDEwMDAxMDExMDAwMTAwMDAxMTExMDAxMDAwMTExMTEwMDEwMDExMDAwMTAwMTAxMTAwMTExMTExMDEwMTAwMDAwMDAxMDAwMDAwMDAxMDAxMTAxMDAxMTAwMTAwMTEwMTAwMTAwMTAxMDAxMDAxMDExMDAxMTAwMDAxMTExMDAwMDAwMDAwMTAwMTAxMTAxMTExMTExMDAxMTEwMTAxMDAwMDEwMDEwMDEwMTAxMDExMDAxMDEwMDEwMDExMTEwMDAwMTAxMTAxMTAxMDEwMDAwMDAwMDAwMTAxMTEwMDExMDEwMTEwMTEwMDEwMTExMTEwMDAwMTAwMTAwMDAxMTAwMDAwMDAwMDEwMDExMTAwMTAwMTAxMTAwMDEwMTAxMDEwMDAxMTExMTEwMDAwMDAwMDAxMDAwMDExMTAwMTAwMTEwMTExMDExMTExMTEwMTAxMTEwMTAxMDEwMTEwMDExMDExMTAwMDExMDAxMTEwMDAxMTAxMDAwMTAwMTAwMDAxMTEwMDAwMDAwMDEwMDAxMTEwMDExMTAxMTEwMTEwMDExMTAwMDEwMDEwMDEwMTAwMDAxMDExMTExMDEwMDEwMDExMTAxMDAwMTExMTAxMTEwMDExMTEwMTExMTExMDEwMDExMDAwMTAwMTEwMDEwMTAxMTAwMTAwMDAwMDAwMTAwMTExMDAwMDAxMDAxMTEwMDEwMTAwMTAwMDExMTAwMDEwMDEwMTEwMTExMTEwMTAxMTEwMTAwMTExMTAwMDAwMDAwMDEwMTEwMTAwMTExMDAxMTEwMTExMTAwMTExMDExMTEwMDExMDEwMTExMTExMDAwMTAxMDEwMTAxMTAwMTAxMDExMTAwMDEwMTAxMTAxMTAxMTAxMTExMTEwMDAwMTAxMDExMDAxMTAxMDAxMTEwMDEwMDAxMTAwMDAwMDAwMDEwMTExMTAxMDAwMDAwMDAwMDExMTExMDEwMDEwMDExMTExMTEwMTAxMDExMDExMTAxMDExMTAxMTAxMDAxMTExMTExMDEwMTAxMTAxMTEwMTAxMTEwMDExMTAwMTEwMDAxMTAwMDExMTExMTAwMTExMTAwMTEwMDEwMTAxMDEwMTExMDAwRidGOQ==">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSliaXRpbnB1dEdGKFFbamBsMDAwMDAwMTAwMDAwMTEwMTAxMTAwMTAwMTAxMDExMTAxMTEwMDEwMTAwMTAxMTEwMDEwMTAxMDExMDExMDEwMDExMDAwMDAwMDAwMTAxMTExMDAxMDAxMTEwMDAxMTExMTAxMTEwMTExMDEwMTEwMDAwMTAxMTAxMDExMDAwMDAwMDAwMDAxMDEwMTAwMTAxMDAxMTExMDEwMDEwMDAwMTExMTExMDAxMTExMDEwMDEwMDAwMTEwMDAwMDExMDAwMDAwMDAwMTAwMDExMDExMDAwMDAwMDAwMTAxMTEwMDAwMDAwMDAwMDAwMTAwMDAxMTEwMTAwMDAxMDAwMDExMDAwMTAxMTAxMTEwMDAwMDEwMTExMDAwMDAwMDAwMDAwMDEwMDAwMTEwMDEwMDAxMTAwMTAxMTAwMDAxMDAwMTAxMDAwMDEwMDExMDEwMDExMTAxMTAwMDAwMDAxMDAwMDAxMDEwMDAwMDAwMDAxMTEwMDEwMDEwMTAwMDExMTAxMTExMDAwMTEwMDExMTEwMDExMTEwMDEwMTAwMDAwMDExMDAwMDAwMDAwMTAxMTAxMDAwMDExMTAwMTExMDAwMDAwMDAwMDAxMTAxMDAwMDAxMDAxMDEwMTEwMDAxMTAwMDAxMTEwMTEwMTEwMTExMDEwMTEwMTAxMDEwMDAwMTAxMTAxMDAxMDAwMDAwMDAxMDEwMDAwMTEwMTAwMDAwMDAwMDAwMDAxMDAwMDEwMTExMDAwMTAwMTAwMDEwMDAxMDAxMDExMTAwMDEwMDAxMDEwMDAxMDAwMDAwMDAwMTEwMTAxMDAwMTEwMDAxMTEwMDAxMDAwMDAwMTAwMDExMTExMTAwMDAwMDAwMDAwMDAwMTAwMDAxMTAwMTAwMDEwMTAxMTAxMDAwMDAxMDAxMDEwMDAwMDExMDEwMTAwMTAxMTAxMTExMTExMTAwMTExMDAxMDEwMTExMTExMTExMDAwMDExMTAwMTEwMDAxMTEwMTExMDAwMDAwMDAwMDAwMTExMDAwMTAwMDEwMDExMDEwMTExMDAxMDAxMDExMTExMTExMDExMTExMTEwMTExMTExMTAwMDAxMTExMDEwMDEwMDAxMDAxMTAwMTExMDAxMTAwMTExMDEwMTEwMTExMTAwMDEwMDAxMTExMTAxMTEwMTAwMTEwMDAxMTAwMTAxMDEwMDEwMDAxMDAwMTAwMDAwMDAwMDExMDAxMDAxMTAxMDAxMDAxMTExMDAxMDAwMDAwMTAxMDEwMDAwMDAwMDAwMTExMDAxMDEwMTAwMTAxMDAwMDAxMTAwMDEwMDExMDAwMTAxMTAxMTAwMTEwMDAwMTExMTAxMTAwMTAxMTExMDAwMTAwMDAwMDEwMDAwMDEwMDAwMDAwMDAwMTEwMDAwMTEwMTAwMTExMTAwMDExMTAwMDEwMDEwMTAxMDAwMDAwMDAxMDAxMDAxMTAwMDAwMTAwMTAwMTEwMDExMTEwMDEwMTExMTAxMTAwMTEwMDAxMTAxMDEwMDAwMDAwMDEwMDEwMTEwMDEwMDExMTExMDAwMDAwMDEwMTEwMDAwMDEwMTAxMTAwMTAxMTAxMDExMTExMDEwMTAwMTAxMDExMTEwMDAwMDAxMDAxMTExMDAxMDAwMTExMTAwMTAwMDAxMTAwMDEwMTAxMDAxMTAwMDEwMDAxMDAwMDAwMDAxMDExMDAxMDAxMDAwMTAxMTAwMDEwMTAwMTEwMDAxMDAwMDExMDAxMTEwMTAwMTAxMDAxMTEwMDEwMTEwMTEwMTEwMDAxMDAwMDEwMDEwMDAxMTExMTExMDExMTExMDEwMTEwMTEwMTEwMTEwMDEwMDExMTEwMTExMTAwMTAxMTEwMTAwMTAwMDAwMDAxMTAwMTAxMDAwMTAwMTExMDAwMDAwMDAwMDEwMTAwMTEwMDAwMDAwMTAxMTAxMTAwMDAwMDAwMTAwMDAwMDAwMDAxMTEwMDExMDAwMDAwMDEwMTAwMDEwMDExMDAxMDEwMDAwMDAwMDAwMTAwMDAxMDAwMDAwMDAxMDAwMTExMDAwMDAwMTAwMDAwMDAwMTAwMDAwMTEwMDEwMDAxMTAwMDAwMDAwMDAxMTExMDAxMTAwMDAwMDAwMDAxMDAwMDAwMDAwMDAwMDAxMTAwMTEwMDEwMDAxMDAwMDAwMDAwMTAxMTAxMTAwMDAwMDAwMDAwMDAwMDEwMTAwMDAwMTEwMDEwMTAwMDAwMDAwMDAxMTEwMDAwMTAwMDAwMDAwMDAxMTEwMDAxMTAwMDAwMDAwMDAxMDAxMDEwMDAwMDAwMDAwMTAxMDEwMDAwMDAxMTEwMDAwMDAwMDAwMTEwMTAxMDAwMDAwMDAwMDAxMDExMDAwMDAwMTAxMDAwMDAwMDAwMDEwMTExMDAxMDAwMTExMTExMTAwMTEwMTExMDAxMDAwMDAwMDAwMDAwMTAwMTExMDEwMTEwMDExMDAwMDAwMDAwMTEwMTAxMDAwMTAwMTAxMDEwMDAwMTExMTAxMTAwMDAxMTAwMTEwMDEwMDAwMDAwMDAwMTAwMDAxMDExMTAwMDEwMDExMTAxMDAwMDAxMTAwMTEwMDAwMTExMTExMDAxMTAwMDAwMDAwMDExMDAxMTAwMDExMTExMDAxMDAwMDAxMDEwMDEwMDAxMDAwMTAwMDExMTAwMDAwMDAwMDExMTAxMTAwMTExMDExMDAxMTExMTExMTAwMDExMTAxMTExMDExMTAxMDExMDEwMTAxMDEwMDEwMTAwMTExMTAxMDExMTEwMDAwMTExMTAwMTEwMTExMDEwMDEwMTExMTAwMTAwMDAxMTAwMTAwMTAwMDAwMDAwMTAwMDEwMTExMTExMTAwMDAwMDAwMDAxMTAxMDEwMTExMDAwMDAwMDAwMDAwMDEwMDAwMTAxMTEwMDAxMTEwMDEwMTAwMDEwMTAxMDAxMDAwMTAxMTEwMDAwMDEwMDAwMDAwMDAxMTAwMTEwMDAwMTExMTExMTAwMDEwMTAwMDAxMDAwMTAxMTEwMDEwMDAxMDAwMTExMDAxMDAwMDAwMDAxMDAwMDExMTExMDExMDAwMDAwMDAwMDExMDAwMDEwMDAxMDAxMDAxMDExMTAxMTEwMDAxMDEwMDExMTAxMDEwMDExMTAxMDAxMTAwMTEwMDExMTAxMTExMTExMTEwMTEwMTEwMTExMTAxMTEwMDAxMTEwMTAxMDEwMDAwMTAxMTAwMTAwMTEwMDEwMTExMTAxMDAwMTEwMDAwMDAwMDAxMDExMTExMDAwMDAwMDAwMDAxMTEwMDEwMDAxMDAxMTEwMDAwMTEwMDAwMTAwMTAxMTExMDExMDEwMDAwMTAwMTAxMDEwMTExMDAwMDExMDAwMTExMDAxMDAxMDEwMDAxMDAwMTAwMTExMDAwMTAwMTAxMDAwMTAwMDAwMDAwMTAwMTAwMTAxMDAxMTExMDAwMDAwMDAwMTAwMTEwMDAxMDAwMDAwMDAwMTEwMDAxMDAwMTExMTAxMDEwMDAxMTAwMTAwMTAwMDAwMTEwMTAwMDAxMDAwMDAwMDAwMTEwMDExMDAwMDAxMDExMTEwMDAwMTExMTEwMTAwMDAxMDAxMTExMDAxMTEwMTEwMTExMTExMDAwMTExMTAwMDAwMTAwMDAwMDAwMDEwMTAwMDAxMDExMDAxMTAwMDAwMDAxMTEwMTAwMTAxMDEwMDAwMTExMTEwMDExMDExMDExMDAxMTExMDAxMTAxMDAxMDEwMTExMTAwMTAwMTEwMDAxMTEwMTAwMTEwMDAwMDAwMDAxMDAxMDExMDEwMDAwMDAwMDAxMDAwMTEwMDEwMDAxMTAxMTAxMDAwMDEwMDAxMTAwMTAxMDExMTEwMTExMDEwMDAwMTExMDAxMDAwMTEwMTEwMTAwMDAxMDAwMTEwMDEwMTAxMTExMDExMTAxMDAwMTExMTAwMTAwMTExMTExMTExMTEwMTExMDAwMDAwMDExMDAxMTEwMDAwMDAwMDEwMTEwMTEwMDExMTEwMTEwMTAxMDExMDAwMDAxMTEwMTAwMTAxMDExMDAxMTExMDAxMTAxMDEwMDAxMDAxMTEwMDExMDAxMTExMTExMDAxMTAwMTExMDEwMTAwMTAxMTExMTAxMDExMDAxMDAxMDAxMTAxMDAxMDExMTExMTAwMDAxMTEwMDEwMTExMDAwMDAwMDAwMTAxMDExMDAxMDExMDEwMDAxMTEwMTAwMDAxMDExMTEwMDExMTExMTEwMDEwMDAwMDEwMDAwMTEwMDAwMDAwMDAxMDEwMTEwMTEwMDAwMDAwMDAxMDAxMTEwMDEwMDAxMTAxMDExMTExMDAwMDEwMTExMTAwMTAxMTEwMDExMTEwMDEwMDEwMTAwMTAwMTExMDAwMDEwMDAwMTAwMTEwMDAxMDEwMTAwMTEwMDAwMDAwMDAxMDExMDEwMDExMDEwMDEwMDExMDAxMDExMDAwMDAwMDAwMTAwMTAxMDAxMTAxMTExMDExMTExMDExMDAxMTEwMTAxMTEwMTExMDEwMDEwMTEwMDEwMTExMTExMDAxMTAxMDAxMDAwMDAxMDAxMDAwMDAwMDAwMTEwMTExMTEwMDExMTEwMDAwMDAwMDAxMDExMDEwMDExMDExMTEwMTAxMDEwMDEwMDExMDExMTExMTExMDAxMTAxMTExMDEwMTAxMDAxMDAxMTAxMTExMDEwMTAwMTAxMDAxMDAwMDEwMDAxMTAxMTAwMDExMTAxMDAwMTAwMDAwMDAwMDExMDEwMTAxMTExMTAxMDAwMDAwMDAwMTAxMDAxMDAxMTAwMTEwMDAwMTAxMTExMTExMTAxMTAxMTExMTAwMTAxMDEwMTEwMDExMTEwMDExMDEwMTEwMTAxMDExMDEwMDEwMTExMTAxMDAxMTAwMDAwMDAwMDAxMTAwMDAwMDAwMDEwMDEwMTAwMTExMDAxMTAwMDAxMTExMDExMTAxMDAwMDAwMDAwMTEwMDExMDExMTAwMDEwMDAwMDAwMDAxMTExMTEwMDAwMTAwMDEwMTAwMDAwMTAwMTAxMDAwMDExMTAxMTAwMDEwMDAwMDAwMDAxMTExMDEwMDAxMDAwMDExMTAwMDAxMDAxMDAxMDAwMDExMTExMDAwMDAwMDAwMDAwMDAwMDEwMTEwMTExMDAwMTAxMDExMTEwMDAxMDExMTEwMDAxMTAwMDAwMDAwMDEwMTAwMTAwMTAwMTAxMTExMDExMDAxMTAxMDExMDEwMTAwMDAwMDAwMTAxMDAwMDAwMDAwMDEwMDAwMDExMTEwMDEwMDEwMDAxMDAwMDExMDAxMDAxMDAwMTAwMDEwMDAxMDAwMDAwMDAwMTAxMDAwMDAxMDEwMTAwMDAwMDAwMDAxMDEwMTAxMTExMDAwMDAxMTExMDEwMDExMTExMTEwMTExMTExMTExMTAwMDAwMDAwMDAxMDAxMTAxMTAxMTEwMDEwMDExMDAwMDAwMDAwMDAxMTAxMDEwMDEwMDExMDAwMTExMTExMTAwMDAxMTAwMTExMDEwMTAwMDAwMDAwMDEwMTAxMTAwMTEwMTExMTExMTEwMTEwMTAxMDAwMTAxMTExMDEwMDEwMDEwMTAwMTAxMDAxMDAwMTAwMTAxMDEwMDAwMDAwMDAxMDAwMDExMTAwMDEwMDAxMTAxMTEwMTAwMTEwMDAxMTAwMDExMDExMTEwMDAxMDAxMDEwMTEwMTExMTExMDExMTExMTAwMTAxMTEwMDExMDAwMTEwMDExMDExMTEwMTAxMDAxMTExMTAxMDExMDAwMDExMDAxMTAwMDAxMDExMTEwMTAwMTEwMDEwMDEwMDEwMDAwMDEwMDAwMDAwMDAxMDEwMDEwMDEwMTAxMTAwMDExMTEwMDExMTEwMTAwMDAwMTEwMTEwMTEwMDEwMDExMDEwMTExMTEwMDExMDAwMDAwMDAwMTAwMDExMDAxMTEwMDAwMTEwMTAxMTAwMTEwMDEwMDAwMDAwMDAwMTEwMDAwMDAwMDEwMDEwMDEwMDExMTAwMDExMTEwMTAxMDAxMTAwMDAxMDEwMDAwMTAwMTAwMDEwMDExMTExMTEwMDEwMTAxMDAxMTAxMDEwMDEwMDAwMDAwMDAwMDEwMDAwMTEwMTAwMTAwMTEwMTAwMDExMDAwMTAwMDAwMDAwMTAwMTExMTEwMTExMTAwMDAwMDAwMDAxMTAxMDEwMDEwMDAwMDAwMDAwMDAwMDEwMDAwMTEwMDEwMDAwMTAwMDEwMTAwMDAxMTAwMDExMDAwMTAxMTEwMTAwMDEwMDAwMDAwMDAxMTEwMDEwMDAxMDExMDAwMTAwMDAxMTExMDAxMDAwMTExMTEwMDEwMDExMDAwMTAwMTAxMTAwMTExMTExMDEwMTAwMDAwMDAxMDAwMDAwMDAxMDAxMTAxMDAxMTAwMTAwMTEwMTAwMTAwMTAxMDAxMDAxMDExMDAxMTAwMDAxMTExMDAwMDAwMDAwMTAwMTAxMTAxMTExMTExMDAxMTEwMTAxMDAwMDEwMDEwMDEwMTAxMDExMDAxMDEwMDEwMDExMTEwMDAwMTAxMTAxMTAxMDEwMDAwMDAwMDAwMTAxMTEwMDExMDEwMTEwMTEwMDEwMTExMTEwMDAwMTAwMTAwMDAxMTAwMDAwMDAwMDEwMDExMTAwMTAwMTAxMTAwMDEwMTAxMDEwMDAxMTExMTEwMDAwMDAwMDAxMDAwMDExMTAwMTAwMTEwMTExMDExMTExMTEwMTAxMTEwMTAxMDEwMTEwMDExMDExMTAwMDExMDAxMTEwMDAxMTAxMDAwMTAwMTAwMDAxMTEwMDAwMDAwMDEwMDAxMTEwMDExMTAxMTEwMTEwMDExMTAwMDEwMDEwMDEwMTAwMDAxMDExMTExMDEwMDEwMDExMTAxMDAwMTExMTAxMTEwMDExMTEwMTExMTExMDEwMDExMDAwMTAwMTEwMDEwMTAxMTAwMTAwMDAwMDAwMTAwMTExMDAwMDAxMDAxMTEwMDEwMTAwMTAwMDExMTAwMDEwMDEwMTEwMTExMTEwMTAxMTEwMTAwMTExMTAwMDAwMDAwMDEwMTEwMTAwMTExMDAxMTEwMTExMTAwMTExMDExMTEwMDExMDEwMTExMTExMDAwMTAxMDEwMTAxMTAwMTAxMDExMTAwMDEwMTAxMTAxMTAxMTAxMTExMTEwMDAwMTAxMDExMDAxMTAxMDAxMTEwMDEwMDAxMTAwMDAwMDAwMDEwMTExMTAxMDAwMDAwMDAwMDExMTExMDEwMDEwMDExMTExMTEwMTAxMDExMDExMTAxMDExMTAxMTAxMDAxMTExMTExMDEwMTAxMTAxMTEwMTAxMTEwMDExMTAwMTEwMDAxMTAwMDExMTExMTAwMTExMTAwMTEwMDEwMTAxMDEwMTExMDAwRig3I0Yu</Equation></Text-field>
+</Output>
+</Group>
+<Group hide-input="false" labelreference="L6" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">vertotal := 0;</Text-field>
+</Input>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEpdmVydG90YWxGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUSkmQXNzaWduO0YnL0YzUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGPS8lKXN0cmV0Y2h5R0Y9LyUqc3ltbWV0cmljR0Y9LyUobGFyZ2VvcEdGPS8lLm1vdmFibGVsaW1pdHNHRj0vJSdhY2NlbnRHRj0vJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZMLUkjbW5HRiQ2JFEiMEYnRjlGOQ==">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSl2ZXJ0b3RhbEdGKCIiITcjRi4=</Equation></Text-field>
+</Output>
+</Group>
+<Group hide-input="false" labelreference="L7" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Font encoding="UTF-8">PRINT := s-&gt;printf(cat(s,&quot;\134n&quot;), _rest);
+</Font>processpacket := proc( bitinput )
+local vertotal, ver, pid, rest, parts, lofbits, subpak, numpaks, n;
+#option trace;
+
+if length(bitinput) &lt; 6 then
+    PRINT(&quot;discarding %s&quot;, bininput);
+    return 0;
+end if;
+
+PRINT(&quot;Processing %d bits&quot;, length(bitinput));
+
+ver := binstr2dec(bitinput[1..3]);
+pid := binstr2dec(bitinput[4..6]);
+rest := bitinput[7..];
+
+vertotal := ver;
+
+if pid = 4 then # literal
+    PRINT(&quot;processing literal&quot;);
+    parts := NULL;
+    while rest[1] &lt;&gt; &quot;0&quot; do
+        parts := parts, rest[2..5];
+        rest := rest[6..];
+    end do;
+    parts := parts, rest[2..5];
+    PRINT(&quot;literal had %d parts&quot;, nops([parts]));    rest := rest[6..];
+    PRINT(&quot;after literal %d bits left&quot;, length(rest));
+else
+PRINT(&quot;processing operator&quot;);
+    if rest[1] = &quot;0&quot; then
+        
+        lofbits := binstr2dec(rest[2..16]);
+        PRINT(&quot;type-0 operator with %d bits of subpackets&quot;, lofbits);        rest := rest[17..];
+        subpak := rest[1..lofbits];
+        while length(subpak) &gt; 6 do            (n, subpak) := thisproc(subpak);            vertotal += n;        end do;
+        rest := rest[lofbits+1..];
+        PRINT(&quot;after type-0 %d bits left&quot;, length(rest));
+    else        
+        numpaks := binstr2dec(rest[2..12]);
+        PRINT(&quot;type-1 operator with %d subpackets&quot;,numpaks);        rest := rest[13..];
+        to numpaks do
+            (n, rest) := thisproc(rest);
+            vertotal += n; 
+        end do;
+        PRINT(&quot;after type-1 %d bits left&quot;, length(rest));
+    end if;
+
+end if;
+
+PRINT(&quot;returning with %d bits left&quot;, length(rest));
+return vertotal, rest;
+
+end proc:</Text-field>
+</Input>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUkjbWlHRiQ2JVEmUFJJTlRGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUSkmQXNzaWduO0YnL0YzUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGPS8lKXN0cmV0Y2h5R0Y9LyUqc3ltbWV0cmljR0Y9LyUobGFyZ2VvcEdGPS8lLm1vdmFibGVsaW1pdHNHRj0vJSdhY2NlbnRHRj0vJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZMLUYsNiVRInNGJ0YvRjItRjY2LVEmJm1hcDtGJ0Y5RjtGPi9GQUYxRkJGREZGRkhGSkZNLUYjNiYtRiw2JVEncHJpbnRmRidGL0YyLUY2Ni1RMCZBcHBseUZ1bmN0aW9uO0YnRjlGO0Y+RkBGQkZERkZGSC9GS1EmMC4wZW1GJy9GTkZpbi1JKG1mZW5jZWRHRiQ2JC1GIzYoLUYjNiYtRiw2JVEkY2F0RidGL0YyRmVuLUZcbzYkLUYjNihGTy1GNjYtUSIsRidGOUY7L0Y/RjFGQEZCRkRGRkZIRmhuL0ZOUSwwLjMzMzMzMzNlbUYnLUkjbXNHRiQ2I1EifCtGJy8lK2ZvcmVncm91bmRHUShbMCwwLDBdRicvJSlyZWFkb25seUdGPUY5RjlGOUZpby1GLDYlUSZfcmVzdEYnRi9GMkZjcEZmcEY5RjlGOUY5">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSZQUklOVEdGKGYqNiNJInNHRihGKDYkSSlvcGVyYXRvckdGKEkmYXJyb3dHRihGKC1JJ3ByaW50ZkdGJTYkLUkkY2F0R0YmNiQ5JFEifCtGKDl+JUYoRihGKDcjRi4=</Equation></Text-field>
+</Output>
+</Group>
+<Group hide-input="false" labelreference="L8" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">processpacket( bitinput );</Text-field>
+</Input>
+<Output><Text-field style="Line Printed Output" layout="Line Printed Output">Processing 5616 bits
+processing operator
+type-1 operator with 53 subpackets
+Processing 5598 bits
+processing literal
+literal had 7 parts
+after literal 5557 bits left
+returning with 5557 bits left
+Processing 5557 bits
+processing operator
+type-1 operator with 2 subpackets
+Processing 5539 bits
+processing literal
+literal had 7 parts
+after literal 5498 bits left
+returning with 5498 bits left
+Processing 5498 bits
+processing operator
+type-0 operator with 42 bits of subpackets
+Processing 42 bits
+processing literal
+literal had 3 parts
+after literal 21 bits left
+returning with 21 bits left
+Processing 21 bits
+processing literal
+literal had 3 parts
+after literal 0 bits left
+returning with 0 bits left
+after type-0 5434 bits left
+returning with 5434 bits left
+after type-1 5434 bits left
+returning with 5434 bits left
+Processing 5434 bits
+processing operator
+type-1 operator with 2 subpackets
+Processing 5416 bits
+processing operator
+type-1 operator with 2 subpackets
+Processing 5398 bits
+processing operator
+type-0 operator with 33 bits of subpackets
+Processing 33 bits
+processing literal
+literal had 1 parts
+after literal 22 bits left
+returning with 22 bits left
+Processing 22 bits
+processing literal
+literal had 1 parts
+after literal 11 bits left
+returning with 11 bits left
+Processing 11 bits
+processing literal
+literal had 1 parts
+after literal 0 bits left
+returning with 0 bits left
+after type-0 5343 bits left
+returning with 5343 bits left
+Processing 5343 bits
+processing operator
+type-0 operator with 33 bits of subpackets
+Processing 33 bits
+processing literal
+literal had 1 parts
+after literal 22 bits left
+returning with 22 bits left
+Processing 22 bits
+processing literal
+literal had 1 parts
+after literal 11 bits left
+returning with 11 bits left
+Processing 11 bits
+processing literal
+literal had 1 parts
+after literal 0 bits left
+returning with 0 bits left
+after type-0 5288 bits left
+returning with 5288 bits left
+after type-1 5288 bits left
+returning with 5288 bits left
+Processing 5288 bits
+processing literal
+literal had 3 parts
+after literal 5267 bits left
+returning with 5267 bits left
+after type-1 5267 bits left
+returning with 5267 bits left
+Processing 5267 bits
+processing operator
+type-1 operator with 3 subpackets
+Processing 5249 bits
+processing literal
+literal had 2 parts
+after literal 5233 bits left
+returning with 5233 bits left
+Processing 5233 bits
+processing literal
+literal had 1 parts
+after literal 5222 bits left
+returning with 5222 bits left
+Processing 5222 bits
+processing literal
+literal had 2 parts
+after literal 5206 bits left
+returning with 5206 bits left
+after type-1 5206 bits left
+returning with 5206 bits left
+Processing 5206 bits
+processing operator
+type-1 operator with 2 subpackets
+Processing 5188 bits
+processing literal
+literal had 1 parts
+after literal 5177 bits left
+returning with 5177 bits left
+Processing 5177 bits
+processing operator
+type-0 operator with 52 bits of subpackets
+Processing 52 bits
+processing literal
+literal had 7 parts
+after literal 11 bits left
+returning with 11 bits left
+Processing 11 bits
+processing literal
+literal had 1 parts
+after literal 0 bits left
+returning with 0 bits left
+after type-0 5103 bits left
+returning with 5103 bits left
+after type-1 5103 bits left
+returning with 5103 bits left
+Processing 5103 bits
+processing operator
+type-0 operator with 161 bits of subpackets
+Processing 161 bits
+processing operator
+type-0 operator with 33 bits of subpackets
+Processing 33 bits
+processing literal
+literal had 1 parts
+after literal 22 bits left
+returning with 22 bits left
+Processing 22 bits
+processing literal
+literal had 1 parts
+after literal 11 bits left
+returning with 11 bits left
+Processing 11 bits
+processing literal
+literal had 1 parts
+after literal 0 bits left
+returning with 0 bits left
+after type-0 106 bits left
+returning with 106 bits left
+Processing 106 bits
+processing operator
+type-1 operator with 3 subpackets
+Processing 88 bits
+processing literal
+literal had 1 parts
+after literal 77 bits left
+returning with 77 bits left
+Processing 77 bits
+processing literal
+literal had 1 parts
+after literal 66 bits left
+returning with 66 bits left
+Processing 66 bits
+processing literal
+literal had 1 parts
+after literal 55 bits left
+returning with 55 bits left
+after type-1 55 bits left
+returning with 55 bits left
+Processing 55 bits
+processing operator
+type-0 operator with 33 bits of subpackets
+Processing 33 bits
+processing literal
+literal had 1 parts
+after literal 22 bits left
+returning with 22 bits left
+Processing 22 bits
+processing literal
+literal had 1 parts
+after literal 11 bits left
+returning with 11 bits left
+Processing 11 bits
+processing literal
+literal had 1 parts
+after literal 0 bits left
+returning with 0 bits left
+after type-0 0 bits left
+returning with 0 bits left
+after type-0 4920 bits left
+returning with 4920 bits left
+Processing 4920 bits
+processing literal
+literal had 8 parts
+after literal 4874 bits left
+returning with 4874 bits left
+Processing 4874 bits
+processing literal
+literal had 1 parts
+after literal 4863 bits left
+returning with 4863 bits left
+Processing 4863 bits
+processing operator
+type-0 operator with 113 bits of subpackets
+Processing 113 bits
+processing literal
+literal had 9 parts
+after literal 62 bits left
+returning with 62 bits left
+Processing 62 bits
+processing literal
+literal had 2 parts
+after literal 46 bits left
+returning with 46 bits left
+Processing 46 bits
+processing literal
+literal had 8 parts
+after literal 0 bits left
+returning with 0 bits left
+after type-0 4728 bits left
+returning with 4728 bits left
+Processing 4728 bits
+processing literal
+literal had 2 parts
+after literal 4712 bits left
+returning with 4712 bits left
+Processing 4712 bits
+processing operator
+type-0 operator with 100 bits of subpackets
+Processing 100 bits
+processing literal
+literal had 3 parts
+after literal 79 bits left
+returning with 79 bits left
+Processing 79 bits
+processing operator
+type-0 operator with 57 bits of subpackets
+Processing 57 bits
+processing literal
+literal had 2 parts
+after literal 41 bits left
+returning with 41 bits left
+Processing 41 bits
+processing literal
+literal had 7 parts
+after literal 0 bits left
+returning with 0 bits left
+after type-0 0 bits left
+returning with 0 bits left
+after type-0 4590 bits left
+returning with 4590 bits left
+Processing 4590 bits
+processing literal
+literal had 1 parts
+after literal 4579 bits left
+returning with 4579 bits left
+Processing 4579 bits
+processing operator
+type-0 operator with 48 bits of subpackets
+Processing 48 bits
+processing literal
+literal had 2 parts
+after literal 32 bits left
+returning with 32 bits left
+Processing 32 bits
+processing literal
+literal had 2 parts
+after literal 16 bits left
+returning with 16 bits left
+Processing 16 bits
+processing literal
+literal had 2 parts
+after literal 0 bits left
+returning with 0 bits left
+after type-0 4509 bits left
+returning with 4509 bits left
+Processing 4509 bits
+processing literal
+literal had 5 parts
+after literal 4478 bits left
+returning with 4478 bits left
+Processing 4478 bits
+processing operator
+type-1 operator with 4 subpackets
+Processing 4460 bits
+processing literal
+literal had 3 parts
+after literal 4439 bits left
+returning with 4439 bits left
+Processing 4439 bits
+processing literal
+literal had 1 parts
+after literal 4428 bits left
+returning with 4428 bits left
+Processing 4428 bits
+processing literal
+literal had 7 parts
+after literal 4387 bits left
+returning with 4387 bits left
+Processing 4387 bits
+processing literal
+literal had 6 parts
+after literal 4351 bits left
+returning with 4351 bits left
+after type-1 4351 bits left
+returning with 4351 bits left
+Processing 4351 bits
+processing operator
+type-1 operator with 5 subpackets
+Processing 4333 bits
+processing literal
+literal had 2 parts
+after literal 4317 bits left
+returning with 4317 bits left
+Processing 4317 bits
+processing literal
+literal had 5 parts
+after literal 4286 bits left
+returning with 4286 bits left
+Processing 4286 bits
+processing literal
+literal had 3 parts
+after literal 4265 bits left
+returning with 4265 bits left
+Processing 4265 bits
+processing literal
+literal had 6 parts
+after literal 4229 bits left
+returning with 4229 bits left
+Processing 4229 bits
+processing literal
+literal had 3 parts
+after literal 4208 bits left
+returning with 4208 bits left
+after type-1 4208 bits left
+returning with 4208 bits left
+Processing 4208 bits
+processing operator
+type-0 operator with 404 bits of subpackets
+Processing 404 bits
+processing operator
+type-1 operator with 1 subpackets
+Processing 386 bits
+processing operator
+type-0 operator with 364 bits of subpackets
+Processing 364 bits
+processing operator
+type-1 operator with 1 subpackets
+Processing 346 bits
+processing operator
+type-0 operator with 324 bits of subpackets
+Processing 324 bits
+processing operator
+type-1 operator with 1 subpackets
+Processing 306 bits
+processing operator
+type-0 operator with 284 bits of subpackets
+Processing 284 bits
+processing operator
+type-0 operator with 262 bits of subpackets
+Processing 262 bits
+processing operator
+type-1 operator with 1 subpackets
+Processing 244 bits
+processing operator
+type-1 operator with 1 subpackets
+Processing 226 bits
+processing operator
+type-0 operator with 204 bits of subpackets
+Processing 204 bits
+processing operator
+type-0 operator with 182 bits of subpackets
+Processing 182 bits
+processing operator
+type-0 operator with 160 bits of subpackets
+Processing 160 bits
+processing operator
+type-1 operator with 1 subpackets
+Processing 142 bits
+processing operator
+type-1 operator with 1 subpackets
+Processing 124 bits
+processing operator
+type-1 operator with 1 subpackets
+Processing 106 bits
+processing operator
+type-0 operator with 84 bits of subpackets
+Processing 84 bits
+processing operator
+type-1 operator with 1 subpackets
+Processing 66 bits
+processing operator
+type-0 operator with 44 bits of subpackets
+Processing 44 bits
+processing operator
+type-1 operator with 1 subpackets
+Processing 26 bits
+processing literal
+literal had 4 parts
+after literal 0 bits left
+returning with 0 bits left
+after type-1 0 bits left
+returning with 0 bits left
+after type-0 0 bits left
+returning with 0 bits left
+after type-1 0 bits left
+returning with 0 bits left
+after type-0 0 bits left
+returning with 0 bits left
+after type-1 0 bits left
+returning with 0 bits left
+after type-1 0 bits left
+returning with 0 bits left
+after type-1 0 bits left
+returning with 0 bits left
+after type-0 0 bits left
+returning with 0 bits left
+after type-0 0 bits left
+returning with 0 bits left
+after type-0 0 bits left
+returning with 0 bits left
+after type-1 0 bits left
+returning with 0 bits left
+after type-1 0 bits left
+returning with 0 bits left
+after type-0 0 bits left
+returning with 0 bits left
+after type-0 0 bits left
+returning with 0 bits left
+after type-1 0 bits left
+returning with 0 bits left
+after type-0 0 bits left
+returning with 0 bits left
+after type-1 0 bits left
+returning with 0 bits left
+after type-0 0 bits left
+returning with 0 bits left
+after type-1 0 bits left
+returning with 0 bits left
+after type-0 3782 bits left
+returning with 3782 bits left
+Processing 3782 bits
+processing operator
+type-0 operator with 157 bits of subpackets
+Processing 157 bits
+processing operator
+type-1 operator with 3 subpackets
+Processing 139 bits
+processing literal
+literal had 1 parts
+after literal 128 bits left
+returning with 128 bits left
+Processing 128 bits
+processing literal
+literal had 1 parts
+after literal 117 bits left
+returning with 117 bits left
+Processing 117 bits
+processing literal
+literal had 1 parts
+after literal 106 bits left
+returning with 106 bits left
+after type-1 106 bits left
+returning with 106 bits left
+Processing 106 bits
+processing operator
+type-0 operator with 33 bits of subpackets
+Processing 33 bits
+processing literal
+literal had 1 parts
+after literal 22 bits left
+returning with 22 bits left
+Processing 22 bits
+processing literal
+literal had 1 parts
+after literal 11 bits left
+returning with 11 bits left
+Processing 11 bits
+processing literal
+literal had 1 parts
+after literal 0 bits left
+returning with 0 bits left
+after type-0 51 bits left
+returning with 51 bits left
+Processing 51 bits
+processing operator
+type-1 operator with 3 subpackets
+Processing 33 bits
+processing literal
+literal had 1 parts
+after literal 22 bits left
+returning with 22 bits left
+Processing 22 bits
+processing literal
+literal had 1 parts
+after literal 11 bits left
+returning with 11 bits left
+Processing 11 bits
+processing literal
+literal had 1 parts
+after literal 0 bits left
+returning with 0 bits left
+after type-1 0 bits left
+returning with 0 bits left
+after type-0 3603 bits left
+returning with 3603 bits left
+Processing 3603 bits
+processing operator
+type-1 operator with 3 subpackets
+Processing 3585 bits
+processing literal
+literal had 9 parts
+after literal 3534 bits left
+returning with 3534 bits left
+Processing 3534 bits
+processing literal
+literal had 5 parts
+after literal 3503 bits left
+returning with 3503 bits left
+Processing 3503 bits
+processing literal
+literal had 3 parts
+after literal 3482 bits left
+returning with 3482 bits left
+after type-1 3482 bits left
+returning with 3482 bits left
+Processing 3482 bits
+processing operator
+type-0 operator with 139 bits of subpackets
+Processing 139 bits
+processing operator
+type-0 operator with 106 bits of subpackets
+Processing 106 bits
+processing operator
+type-0 operator with 33 bits of subpackets
+Processing 33 bits
+processing literal
+literal had 1 parts
+after literal 22 bits left
+returning with 22 bits left
+Processing 22 bits
+processing literal
+literal had 1 parts
+after literal 11 bits left
+returning with 11 bits left
+Processing 11 bits
+processing literal
+literal had 1 parts
+after literal 0 bits left
+returning with 0 bits left
+after type-0 51 bits left
+returning with 51 bits left
+Processing 51 bits
+processing operator
+type-1 operator with 3 subpackets
+Processing 33 bits
+processing literal
+literal had 1 parts
+after literal 22 bits left
+returning with 22 bits left
+Processing 22 bits
+processing literal
+literal had 1 parts
+after literal 11 bits left
+returning with 11 bits left
+Processing 11 bits
+processing literal
+literal had 1 parts
+after literal 0 bits left
+returning with 0 bits left
+after type-1 0 bits left
+returning with 0 bits left
+after type-0 11 bits left
+returning with 11 bits left
+Processing 11 bits
+processing literal
+literal had 1 parts
+after literal 0 bits left
+returning with 0 bits left
+after type-0 3321 bits left
+returning with 3321 bits left
+Processing 3321 bits
+processing operator
+type-0 operator with 135 bits of subpackets
+Processing 135 bits
+processing operator
+type-0 operator with 97 bits of subpackets
+Processing 97 bits
+processing literal
+literal had 6 parts
+after literal 61 bits left
+returning with 61 bits left
+Processing 61 bits
+processing literal
+literal had 11 parts
+after literal 0 bits left
+returning with 0 bits left
+after type-0 16 bits left
+returning with 16 bits left
+Processing 16 bits
+processing literal
+literal had 2 parts
+after literal 0 bits left
+returning with 0 bits left
+after type-0 3164 bits left
+returning with 3164 bits left
+Processing 3164 bits
+processing operator
+type-1 operator with 2 subpackets
+Processing 3146 bits
+processing operator
+type-0 operator with 57 bits of subpackets
+Processing 57 bits
+processing literal
+literal had 2 parts
+after literal 41 bits left
+returning with 41 bits left
+Processing 41 bits
+processing literal
+literal had 7 parts
+after literal 0 bits left
+returning with 0 bits left
+after type-0 3067 bits left
+returning with 3067 bits left
+Processing 3067 bits
+processing literal
+literal had 3 parts
+after literal 3046 bits left
+returning with 3046 bits left
+after type-1 3046 bits left
+returning with 3046 bits left
+Processing 3046 bits
+processing literal
+literal had 1 parts
+after literal 3035 bits left
+returning with 3035 bits left
+Processing 3035 bits
+processing operator
+type-0 operator with 146 bits of subpackets
+Processing 146 bits
+processing operator
+type-1 operator with 2 subpackets
+Processing 128 bits
+processing operator
+type-1 operator with 3 subpackets
+Processing 110 bits
+processing literal
+literal had 1 parts
+after literal 99 bits left
+returning with 99 bits left
+Processing 99 bits
+processing literal
+literal had 1 parts
+after literal 88 bits left
+returning with 88 bits left
+Processing 88 bits
+processing literal
+literal had 1 parts
+after literal 77 bits left
+returning with 77 bits left
+after type-1 77 bits left
+returning with 77 bits left
+Processing 77 bits
+processing operator
+type-1 operator with 3 subpackets
+Processing 59 bits
+processing literal
+literal had 1 parts
+after literal 48 bits left
+returning with 48 bits left
+Processing 48 bits
+processing literal
+literal had 1 parts
+after literal 37 bits left
+returning with 37 bits left
+Processing 37 bits
+processing literal
+literal had 1 parts
+after literal 26 bits left
+returning with 26 bits left
+after type-1 26 bits left
+returning with 26 bits left
+after type-1 26 bits left
+returning with 26 bits left
+Processing 26 bits
+processing literal
+literal had 4 parts
+after literal 0 bits left
+returning with 0 bits left
+after type-0 2867 bits left
+returning with 2867 bits left
+Processing 2867 bits
+processing operator
+type-0 operator with 80 bits of subpackets
+Processing 80 bits
+processing literal
+literal had 2 parts
+after literal 64 bits left
+returning with 64 bits left
+Processing 64 bits
+processing literal
+literal had 2 parts
+after literal 48 bits left
+returning with 48 bits left
+Processing 48 bits
+processing literal
+literal had 2 parts
+after literal 32 bits left
+returning with 32 bits left
+Processing 32 bits
+processing literal
+literal had 2 parts
+after literal 16 bits left
+returning with 16 bits left
+Processing 16 bits
+processing literal
+literal had 2 parts
+after literal 0 bits left
+returning with 0 bits left
+after type-0 2765 bits left
+returning with 2765 bits left
+Processing 2765 bits
+processing operator
+type-1 operator with 2 subpackets
+Processing 2747 bits
+processing operator
+type-1 operator with 2 subpackets
+Processing 2729 bits
+processing literal
+literal had 8 parts
+after literal 2683 bits left
+returning with 2683 bits left
+Processing 2683 bits
+processing literal
+literal had 8 parts
+after literal 2637 bits left
+returning with 2637 bits left
+after type-1 2637 bits left
+returning with 2637 bits left
+Processing 2637 bits
+processing literal
+literal had 5 parts
+after literal 2606 bits left
+returning with 2606 bits left
+after type-1 2606 bits left
+returning with 2606 bits left
+Processing 2606 bits
+processing operator
+type-1 operator with 5 subpackets
+Processing 2588 bits
+processing literal
+literal had 4 parts
+after literal 2562 bits left
+returning with 2562 bits left
+Processing 2562 bits
+processing literal
+literal had 5 parts
+after literal 2531 bits left
+returning with 2531 bits left
+Processing 2531 bits
+processing literal
+literal had 4 parts
+after literal 2505 bits left
+returning with 2505 bits left
+Processing 2505 bits
+processing literal
+literal had 4 parts
+after literal 2479 bits left
+returning with 2479 bits left
+Processing 2479 bits
+processing literal
+literal had 3 parts
+after literal 2458 bits left
+returning with 2458 bits left
+after type-1 2458 bits left
+returning with 2458 bits left
+Processing 2458 bits
+processing operator
+type-1 operator with 2 subpackets
+Processing 2440 bits
+processing literal
+literal had 4 parts
+after literal 2414 bits left
+returning with 2414 bits left
+Processing 2414 bits
+processing literal
+literal had 3 parts
+after literal 2393 bits left
+returning with 2393 bits left
+after type-1 2393 bits left
+returning with 2393 bits left
+Processing 2393 bits
+processing operator
+type-1 operator with 2 subpackets
+Processing 2375 bits
+processing operator
+type-1 operator with 2 subpackets
+Processing 2357 bits
+processing literal
+literal had 4 parts
+after literal 2331 bits left
+returning with 2331 bits left
+Processing 2331 bits
+processing literal
+literal had 2 parts
+after literal 2315 bits left
+returning with 2315 bits left
+after type-1 2315 bits left
+returning with 2315 bits left
+Processing 2315 bits
+processing literal
+literal had 6 parts
+after literal 2279 bits left
+returning with 2279 bits left
+after type-1 2279 bits left
+returning with 2279 bits left
+Processing 2279 bits
+processing operator
+type-1 operator with 2 subpackets
+Processing 2261 bits
+processing literal
+literal had 2 parts
+after literal 2245 bits left
+returning with 2245 bits left
+Processing 2245 bits
+processing operator
+type-1 operator with 2 subpackets
+Processing 2227 bits
+processing literal
+literal had 9 parts
+after literal 2176 bits left
+returning with 2176 bits left
+Processing 2176 bits
+processing literal
+literal had 2 parts
+after literal 2160 bits left
+returning with 2160 bits left
+after type-1 2160 bits left
+returning with 2160 bits left
+after type-1 2160 bits left
+returning with 2160 bits left
+Processing 2160 bits
+processing operator
+type-0 operator with 111 bits of subpackets
+Processing 111 bits
+processing operator
+type-1 operator with 2 subpackets
+Processing 93 bits
+processing literal
+literal had 5 parts
+after literal 62 bits left
+returning with 62 bits left
+Processing 62 bits
+processing literal
+literal had 5 parts
+after literal 31 bits left
+returning with 31 bits left
+after type-1 31 bits left
+returning with 31 bits left
+Processing 31 bits
+processing literal
+literal had 5 parts
+after literal 0 bits left
+returning with 0 bits left
+after type-0 2027 bits left
+returning with 2027 bits left
+Processing 2027 bits
+processing operator
+type-0 operator with 106 bits of subpackets
+Processing 106 bits
+processing operator
+type-1 operator with 2 subpackets
+Processing 88 bits
+processing literal
+literal had 5 parts
+after literal 57 bits left
+returning with 57 bits left
+Processing 57 bits
+processing literal
+literal had 2 parts
+after literal 41 bits left
+returning with 41 bits left
+after type-1 41 bits left
+returning with 41 bits left
+Processing 41 bits
+processing literal
+literal had 7 parts
+after literal 0 bits left
+returning with 0 bits left
+after type-0 1899 bits left
+returning with 1899 bits left
+Processing 1899 bits
+processing operator
+type-1 operator with 2 subpackets
+Processing 1881 bits
+processing literal
+literal had 3 parts
+after literal 1860 bits left
+returning with 1860 bits left
+Processing 1860 bits
+processing operator
+type-0 operator with 102 bits of subpackets
+Processing 102 bits
+processing operator
+type-1 operator with 3 subpackets
+Processing 84 bits
+processing literal
+literal had 1 parts
+after literal 73 bits left
+returning with 73 bits left
+Processing 73 bits
+processing literal
+literal had 1 parts
+after literal 62 bits left
+returning with 62 bits left
+Processing 62 bits
+processing literal
+literal had 1 parts
+after literal 51 bits left
+returning with 51 bits left
+after type-1 51 bits left
+returning with 51 bits left
+Processing 51 bits
+processing operator
+type-1 operator with 3 subpackets
+Processing 33 bits
+processing literal
+literal had 1 parts
+after literal 22 bits left
+returning with 22 bits left
+Processing 22 bits
+processing literal
+literal had 1 parts
+after literal 11 bits left
+returning with 11 bits left
+Processing 11 bits
+processing literal
+literal had 1 parts
+after literal 0 bits left
+returning with 0 bits left
+after type-1 0 bits left
+returning with 0 bits left
+after type-0 1736 bits left
+returning with 1736 bits left
+after type-1 1736 bits left
+returning with 1736 bits left
+Processing 1736 bits
+processing operator
+type-0 operator with 11 bits of subpackets
+Processing 11 bits
+processing literal
+literal had 1 parts
+after literal 0 bits left
+returning with 0 bits left
+after type-0 1703 bits left
+returning with 1703 bits left
+Processing 1703 bits
+processing literal
+literal had 1 parts
+after literal 1692 bits left
+returning with 1692 bits left
+Processing 1692 bits
+processing operator
+type-1 operator with 2 subpackets
+Processing 1674 bits
+processing literal
+literal had 6 parts
+after literal 1638 bits left
+returning with 1638 bits left
+Processing 1638 bits
+processing operator
+type-0 operator with 32 bits of subpackets
+Processing 32 bits
+processing literal
+literal had 2 parts
+after literal 16 bits left
+returning with 16 bits left
+Processing 16 bits
+processing literal
+literal had 2 parts
+after literal 0 bits left
+returning with 0 bits left
+after type-0 1584 bits left
+returning with 1584 bits left
+after type-1 1584 bits left
+returning with 1584 bits left
+Processing 1584 bits
+processing operator
+type-0 operator with 80 bits of subpackets
+Processing 80 bits
+processing operator
+type-0 operator with 42 bits of subpackets
+Processing 42 bits
+processing literal
+literal had 1 parts
+after literal 31 bits left
+returning with 31 bits left
+Processing 31 bits
+processing literal
+literal had 5 parts
+after literal 0 bits left
+returning with 0 bits left
+after type-0 16 bits left
+returning with 16 bits left
+Processing 16 bits
+processing literal
+literal had 2 parts
+after literal 0 bits left
+returning with 0 bits left
+after type-0 1482 bits left
+returning with 1482 bits left
+Processing 1482 bits
+processing operator
+type-0 operator with 26 bits of subpackets
+Processing 26 bits
+processing literal
+literal had 4 parts
+after literal 0 bits left
+returning with 0 bits left
+after type-0 1434 bits left
+returning with 1434 bits left
+Processing 1434 bits
+processing operator
+type-1 operator with 2 subpackets
+Processing 1416 bits
+processing literal
+literal had 5 parts
+after literal 1385 bits left
+returning with 1385 bits left
+Processing 1385 bits
+processing literal
+literal had 4 parts
+after literal 1359 bits left
+returning with 1359 bits left
+after type-1 1359 bits left
+returning with 1359 bits left
+Processing 1359 bits
+processing operator
+type-0 operator with 135 bits of subpackets
+Processing 135 bits
+processing literal
+literal had 1 parts
+after literal 124 bits left
+returning with 124 bits left
+Processing 124 bits
+processing literal
+literal had 11 parts
+after literal 63 bits left
+returning with 63 bits left
+Processing 63 bits
+processing literal
+literal had 5 parts
+after literal 32 bits left
+returning with 32 bits left
+Processing 32 bits
+processing literal
+literal had 2 parts
+after literal 16 bits left
+returning with 16 bits left
+Processing 16 bits
+processing literal
+literal had 2 parts
+after literal 0 bits left
+returning with 0 bits left
+after type-0 1202 bits left
+returning with 1202 bits left
+Processing 1202 bits
+processing operator
+type-1 operator with 2 subpackets
+Processing 1184 bits
+processing literal
+literal had 6 parts
+after literal 1148 bits left
+returning with 1148 bits left
+Processing 1148 bits
+processing literal
+literal had 2 parts
+after literal 1132 bits left
+returning with 1132 bits left
+after type-1 1132 bits left
+returning with 1132 bits left
+Processing 1132 bits
+processing operator
+type-1 operator with 2 subpackets
+Processing 1114 bits
+processing literal
+literal had 2 parts
+after literal 1098 bits left
+returning with 1098 bits left
+Processing 1098 bits
+processing literal
+literal had 2 parts
+after literal 1082 bits left
+returning with 1082 bits left
+after type-1 1082 bits left
+returning with 1082 bits left
+Processing 1082 bits
+processing operator
+type-1 operator with 4 subpackets
+Processing 1064 bits
+processing literal
+literal had 2 parts
+after literal 1048 bits left
+returning with 1048 bits left
+Processing 1048 bits
+processing literal
+literal had 2 parts
+after literal 1032 bits left
+returning with 1032 bits left
+Processing 1032 bits
+processing literal
+literal had 2 parts
+after literal 1016 bits left
+returning with 1016 bits left
+Processing 1016 bits
+processing literal
+literal had 2 parts
+after literal 1000 bits left
+returning with 1000 bits left
+after type-1 1000 bits left
+returning with 1000 bits left
+Processing 1000 bits
+processing operator
+type-0 operator with 16 bits of subpackets
+Processing 16 bits
+processing literal
+literal had 2 parts
+after literal 0 bits left
+returning with 0 bits left
+after type-0 962 bits left
+returning with 962 bits left
+Processing 962 bits
+processing operator
+type-0 operator with 159 bits of subpackets
+Processing 159 bits
+processing operator
+type-0 operator with 106 bits of subpackets
+Processing 106 bits
+processing operator
+type-0 operator with 33 bits of subpackets
+Processing 33 bits
+processing literal
+literal had 1 parts
+after literal 22 bits left
+returning with 22 bits left
+Processing 22 bits
+processing literal
+literal had 1 parts
+after literal 11 bits left
+returning with 11 bits left
+Processing 11 bits
+processing literal
+literal had 1 parts
+after literal 0 bits left
+returning with 0 bits left
+after type-0 51 bits left
+returning with 51 bits left
+Processing 51 bits
+processing operator
+type-1 operator with 3 subpackets
+Processing 33 bits
+processing literal
+literal had 1 parts
+after literal 22 bits left
+returning with 22 bits left
+Processing 22 bits
+processing literal
+literal had 1 parts
+after literal 11 bits left
+returning with 11 bits left
+Processing 11 bits
+processing literal
+literal had 1 parts
+after literal 0 bits left
+returning with 0 bits left
+after type-1 0 bits left
+returning with 0 bits left
+after type-0 31 bits left
+returning with 31 bits left
+Processing 31 bits
+processing literal
+literal had 5 parts
+after literal 0 bits left
+returning with 0 bits left
+after type-0 781 bits left
+returning with 781 bits left
+Processing 781 bits
+processing operator
+type-1 operator with 4 subpackets
+Processing 763 bits
+processing literal
+literal had 2 parts
+after literal 747 bits left
+returning with 747 bits left
+Processing 747 bits
+processing literal
+literal had 6 parts
+after literal 711 bits left
+returning with 711 bits left
+Processing 711 bits
+processing literal
+literal had 7 parts
+after literal 670 bits left
+returning with 670 bits left
+Processing 670 bits
+processing literal
+literal had 4 parts
+after literal 644 bits left
+returning with 644 bits left
+after type-1 644 bits left
+returning with 644 bits left
+Processing 644 bits
+processing operator
+type-1 operator with 1 subpackets
+Processing 626 bits
+processing literal
+literal had 3 parts
+after literal 605 bits left
+returning with 605 bits left
+after type-1 605 bits left
+returning with 605 bits left
+Processing 605 bits
+processing literal
+literal had 1 parts
+after literal 594 bits left
+returning with 594 bits left
+Processing 594 bits
+processing operator
+type-1 operator with 2 subpackets
+Processing 576 bits
+processing literal
+literal had 4 parts
+after literal 550 bits left
+returning with 550 bits left
+Processing 550 bits
+processing operator
+type-0 operator with 67 bits of subpackets
+Processing 67 bits
+processing literal
+literal had 5 parts
+after literal 36 bits left
+returning with 36 bits left
+Processing 36 bits
+processing literal
+literal had 6 parts
+after literal 0 bits left
+returning with 0 bits left
+after type-0 461 bits left
+returning with 461 bits left
+after type-1 461 bits left
+returning with 461 bits left
+Processing 461 bits
+processing operator
+type-1 operator with 4 subpackets
+Processing 443 bits
+processing literal
+literal had 3 parts
+after literal 422 bits left
+returning with 422 bits left
+Processing 422 bits
+processing literal
+literal had 5 parts
+after literal 391 bits left
+returning with 391 bits left
+Processing 391 bits
+processing literal
+literal had 1 parts
+after literal 380 bits left
+returning with 380 bits left
+Processing 380 bits
+processing literal
+literal had 6 parts
+after literal 344 bits left
+returning with 344 bits left
+after type-1 344 bits left
+returning with 344 bits left
+Processing 344 bits
+processing operator
+type-0 operator with 156 bits of subpackets
+Processing 156 bits
+processing literal
+literal had 8 parts
+after literal 110 bits left
+returning with 110 bits left
+Processing 110 bits
+processing operator
+type-1 operator with 2 subpackets
+Processing 92 bits
+processing literal
+literal had 9 parts
+after literal 41 bits left
+returning with 41 bits left
+Processing 41 bits
+processing literal
+literal had 7 parts
+after literal 0 bits left
+returning with 0 bits left
+after type-1 0 bits left
+returning with 0 bits left
+after type-0 166 bits left
+returning with 166 bits left
+Processing 166 bits
+processing literal
+literal had 2 parts
+after literal 150 bits left
+returning with 150 bits left
+Processing 150 bits
+processing operator
+type-1 operator with 2 subpackets
+Processing 132 bits
+processing operator
+type-0 operator with 62 bits of subpackets
+Processing 62 bits
+processing literal
+literal had 5 parts
+after literal 31 bits left
+returning with 31 bits left
+Processing 31 bits
+processing literal
+literal had 5 parts
+after literal 0 bits left
+returning with 0 bits left
+after type-0 48 bits left
+returning with 48 bits left
+Processing 48 bits
+processing literal
+literal had 8 parts
+after literal 2 bits left
+returning with 2 bits left
+after type-1 2 bits left
+returning with 2 bits left
+after type-1 2 bits left
+returning with 2 bits left
+</Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbW5HRiQ2JFEkOTY5RicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYnLUkjbW9HRiQ2LVEoJmNvbW1hO0YnRi8vJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHUSV0cnVlRicvJSlzdHJldGNoeUdGOC8lKnN5bW1ldHJpY0dGOC8lKGxhcmdlb3BHRjgvJS5tb3ZhYmxlbGltaXRzR0Y4LyUnYWNjZW50R0Y4LyUnbHNwYWNlR1EmMC4wZW1GJy8lJ3JzcGFjZUdRLDAuMzMzMzMzM2VtRictSSNtc0dGJDYjUSMwMEYnRi8=">NiQiJHAqUSMwMDYi</Equation></Text-field>
+</Output>
+</Group>
+<Group hide-input="false" labelreference="L9" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L13" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+</Worksheet>
