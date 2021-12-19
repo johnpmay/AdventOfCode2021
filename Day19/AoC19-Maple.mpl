@@ -35,7 +35,7 @@ for k1 to nops(scanners)-1 do
             ints01 := {entries(M0,'nolist')} intersect {entries(M1,'nolist')} minus {0};
 
             if nops(ints01) < 50 then
-                printf("scanner %d can not overlap  scanner %d -- only %d common pairs\n", sn1, sn2, nops(ints01) );
+#                printf("scanner %d can not overlap  scanner %d -- only %d common pairs\n", sn1, sn2, nops(ints01) );
                 next;
             end if; # at least 66 needed for 12 in common
 
@@ -52,7 +52,7 @@ for k1 to nops(scanners)-1 do
             o0 := [seq](ifelse(numboccur(pairs0,i)=11,i,NULL),i=1..n0);
             o1 := [seq](ifelse(numboccur(pairs1,i)=11,i,NULL),i=1..n1);
             if nops(o0) <> 12 then
-                printf("found only %d=%d overlaps between %d and %d skipping", nops(o0), nops(o1), sn1, sn2);
+                #printf("found only %d=%d overlaps between %d and %d skipping\n", nops(o0), nops(o1), sn1, sn2);
                 next;
             end if;
 
