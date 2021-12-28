@@ -4,7 +4,7 @@
 <Label-Scheme value="2" prefix=""/>
 <View-Properties presentation="false" autoexpanding_sections="true" UserProfileName="Maple Default Profile" NumericFormat-ApplyInteger="true" NumericFormat-ApplyRational="true" NumericFormat-ApplyExponent="false" editable="true">
 </View-Properties>
-<MapleNet-Properties prettyprint="3" warnlevel="3" compactdisplay="false" preplot="" helpbrowser="standard" displayprecision="-1" echo="1" unitattributes="&quot;fontweight&quot; = &quot;bold&quot;" imaginaryunit="I" longdelim="true" elisiontermsthreshold="10000" elisiondigitsafter="100" elisiondigitsbefore="100" plotdevice="inline" errorbreak="1" plotoptions="" plotdriver="opengl" quiet="false" elisiontermsbefore="100" elisiontermsafter="100" historytimestamp="false" screenwidth="79" indentamount="4" plotoutput="terminal" screenpixelheight="1152" rtablesize="[10, 10]" useclientjvm="true" labelwidth="20" postplot="" typesetting="extended" ansi="false" ansicolor="[]" elisiondigitsthreshold="10000" showassumed="1" ansilprint="false" trailingsemicolon="true" errorcursor="false" labelling="true" screenheight="25" prompt="&gt; " verboseproc="1" latexwidth="8.0" ShowLabels="true"/>
+<MapleNet-Properties prettyprint="3" warnlevel="3" compactdisplay="false" preplot="" helpbrowser="standard" displayprecision="-1" echo="1" unitattributes="&quot;fontweight&quot; = &quot;bold&quot;" imaginaryunit="I" longdelim="true" elisiontermsthreshold="10000" elisiondigitsafter="100" elisiondigitsbefore="100" plotdevice="inline" errorbreak="1" plotoptions="" plotdriver="opengl" quiet="false" elisiontermsbefore="100" elisiontermsafter="100" historytimestamp="false" screenwidth="79" indentamount="4" plotoutput="terminal" screenpixelheight="1080" rtablesize="[10, 10]" useclientjvm="true" labelwidth="20" postplot="" typesetting="extended" ansi="false" ansicolor="[]" elisiondigitsthreshold="10000" showassumed="1" ansilprint="false" trailingsemicolon="true" errorcursor="false" labelling="true" screenheight="25" prompt="&gt; " verboseproc="1" latexwidth="8.0" ShowLabels="true"/>
 <Styles>
 <Font name="Heading 1" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
 <Font name="Warning" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
@@ -157,9 +157,12 @@
 </Group>
 <Group hide-input="false" labelreference="L7" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
 <Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Font encoding="UTF-8">#PRINT := s-&gt;printf(cat(s,&quot;\134n&quot;), _rest);</Font>
-processpacket := proc( bitinput )
+
+processpacket := proc( bitinput )
 local vertotal, ver, pid, rest, parts, lofbits, subpak, numpaks, n, val, theops, thevalue;
-#option trace;
+
+
+#option trace;
 
 if length(bitinput) &lt; 6 then
     PRINT(&quot;discarding %s&quot;, bininput);
@@ -181,30 +184,59 @@ if pid = 4 then # literal
         parts := parts, rest[2..5];
         rest := rest[6..];
     end do;
-    parts := parts, rest[2..5];    thevalue := binstr2dec(cat(parts));
-    PRINT(&quot;literal had %d parts with value=%d&quot;, nops([parts]), thevalue);    rest := rest[6..];    PRINT(&quot;after literal %d bits left&quot;, length(rest));
+    parts := parts, rest[2..5];
+
+    thevalue := binstr2dec(cat(parts));
+    PRINT(&quot;literal had %d parts with value=%d&quot;, nops([parts]), thevalue);
+    rest := rest[6..];
+    PRINT(&quot;after literal %d bits left&quot;, length(rest));
 else
     PRINT(&quot;processing operator ID=%d&quot;, pid);
-    theops := NULL;    if rest[1] = &quot;0&quot; then
+    theops := NULL;
+    if rest[1] = &quot;0&quot; then
         
         lofbits := binstr2dec(rest[2..16]);
-        PRINT(&quot;type-0 operator with %d bits of subpackets&quot;, lofbits);        rest := rest[17..];
+        PRINT(&quot;type-0 operator with %d bits of subpackets&quot;, lofbits);
+        rest := rest[17..];
         subpak := rest[1..lofbits];
-        while length(subpak) &gt; 6 do            (n, val, subpak) := thisproc(subpak);            vertotal += n;            theops := theops, val;        end do;
+        while length(subpak) &gt; 6 do
+            (n, val, subpak) := thisproc(subpak);
+            vertotal += n;
+            theops := theops, val;
+        end do;
         rest := rest[lofbits+1..];
-        PRINT(&quot;after type-0 %d bits left&quot;, length(rest));
-    else        
+<Font encoding="UTF-8">        PRINT(&quot;after type-0 %d bits left&quot;, length(rest));
+        PRINT(&quot;%d:(0,%d) %q\134n&quot;, pid, nops([theops]),theops);
+</Font>    else        
         numpaks := binstr2dec(rest[2..12]);
-        PRINT(&quot;type-1 operator with %d subpackets&quot;,numpaks);        rest := rest[13..];
+        PRINT(&quot;type-1 operator with %d subpackets&quot;,numpaks);
+        rest := rest[13..];
         to numpaks do
             (n, val, rest) := thisproc(rest);
-            theops := theops, val;            vertotal += n; 
+            theops := theops, val;
+            vertotal += n; 
         end do;
-        PRINT(&quot;after type-1 %d bits left&quot;, length(rest));
-    end if;    if pid = 0 then # sum 
-       thevalue := `+`(theops);    elif pid = 1 then # prod       thevalue := `*`(theops);    elif pid = 2 then # min       thevalue := min(theops);    elif pid = 3 then # max       thevalue := max(theops);    elif pid = 5 then # &gt;       thevalue := ifelse( theops[1] &gt; theops[2], 1, 0);    elif pid = 6 then # &lt;
-       thevalue := ifelse( theops[1] &lt; theops[2], 1, 0);    elif pid = 7 then # =
-       thevalue := ifelse( theops[1] = theops[2], 1, 0);    else        error &quot;bad pid&quot;;    end if;
+<Font encoding="UTF-8">        PRINT(&quot;after type-1 %d bits left&quot;, length(rest));
+        PRINT(&quot;%d:(1,%d) %q\134n&quot;, pid, numpaks,theops);</Font>
+    end if;
+    if pid = 0 then # sum 
+       thevalue := `+`(theops);
+    elif pid = 1 then # prod
+       thevalue := `*`(theops);
+    elif pid = 2 then # min
+       thevalue := min(theops);
+    elif pid = 3 then # max
+       thevalue := max(theops);
+    elif pid = 5 then # &gt;
+       thevalue := ifelse( theops[1] &gt; theops[2], 1, 0);
+    elif pid = 6 then # &lt;
+       thevalue := ifelse( theops[1] &lt; theops[2], 1, 0);
+    elif pid = 7 then # =
+       thevalue := ifelse( theops[1] = theops[2], 1, 0);
+    else
+        error &quot;bad pid&quot;;
+    end if;
+    <Font encoding="UTF-8">PRINT(&quot;%d:(R,1) %q\134n&quot;, pid, thevalue);</Font>
 end if;
 
 PRINT(&quot;returning with %d bits left&quot;, length(rest));

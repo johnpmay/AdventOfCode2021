@@ -89,248 +89,367 @@
 </Task-table>
 <Task/>
 <Group labelreference="L1" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
-<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">restart;with(StringTools):</Text-field>
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">restart; with(StringTools):</Text-field>
 </Input>
 </Group>
 <Group hide-input="false" labelreference="L2" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
-<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">input:=&quot;#############
-#...........#
-###C#A#B#D###
-  #C#A#D#B#
-  #########&quot;;</Text-field>
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">input :=&quot;inp w
+mul x 0
+add x z
+mod x 26
+div z 1
+add x 15
+eql x w
+eql x 0
+mul y 0
+add y 25
+mul y x
+add y 1
+mul z y
+mul y 0
+add y w
+add y 9
+mul y x
+add z y
+inp w
+mul x 0
+add x z
+mod x 26
+div z 1
+add x 11
+eql x w
+eql x 0
+mul y 0
+add y 25
+mul y x
+add y 1
+mul z y
+mul y 0
+add y w
+add y 1
+mul y x
+add z y
+inp w
+mul x 0
+add x z
+mod x 26
+div z 1
+add x 10
+eql x w
+eql x 0
+mul y 0
+add y 25
+mul y x
+add y 1
+mul z y
+mul y 0
+add y w
+add y 11
+mul y x
+add z y
+inp w
+mul x 0
+add x z
+mod x 26
+div z 1
+add x 12
+eql x w
+eql x 0
+mul y 0
+add y 25
+mul y x
+add y 1
+mul z y
+mul y 0
+add y w
+add y 3
+mul y x
+add z y
+inp w
+mul x 0
+add x z
+mod x 26
+div z 26
+add x -11
+eql x w
+eql x 0
+mul y 0
+add y 25
+mul y x
+add y 1
+mul z y
+mul y 0
+add y w
+add y 10
+mul y x
+add z y
+inp w
+mul x 0
+add x z
+mod x 26
+div z 1
+add x 11
+eql x w
+eql x 0
+mul y 0
+add y 25
+mul y x
+add y 1
+mul z y
+mul y 0
+add y w
+add y 5
+mul y x
+add z y
+inp w
+mul x 0
+add x z
+mod x 26
+div z 1
+add x 14
+eql x w
+eql x 0
+mul y 0
+add y 25
+mul y x
+add y 1
+mul z y
+mul y 0
+add y w
+add y 0
+mul y x
+add z y
+inp w
+mul x 0
+add x z
+mod x 26
+div z 26
+add x -6
+eql x w
+eql x 0
+mul y 0
+add y 25
+mul y x
+add y 1
+mul z y
+mul y 0
+add y w
+add y 7
+mul y x
+add z y
+inp w
+mul x 0
+add x z
+mod x 26
+div z 1
+add x 10
+eql x w
+eql x 0
+mul y 0
+add y 25
+mul y x
+add y 1
+mul z y
+mul y 0
+add y w
+add y 9
+mul y x
+add z y
+inp w
+mul x 0
+add x z
+mod x 26
+div z 26
+add x -6
+eql x w
+eql x 0
+mul y 0
+add y 25
+mul y x
+add y 1
+mul z y
+mul y 0
+add y w
+add y 15
+mul y x
+add z y
+inp w
+mul x 0
+add x z
+mod x 26
+div z 26
+add x -6
+eql x w
+eql x 0
+mul y 0
+add y 25
+mul y x
+add y 1
+mul z y
+mul y 0
+add y w
+add y 4
+mul y x
+add z y
+inp w
+mul x 0
+add x z
+mod x 26
+div z 26
+add x -16
+eql x w
+eql x 0
+mul y 0
+add y 25
+mul y x
+add y 1
+mul z y
+mul y 0
+add y w
+add y 10
+mul y x
+add z y
+inp w
+mul x 0
+add x z
+mod x 26
+div z 26
+add x -4
+eql x w
+eql x 0
+mul y 0
+add y 25
+mul y x
+add y 1
+mul z y
+mul y 0
+add y w
+add y 4
+mul y x
+add z y
+inp w
+mul x 0
+add x z
+mod x 26
+div z 26
+add x -2
+eql x w
+eql x 0
+mul y 0
+add y 25
+mul y x
+add y 1
+mul z y
+mul y 0
+add y w
+add y 9
+mul y x
+add z y&quot;:</Text-field>
 </Input>
 </Group>
 <Group hide-input="false" labelreference="L3" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
-<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">testinput:=&quot;#############
-#...........#
-###B#C#B#D###
-  #A#D#C#A#
-  #########&quot;;</Text-field>
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">toyinput := &quot;inp z
+inp x
+mul z 3
+eql z x&quot;;</Text-field>
 </Input>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEpdG95aW5wdXRGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUSkmQXNzaWduO0YnL0YzUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGPS8lKXN0cmV0Y2h5R0Y9LyUqc3ltbWV0cmljR0Y9LyUobGFyZ2VvcEdGPS8lLm1vdmFibGVsaW1pdHNHRj0vJSdhY2NlbnRHRj0vJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZMLUkjbXNHRiQ2I1E8aW5wfnp8K2lucH54fCttdWx+en4zfCtlcWx+en54RidGOQ==">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSl0b3lpbnB1dEdGKFE8aW5wfnp8K2lucH54fCttdWx+en4zfCtlcWx+en54Rig3I0Yu</Equation></Text-field>
+</Output>
+</Group>
+<Group hide-input="false" labelreference="L9" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">testinput := &quot;inp w
+add z w
+mod z 2
+div w 2
+add y w
+mod y 2
+div w 2
+add x w
+mod x 2
+div w 2
+mod w 2&quot;;</Text-field>
+</Input>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEqdGVzdGlucHV0RicvJSdpdGFsaWNHUSV0cnVlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkjbW9HRiQ2LVEpJkFzc2lnbjtGJy9GM1Enbm9ybWFsRicvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRj0vJSlzdHJldGNoeUdGPS8lKnN5bW1ldHJpY0dGPS8lKGxhcmdlb3BHRj0vJS5tb3ZhYmxlbGltaXRzR0Y9LyUnYWNjZW50R0Y9LyUnbHNwYWNlR1EsMC4yNzc3Nzc4ZW1GJy8lJ3JzcGFjZUdGTC1JI21zR0YkNiNRYHBpbnB+d3wrYWRkfnp+d3wrbW9kfnp+MnwrZGl2fnd+MnwrYWRkfnl+d3wrbW9kfnl+MnwrZGl2fnd+MnwrYWRkfnh+d3wrbW9kfnh+MnwrZGl2fnd+MnwrbW9kfnd+MkYnRjk=">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSp0ZXN0aW5wdXRHRihRYHBpbnB+d3wrYWRkfnp+d3wrbW9kfnp+MnwrZGl2fnd+MnwrYWRkfnl+d3wrbW9kfnl+MnwrZGl2fnd+MnwrYWRkfnh+d3wrbW9kfnh+MnwrZGl2fnd+MnwrbW9kfnd+MkYoNyNGLg==</Equation></Text-field>
+</Output>
 </Group>
 <Group hide-input="false" labelreference="L4" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
-<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Font encoding="UTF-8">themap := Split(input,&quot;\134n&quot;);
-</Font>rooms := zip(()-&gt;[args], Split(Trim(SubstituteAll(themap[3],&quot;#&quot;,&quot; &quot;))),Split(Trim(SubstituteAll(themap[4],&quot;#&quot;,&quot; &quot;))));
-roompos := [3,5,7,9];
-movecost := table([&quot;A&quot;=1,&quot;B&quot;=10,&quot;C&quot;=100,&quot;D&quot;=1000]);
-hallway := [seq(&quot;.&quot;, 1..length(themap[2])-2)];
-totalcost := 0;
-istate := [hallway, rooms];</Text-field>
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Font encoding="UTF-8">prog := Split(input, &quot;\134n&quot;): nops(prog);</Font></Text-field>
 </Input>
-</Group>
-<Group hide-input="false" labelreference="L12" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
-<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">drawstate := proc(state)
-<Font encoding="UTF-8">printf(&quot;#############\134n#%s#\134n###%s#%s#%s#%s###\134n  #%s#%s#%s#%s#\134n  #########\134n\134n&quot;, 
-</Font>cat(state[1][]), seq(state[2][i][1],i=1..4), seq(state[2][i][2],i=1..4) );
-end proc:
-state2string := proc(state)
-   sprintf(&quot;%s%s%s%s%s&quot;, cat(state[1][]), seq(cat(state[2][i][]),i=1..4));
-end proc;
-string2state := proc(s)
-   return [Explode(s[1..11]), [seq([seq(s[11+(i+2*j)],i=1..2)],j=0..3)]];
-end proc;
-
-drawstate(istate);
-state2string(istate);
-drawstate(string2state(%));</Text-field>
-</Input>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkjbW5HNiMvSSttb2R1bGVuYW1lRzYiSSxUeXBlc2V0dGluZ0dJKF9zeXNsaWJHRic2JFEkMjUyRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYn">IiRfIw==</Equation></Text-field>
+</Output>
 </Group>
 <Group hide-input="false" labelreference="L5" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
-<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">moveR2H := proc(state, room, pos, {r2r::truefalse:=false})
-  local newstate, newroom, actor, steps, start;
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">run := proc(prog, input::list := [],$)
+local i, varcounter, regs, registers, ins, op1, op2;
 
-  if pos in [3,5,7,9] and not r2r then
-     error &quot;illegal position in the hallway&quot;, pos;
-  elif state[1][pos] &lt;&gt; &quot;.&quot; then
-     error &quot;position occupied&quot;, pos, state[1][pos];
-  end if;
-  if state[2][room] = [&quot;.&quot;,&quot;.&quot;] then error &quot;room empty&quot;, room;
-  elif state[2][room][1] = &quot;.&quot; then
-     actor := state[2][room][2];
-     steps := 2;
-     start := roompos[room];
-     newroom := [&quot;.&quot;,&quot;.&quot;];
-  else
-     actor := state[2][room][1];
-     steps := 1;
-     start := roompos[room];
-     newroom := [&quot;.&quot;, state[2][room][2]];
-  end if;
-  steps += abs(pos - start);
+varcounter := 1;
+regs := [&quot;x&quot;,&quot;y&quot;,&quot;z&quot;,&quot;w&quot;];
+registers := table(map(`=`,regs,0)); #initialize with 0s
 
-  local path := state[1][`..`(min,max)(pos,start)];  
-  if nops(path)&gt;2 and {path[2..-2][]} &lt;&gt; {&quot;.&quot;} then
-     error &quot;path blocked&quot;;
-  end if;
+for i to nops(prog) do
+   ins := prog[i];
+<Font encoding="UTF-8">   #printf(&quot;%d : %s\134n&quot;, i, ins);
+</Font>   if ins[1..3] = &quot;inp&quot; then
+      if nops(input) &gt;= varcounter then
+          registers[ins[-1]] := input[varcounter];
+      else
+          registers[ins[-1]] := cat(`inputvar`,varcounter);
+      end if;
+      varcounter += 1;
+      next;
+   end if;
 
-  newstate := [subsop(pos=actor, state[1]), subsop(room=newroom, state[2])];
+      (op1, op2) := Split(ins[5..-1])[];
+      if op2 in regs then
+          op2 := registers[op2];
+      else
+          op2 := parse(op2); # integer
+      end if;
 
-  return steps*movecost[actor], newstate;
+   if ins[1..3] = &quot;add&quot; then
+      registers[op1] := simplify( registers[op1] + op2 );
+   elif ins[1..3] = &quot;mul&quot; then
+      registers[op1] := simplify( registers[op1] * op2 );
+   elif ins[1..3] = &quot;div&quot; then
+      registers[op1] := simplify( iquo(registers[op1], op2) );
+   elif ins[1..3] = &quot;mod&quot; then
+      registers[op1] := simplify( irem(registers[op1], op2) );
+   elif ins[1..3] = &quot;eql&quot; then
+      registers[op1] := signum(registers[op1]-op2)^2;
+   end if;
+ 
 
-end proc:
+end do;
 
-moveH2R := proc(state, pos, room, {r2r::truefalse:=false})
-  local newstate, newroom, actor, steps, start;
-  if pos in [3,5,7,9] and not r2r then
-     error &quot;illegal position in the hallway&quot;, pos;
-  end if;
-  actor := state[1][pos];
-  if actor = &quot;.&quot; then
-     error &quot;position empty&quot;, pos;
-  elif state[2][room][1] &lt;&gt; &quot;.&quot; then
-     error &quot;room full&quot;, room;
-  elif state[2][room][2] = &quot;.&quot; then
-     steps := 2;
-     newroom := [&quot;.&quot;,actor];
-  else
-     steps := 1;
-     newroom := [actor, state[2][room][2]];
-  end if;
-  if {state[2][room][]} minus {&quot;.&quot;, actor} &lt;&gt; {} then
-     error &quot;cannot enter a room until empty of wrong types&quot;, actor, state[2][room]
-;
-  end if;
-  local path := state[1][`..`(min,max)(pos,roompos[room])];  
-  if nops(path)&gt;2 and {path[2..-2][]} &lt;&gt; {&quot;.&quot;} then
-     error &quot;path blocked&quot;;
-  end if;
-
-  steps += abs(pos - roompos[room]);
-
-  newstate := [subsop(pos=&quot;.&quot;, state[1]), subsop(room=newroom, state[2])];
-
-  return steps*movecost[actor], newstate;
-
-end proc:
-moveR2R := proc(state, room1, room2)
-local c1, c2, ns;
-   (c1, ns) := moveR2H(state, room1, roompos[room2], 'r2r');
-   (c2, ns) := moveH2R(ns, roompos[room2], room2, 'r2r');
-   return (c1+c2), ns;
-end proc:
-</Text-field>
-</Input>
-</Group>
-<Group hide-input="false" labelreference="L15" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
-<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">istate;</Text-field>
+#return entries(registers, 'pairs');
+return registers[&quot;z&quot;];
+end proc:</Text-field>
 </Input>
 </Group>
 <Group hide-input="false" labelreference="L6" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
-<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">totalcost := 0;ns := istate:
-(c,ns) := moveR2H(ns, 2, 1): totalcost += c: drawstate(ns);
-(c,ns) := moveR2H(ns, 2, 2): totalcost += c: drawstate(ns);
-(c,ns) := moveR2H(ns, 4, 10): totalcost += c: drawstate(ns);
-(c,ns) := moveR2R(ns, 4, 2): totalcost += c: drawstate(ns);
-(c,ns) := moveH2R(ns, 10, 4): totalcost += c: drawstate(ns);
-(c,ns) := moveR2R(ns, 3, 2): totalcost += c: drawstate(ns);
-(c,ns) := moveR2R(ns, 3, 4): totalcost += c: drawstate(ns);
-(c,ns) := moveR2R(ns, 1, 3): totalcost += c: drawstate(ns);
-(c,ns) := moveR2R(ns, 1, 3): totalcost += c: drawstate(ns);
-(c,ns) := moveH2R(ns, 2, 1): totalcost += c: drawstate(ns);
-(c,ns) := moveH2R(ns, 1, 1): totalcost += c: drawstate(ns);
-totalcost; drawstate(ns);</Text-field>
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">out := run(prog,[seq(cat(`x__`,i),i=1..14)]):</Text-field>
 </Input>
 </Group>
-<Group hide-input="false" labelreference="L7" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
-<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">start := state2string(istate);
-theend := state2string([[&quot;.&quot;$11],[[&quot;A&quot;,&quot;A&quot;],[&quot;B&quot;,&quot;B&quot;],[&quot;C&quot;,&quot;C&quot;],[&quot;D&quot;,&quot;D&quot;]]]);</Text-field>
+<Group hide-input="false" labelreference="L11" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">length(out);</Text-field>
 </Input>
 </Group>
-<Group hide-input="false" labelreference="L17" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
-<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">nbs := proc(s)
-option remember;
-local output, tmpc, tmps, tmph, state, i, j;
-    output := NULL;
-    state := string2state(s);
-
-    # room to hall
-    for i in [1,2,4,6,8,10,11] do
-        for j from 1 to 4 do
-            try:
-                tmpc,tmps := moveR2H( state, j, i);
-                tmph := tmpc/10^ilog10(tmpc);            
-                output := output, [tmpc, state2string(tmps), tmph];
-            catch:
-            end try;
-         end do;
-     end do;
-
-    # hall to room
-    for i in [1,2,4,6,8,10,11] do
-        for j from 1 to 4 do
-            try:
-                tmpc,tmps := moveH2R( state, i, j);
-                output := output, [tmpc, state2string(tmps),0];
-            catch:
-            end try;
-         end do;
-     end do;
-
-    # room to room
-    for i from 1 to 4 do
-        for j from 1 to 4 do
-            if i = j then next; end if;
-            try:
-                tmpc,tmps := moveR2R( state, i, j);
-                output := output, [tmpc, state2string(tmps),0];
-            catch:
-            end try;
-         end do;
-     end do;
-
-     return [output];
-end proc:</Text-field>
+<Group hide-input="false" labelreference="L12" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">lprint(out);</Text-field>
 </Input>
 </Group>
-<Group hide-input="false" labelreference="L18" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
-<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">nbs(start);</Text-field>
+<Group hide-input="false" labelreference="L13" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">
+</Text-field>
 </Input>
 </Group>
-<Group labelreference="L14" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
-<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Dijkstra := proc(start, theend, Bound)
-local pq, costsofar, curr, nb, newcost, pt; 
-uses priqueue;
-#option trace;
-
-costsofar := table(sparse=Bound):
-
-
-initialize(pq):
-insert([0,start], pq):
-costsofar[start] := 0:
-
-while pq[0] &lt;&gt; 0 do
-   curr := extract(pq)[2];
-   if curr = theend then
-       return costsofar[theend];
-   end if;
-
-   nb := nbs(curr);
-   for pt in nb do
-       newcost := costsofar[curr] + pt[1];
-       if newcost &lt; costsofar[pt[2]] then
-           costsofar[pt[2]] := newcost;
-           insert([-newcost, pt[2]], pq);
-       end if;
-   end do;
-end do:
-
-end proc:</Text-field>
+<Group hide-input="false" labelreference="L14" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">signum(0)^2;</Text-field>
 </Input>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkjbW5HNiMvSSttb2R1bGVuYW1lRzYiSSxUeXBlc2V0dGluZ0dJKF9zeXNsaWJHRic2JFEiMEYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJw==">IiIh</Equation></Text-field>
+</Output>
 </Group>
-<Group hide-input="false" labelreference="L21" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
-<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
-</Input>
-</Group>
-<Group hide-input="false" labelreference="L16" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
-<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">CodeTools:-Usage( Dijkstra(start, theend, add(11*2*10^i,i=0..3)) );</Text-field>
-</Input>
-</Group>
-<Group labelreference="L19" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
-<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
-</Input>
-</Group>
-<Group labelreference="L22" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Group labelreference="L15" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
 <Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
 </Input>
 </Group>

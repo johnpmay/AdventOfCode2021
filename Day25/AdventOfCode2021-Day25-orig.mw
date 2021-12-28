@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Worksheet>
+<Version major="2020" minor="2"/>
+<Label-Scheme value="2" prefix=""/>
+<View-Properties presentation="false" autoexpanding_sections="true" UserProfileName="Maple Default Profile" NumericFormat-ApplyInteger="true" NumericFormat-ApplyRational="true" NumericFormat-ApplyExponent="false" editable="true">
+</View-Properties>
+<MapleNet-Properties prettyprint="3" warnlevel="3" compactdisplay="false" preplot="" helpbrowser="standard" displayprecision="-1" echo="1" unitattributes="&quot;fontweight&quot; = &quot;bold&quot;" imaginaryunit="I" longdelim="true" elisiontermsthreshold="10000" elisiondigitsafter="100" elisiondigitsbefore="100" plotdevice="inline" errorbreak="1" plotoptions="" plotdriver="opengl" quiet="false" elisiontermsbefore="100" elisiontermsafter="100" historytimestamp="false" screenwidth="79" indentamount="4" plotoutput="terminal" screenpixelheight="1080" rtablesize="[10, 10]" useclientjvm="true" labelwidth="20" postplot="" typesetting="extended" ansi="false" ansicolor="[]" elisiondigitsthreshold="10000" showassumed="1" ansilprint="false" trailingsemicolon="true" errorcursor="false" labelling="true" screenheight="25" prompt="&gt; " verboseproc="1" latexwidth="8.0" ShowLabels="true"/>
+<Styles>
+<Font name="Heading 1" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Warning" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Output" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 4" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Line Printed Output" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 2" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="16" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Output" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Inert Output" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[144,144,144]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 3" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="14" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Diagnostic" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[40,120,40]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 1" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Input" background="[255,255,255]" bold="true" executable="true" family="Courier New" foreground="[120,0,14]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Text Output" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 2" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 3" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 4" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 5" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Annotation Title" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Header and Footer" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="HyperlinkError" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Atomic Variable" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[175,0,175]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="HyperlinkWarning" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Dictionary Hyperlink" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[147,0,15]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="2D Math" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Bullet Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Plot" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Annotation Text" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="List Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Dash Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Input" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Error" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Title" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Text" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Normal" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Caption Reference" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Code" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Input Placeholder" background="[255,255,255]" bold="true" executable="true" family="Courier New" foreground="[200,0,200]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="true"/>
+<Font name="Equation Label" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Author" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Hyperlink" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,128,128]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Caption Text" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Layout name="Heading 1" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="4" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Warning" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 4" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Line Printed Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="any" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 2" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="2" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Maple Output" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.3" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 3" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Diagnostic" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="any" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Ordered List 1" alignment="left" bullet="numeric" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Text Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="newline" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Ordered List 2" alignment="left" bullet="alphabetic" firstindent="0" leftmargin="36" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Ordered List 3" alignment="left" bullet="roman" firstindent="0" leftmargin="72" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Ordered List 4" alignment="left" bullet="ALPHABETIC" firstindent="0" leftmargin="108" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Ordered List 5" alignment="left" bullet="ROMAN" firstindent="0" leftmargin="144" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Annotation Title" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="12" spacebelow="12" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="HyperlinkError" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="HyperlinkWarning" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Bullet Item" alignment="left" bullet="dot" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Maple Plot" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="List Item" alignment="left" bullet="indent" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Dash Item" alignment="left" bullet="dash" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Error" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Title" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="12" spacebelow="12" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Normal" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Author" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="8" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Pencil-style name="Pencil 1" pen-color="[0,0,0]" pen-height="1.0" pen-width="1.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 2" pen-color="[0,0,255]" pen-height="1.0" pen-width="1.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 3" pen-color="[0,0,0]" pen-height="3.0" pen-width="3.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 4" pen-color="[0,0,255]" pen-height="3.0" pen-width="3.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 5" pen-color="[255,0,0]" pen-height="5.0" pen-width="5.0" pen-opacity="1.0"/>
+<Highlighter-style name="Highlighter 5" pen-color="[255,255,0]" pen-height="48.0" pen-width="48.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 3" pen-color="[51,255,0]" pen-height="24.0" pen-width="24.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 4" pen-color="[0,255,255]" pen-height="32.0" pen-width="32.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 1" pen-color="[255,153,255]" pen-height="12.0" pen-width="8.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 2" pen-color="[255,204,0]" pen-height="14.0" pen-width="14.0" pen-opacity="0.8"/>
+</Styles>
+<Startup-Code startupcode=""/>
+<Task-table>
+    <Task-category name="&lt;default&gt;"/>
+</Task-table>
+<Task/>
+<Group labelreference="L1" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">restart; with(StringTools):</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L2" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">input := &quot;&gt;.&gt;..v..v.&gt;vvvvv..&gt;&gt;&gt;.&gt;vv&gt;vv&gt;.......vv.vvv..v..vv.&gt;v...&gt;&gt;&gt;&gt;&gt;&gt;.v&gt;.&gt;..&gt;v.&gt;.&gt;v..v.vv.&gt;.&gt;...v.v&gt;....v..v.v&gt;.....v....&gt;.&gt;..v&gt;v&gt;.........&gt;.v.....
+.&gt;&gt;.v..&gt;..&gt;vv&gt;vv..vv&gt;....vv&gt;.&gt;.&gt;.&gt;v&gt;&gt;......&gt;&gt;v..vv&gt;.&gt;&gt;&gt;..&gt;&gt;.&gt;v.v.&gt;v&gt;..........&gt;&gt;....v.v....&gt;&gt;&gt;&gt;&gt;.vv.v.v&gt;v.v&gt;...&gt;&gt;.&gt;vv.v..&gt;v&gt;.v&gt;..v&gt;..&gt;&gt;...&gt;
+vv...&gt;.&gt;...&gt;.&gt;.v..&gt;...&gt;....&gt;vv.vv.&gt;..v.&gt;&gt;.&gt;v...&gt;.&gt;&gt;.v&gt;v.v&gt;..&gt;....&gt;.vv..&gt;v..v&gt;.&gt;.&gt;.&gt;.&gt;.v&gt;.v&gt;.....&gt;vv..&gt;...&gt;&gt;...&gt;.vvv&gt;.v......&gt;v....v.&gt;&gt;.&gt;.&gt;.
+v&gt;v&gt;...&gt;.&gt;&gt;.v&gt;v.v....vv&gt;..v.v..............v.&gt;v..&gt;..&gt;..v.vvv...&gt;...vv&gt;.&gt;v.&gt;&gt;&gt;v.&gt;&gt;.v&gt;&gt;&gt;&gt;..v..v..&gt;...&gt;v..&gt;vvv...&gt;..&gt;...v&gt;v.v.vv..v.&gt;.&gt;vv.&gt;&gt;..
+vv...&gt;.v...v..v&gt;.v..v....&gt;...vv..&gt;v&gt;.&gt;.&gt;&gt;&gt;...&gt;vv.vv...vv&gt;&gt;..&gt;..&gt;.&gt;..........v..v.v.&gt;.&gt;...&gt;.&gt;v.v&gt;.v..&gt;vv....v.....&gt;.v&gt;..&gt;&gt;&gt;&gt;v.....&gt;......v..
+v&gt;&gt;..&gt;&gt;&gt;v...&gt;.&gt;&gt;...&gt;&gt;vv&gt;...vvv&gt;.v&gt;..vv.&gt;&gt;..v.&gt;vv.v..&gt;&gt;v&gt;vvv.v.&gt;v..&gt;v&gt;vvv..vv.&gt;&gt;v..v..v.....v.&gt;.&gt;&gt;&gt;vv.&gt;...&gt;&gt;&gt;&gt;&gt;..&gt;vv&gt;&gt;&gt;.v....vv...v.&gt;.&gt;vv...
+&gt;v..&gt;&gt;v..&gt;..&gt;....&gt;.&gt;.v.&gt;..&gt;...v..&gt;.&gt;.&gt;.&gt;...v.&gt;v&gt;&gt;&gt;.vv&gt;vvv.&gt;&gt;.v&gt;.&gt;v&gt;.vv......v&gt;.vv..&gt;...v&gt;&gt;.v&gt;...vv.v&gt;.v&gt;.&gt;&gt;..v&gt;.v.v...&gt;&gt;&gt;&gt;&gt;.v.v&gt;.v.v....&gt;..
+.&gt;&gt;&gt;.&gt;..v&gt;&gt;&gt;&gt;&gt;&gt;&gt;vv.v&gt;&gt;...&gt;&gt;&gt;v..vvv&gt;.....&gt;.......&gt;.v&gt;.&gt;&gt;&gt;..v.&gt;&gt;&gt;.v.v&gt;.&gt;&gt;....v.&gt;.&gt;&gt;.v.v&gt;v.v.v&gt;&gt;v&gt;v.v.v.v&gt;&gt;&gt;&gt;v.v....v..v&gt;...&gt;.v.&gt;.......vvv&gt;.&gt;
+..v......v&gt;v.&gt;vvv.v.......&gt;.....v&gt;.....vvv..&gt;...&gt;v....&gt;..&gt;&gt;..&gt;.v.&gt;..v.&gt;&gt;&gt;...&gt;vvv..vv&gt;.&gt;v&gt;.vvv&gt;.&gt;......&gt;&gt;v.v&gt;&gt;v.v..v&gt;vv.&gt;v.&gt;..&gt;&gt;v&gt;&gt;.v.vv.v.v
+&gt;v...&gt;.&gt;..vv..vv.v.v&gt;&gt;..&gt;&gt;..v..v..&gt;.&gt;...&gt;.vv..vv.&gt;..&gt;..v.v.vv.....v.....v&gt;..&gt;&gt;&gt;.v..v&gt;vv&gt;v..&gt;...vv&gt;&gt;&gt;.v.&gt;&gt;.v&gt;....vv..vvvv..v&gt;v.&gt;&gt;...v.&gt;v.&gt;.v
+.&gt;..v.&gt;v.&gt;....&gt;&gt;.v&gt;..&gt;&gt;.v..v....v..v..&gt;v..v&gt;&gt;&gt;v.v&gt;...&gt;..v&gt;.&gt;.&gt;&gt;&gt;.&gt;..v&gt;...v.&gt;.&gt;..vvv..v&gt;v&gt;.vv.&gt;v.v...&gt;...vv..v&gt;v.&gt;&gt;v&gt;.&gt;&gt;.&gt;&gt;..vv&gt;.v.v&gt;v.&gt;.v..
+.v&gt;&gt;.&gt;..&gt;.&gt;&gt;..&gt;..&gt;.v.v.v&gt;.&gt;v...&gt;.........v&gt;&gt;....&gt;.vv&gt;&gt;v.&gt;v&gt;.............&gt;.&gt;v&gt;v.v..&gt;v...&gt;.&gt;v...v..v..v.v&gt;&gt;....v.&gt;&gt;.&gt;v&gt;..v&gt;&gt;.vv..v.v...v&gt;..&gt;.
+&gt;v..vv..&gt;..v.&gt;&gt;.vvv.v.&gt;&gt;&gt;&gt;vv.&gt;v.&gt;v.....&gt;...v...&gt;.v.......v&gt;v.&gt;vv...&gt;v..vv.&gt;.vv.&gt;.v&gt;&gt;v&gt;&gt;v.v&gt;.&gt;....&gt;.&gt;&gt;&gt;&gt;.........vv.&gt;..v..&gt;v.v.vv.v..&gt;&gt;v...&gt;
+v.&gt;.&gt;&gt;....&gt;..&gt;.&gt;.v....vv.&gt;&gt;v&gt;&gt;...&gt;..v..&gt;&gt;&gt;&gt;.v.&gt;v&gt;&gt;..v&gt;......v&gt;v&gt;&gt;..v.v&gt;..v.&gt;&gt;v..&gt;.v&gt;v.v.vvv&gt;.&gt;v.....v.&gt;.&gt;..v..&gt;&gt;.&gt;..&gt;.&gt;v&gt;..&gt;.vv&gt;v&gt;&gt;..&gt;&gt;v&gt;&gt;.
+v..&gt;&gt;.vv...&gt;.v.&gt;vvv&gt;&gt;&gt;&gt;.&gt;vvv.v......&gt;vv.&gt;.&gt;..v..v.v&gt;&gt;.&gt;&gt;&gt;..vv..v&gt;&gt;..v&gt;vvv&gt;..&gt;&gt;.&gt;v&gt;v..&gt;.v.&gt;vv.v....&gt;.......vv.v...v.v.v&gt;&gt;v.vv.&gt;.&gt;..&gt;.&gt;..v.v&gt;
+vv&gt;.v&gt;...&gt;.&gt;&gt;....&gt;v.&gt;..vv&gt;..v.&gt;.&gt;&gt;.v.v&gt;...&gt;&gt;...v..v.vv&gt;.vv....&gt;...v&gt;.vv.vv.v.&gt;v.vv.v&gt;&gt;v.&gt;&gt;vv.v.&gt;...vv.&gt;v.......&gt;&gt;.&gt;.vv&gt;.&gt;v&gt;&gt;.v&gt;.v.&gt;..vv.&gt;.&gt;
+.&gt;....&gt;...&gt;v&gt;.&gt;&gt;&gt;..&gt;vv...v&gt;...v&gt;...v&gt;.&gt;v&gt;......&gt;.&gt;v&gt;..v&gt;.&gt;..&gt;v...&gt;...v..&gt;.vv..vvvv&gt;...v.&gt;v.v....vv..&gt;.v..v.vv...&gt;vv..&gt;.v.vv.&gt;&gt;.v.v.&gt;..v....
+vvv&gt;&gt;v......v....&gt;.&gt;v....&gt;.&gt;vv....&gt;.&gt;.&gt;&gt;vv&gt;......v&gt;.v..&gt;.v..vv...v&gt;vvv.v&gt;.....vv..&gt;vvvv.v.&gt;...&gt;.&gt;v&gt;&gt;vv&gt;..vv.....&gt;.&gt;v..&gt;v...&gt;v&gt;..v.&gt;..v.....
+.v.&gt;&gt;..&gt;&gt;v&gt;&gt;&gt;&gt;&gt;.v&gt;.v&gt;.&gt;.v.&gt;.vv....&gt;.v..&gt;v.v&gt;&gt;.v.v&gt;vv..&gt;....&gt;....vv..v...v&gt;vv&gt;v&gt;....&gt;&gt;.&gt;.vv&gt;.v&gt;vv....v.v&gt;..&gt;&gt;...vvv&gt;v.......&gt;.v&gt;v.v..v...vv.
+.&gt;.vvv&gt;.....&gt;.&gt;v.v..vv...v.v.vv.&gt;...v...&gt;vv..v.&gt;..&gt;v..&gt;v..vv.v........v&gt;&gt;..&gt;.v...v.&gt;..vvv&gt;vv&gt;.&gt;v.&gt;&gt;..&gt;.&gt;....&gt;.v&gt;&gt;&gt;v&gt;..&gt;v.&gt;&gt;.v...v..v....v.v
+vv..vvv&gt;.&gt;v.v&gt;&gt;...&gt;v.&gt;.&gt;&gt;..vvv&gt;&gt;..&gt;.v&gt;&gt;&gt;&gt;....v......vv&gt;&gt;&gt;v.&gt;...v..v&gt;v..&gt;&gt;v..&gt;&gt;.v..v..v&gt;&gt;v.v..v.vv.vvvvv&gt;.v.&gt;....v..v.&gt;.v.....&gt;....&gt;.....&gt;..
+.&gt;.v.vv...v&gt;...&gt;.v.v.v.&gt;.&gt;..&gt;.&gt;v..&gt;v...v.&gt;&gt;..v...&gt;&gt;v&gt;v&gt;vv..&gt;..&gt;.v.&gt;.&gt;.&gt;&gt;.....&gt;&gt;v.&gt;v&gt;&gt;...&gt;..&gt;.&gt;&gt;..&gt;.v&gt;...&gt;v.....&gt;.v.&gt;&gt;..vv.v.v...v&gt;.&gt;.&gt;.....
+.v&gt;&gt;vv&gt;.v&gt;.&gt;vvvv....v&gt;v&gt;.v......v...&gt;&gt;&gt;.&gt;&gt;.&gt;..vvv..&gt;....&gt;&gt;v&gt;vv.&gt;.&gt;v&gt;vv.&gt;.v.v..v.v..&gt;v&gt;.v&gt;v&gt;.vv&gt;v.&gt;&gt;v&gt;...vv&gt;.....&gt;&gt;v&gt;v&gt;v..v&gt;..&gt;.vv.&gt;&gt;.&gt;...&gt;.
+v.v.&gt;.v....v&gt;.v.v..&gt;v&gt;v.v.v&gt;.vv&gt;.......&gt;vv..&gt;&gt;.vv&gt;&gt;vv.&gt;..v&gt;&gt;.&gt;vv&gt;v&gt;&gt;..v..&gt;v&gt;&gt;&gt;&gt;vvv&gt;&gt;..v..v&gt;v&gt;&gt;v&gt;...&gt;.v..&gt;&gt;...&gt;.&gt;.v.v.vv.&gt;v...v.&gt;&gt;.&gt;.&gt;.&gt;.&gt;&gt;&gt;
+&gt;&gt;&gt;v.&gt;.vv&gt;.v.&gt;.&gt;v.&gt;&gt;.&gt;..v&gt;..&gt;v&gt;&gt;..vv..&gt;.&gt;.v...v&gt;.v.&gt;...&gt;&gt;vvv&gt;v&gt;&gt;&gt;v&gt;v&gt;....&gt;v..vv.&gt;.v&gt;...&gt;.&gt;&gt;&gt;.v&gt;.v...v....&gt;&gt;v&gt;v..&gt;.&gt;...&gt;..&gt;&gt;&gt;.v..&gt;v..&gt;v..&gt;v&gt;
+.v...v...&gt;...v&gt;.&gt;..vv.&gt;....vv....v...&gt;...&gt;&gt;v..&gt;.vv.&gt;v.&gt;.&gt;.&gt;.v.v&gt;.v.&gt;vv&gt;.v&gt;v.&gt;....&gt;..&gt;..&gt;.v...v..&gt;&gt;..vvv.v.&gt;v&gt;..&gt;vv..&gt;.&gt;...v...vv.vv&gt;...v.v.
+..v.....v&gt;&gt;vv.v&gt;v&gt;vv.&gt;&gt;..vvv.&gt;v..v&gt;.......&gt;&gt;&gt;.&gt;...&gt;..v&gt;v.&gt;&gt;..v.vvv..&gt;.&gt;&gt;.&gt;v.&gt;v..&gt;&gt;.vvv..vv....v&gt;...v.&gt;&gt;...&gt;&gt;....&gt;&gt;......&gt;.&gt;&gt;...&gt;.v.&gt;....v.&gt;
+&gt;.&gt;......&gt;..v&gt;&gt;vv&gt;.v.v...v....v&gt;..&gt;.v&gt;&gt;&gt;v....v..&gt;&gt;&gt;&gt;&gt;....v......v&gt;...&gt;.&gt;..&gt;..&gt;v.&gt;&gt;&gt;&gt;..&gt;.v&gt;&gt;v&gt;.....&gt;.v.v.&gt;..vv&gt;&gt;&gt;.&gt;v&gt;..&gt;.v&gt;&gt;&gt;vvv..&gt;...v.....
+v..&gt;v&gt;vv&gt;.v&gt;&gt;.&gt;&gt;v&gt;.v..&gt;.&gt;.v..v&gt;&gt;&gt;&gt;..&gt;vv.v.v&gt;vvvv&gt;.&gt;..v.vv&gt;v...&gt;v&gt;&gt;.v..&gt;..&gt;v.v.....&gt;..vvv&gt;.v...&gt;.vv..&gt;&gt;&gt;&gt;&gt;.v.v.vv.v&gt;..v..&gt;..&gt;v.vv.&gt;.v..&gt;.v.&gt;
+&gt;..v...v&gt;&gt;&gt;.&gt;vvvv&gt;..v.&gt;....&gt;vvvvv.&gt;v.v&gt;v&gt;.&gt;.&gt;v&gt;&gt;&gt;.v..&gt;.vvv.&gt;&gt;..&gt;v...&gt;.v..&gt;v&gt;.v&gt;vvv.&gt;..&gt;.v&gt;v...&gt;v&gt;.v&gt;...&gt;.....&gt;v&gt;...v......v&gt;.v.&gt;&gt;&gt;...&gt;.vv..
+&gt;...v.&gt;v.v.&gt;&gt;.&gt;..&gt;.&gt;vv.vv...&gt;&gt;v.&gt;v.vv.&gt;v.&gt;..&gt;.v&gt;..v..v.v..v.........&gt;&gt;vvv.&gt;...&gt;vv.v.&gt;vv&gt;v&gt;v.&gt;&gt;&gt;vv&gt;vv.&gt;..&gt;...&gt;&gt;.&gt;.&gt;&gt;..&gt;....&gt;v.v..v..&gt;...v.&gt;&gt;
+&gt;v.&gt;.....v....&gt;.....&gt;..v&gt;v.&gt;.v&gt;&gt;v&gt;...&gt;vv.&gt;v.&gt;v..v...v&gt;v.v.&gt;..&gt;v&gt;....vvvv..&gt;.&gt;.vv.&gt;.&gt;v.&gt;v.v....v.v....&gt;&gt;.&gt;..&gt;.&gt;&gt;....v.&gt;vv..vv..v......v&gt;.&gt;.&gt;
+&gt;.vv.v&gt;v....vv&gt;&gt;.&gt;v..&gt;...&gt;..&gt;.&gt;&gt;...&gt;&gt;...v.&gt;v&gt;.....&gt;..v..v.v..v&gt;...v&gt;vv..&gt;.v&gt;.v.v.....vvv..v&gt;vv&gt;.&gt;&gt;vv..&gt;&gt;v.&gt;&gt;.&gt;.v.v..&gt;.&gt;&gt;v.v.v&gt;......&gt;...&gt;v.
+.v.&gt;....&gt;v..&gt;&gt;&gt;..&gt;...&gt;v&gt;&gt;..&gt;&gt;..&gt;.&gt;v&gt;.v.....v....v.v.&gt;...&gt;&gt;&gt;....v......vv.v.......v&gt;.&gt;&gt;.v..&gt;.&gt;&gt;.vv&gt;v....&gt;v.&gt;....&gt;...vvvv..&gt;v&gt;.v.v..&gt;v.&gt;v.&gt;..
+v&gt;..v&gt;&gt;..&gt;&gt;&gt;.&gt;&gt;&gt;v..&gt;.&gt;.&gt;&gt;.&gt;&gt;....v.v..v.v.v...v&gt;.&gt;..v&gt;..v&gt;&gt;v.&gt;.&gt;.&gt;vv.....&gt;&gt;&gt;..&gt;&gt;.......&gt;.&gt;.v.v..&gt;.&gt;...&gt;v.vv.vvv....v&gt;&gt;vv&gt;&gt;v.&gt;.vvv.&gt;&gt;vv...&gt;vv
+&gt;..&gt;&gt;&gt;v&gt;v..vvv&gt;.v.&gt;&gt;..v.vv&gt;..v.vv&gt;&gt;v......vv.v.&gt;v&gt;&gt;v&gt;.....&gt;&gt;.&gt;&gt;.&gt;....v.vv&gt;.&gt;v......&gt;&gt;v.&gt;&gt;.v.&gt;..v....&gt;..v&gt;.&gt;v.&gt;...v...........&gt;..&gt;v..v.&gt;v.&gt;&gt;
+.v.&gt;..v...v&gt;...vv.&gt;..&gt;&gt;.&gt;&gt;v...v...&gt;..vv.....v......v..............&gt;.v......&gt;.&gt;&gt;v.&gt;...&gt;v..&gt;v&gt;...v.vv&gt;..&gt;v&gt;&gt;.&gt;.v...&gt;.v&gt;vv..vv.&gt;vv&gt;..&gt;.......&gt;
+.vv...v..vvvv.&gt;...&gt;.......vv&gt;.vv.&gt;v.&gt;.v..v&gt;v..&gt;&gt;v..v.v..vv&gt;&gt;..&gt;.vv..&gt;&gt;.&gt;..&gt;..v......&gt;..v.v&gt;vv&gt;v..v.vv&gt;vv.....&gt;.....&gt;v.v&gt;&gt;.........v&gt;..vv&gt;.&gt;
+v.&gt;..&gt;vv&gt;..&gt;&gt;v..v&gt;.v.vv..&gt;&gt;...v....v..&gt;&gt;.v..v&gt;v..&gt;&gt;.v...&gt;.&gt;&gt;.&gt;..v.&gt;..&gt;v&gt;.&gt;v.&gt;v.v&gt;..&gt;v&gt;&gt;....v.&gt;&gt;v...v...&gt;vvv....v&gt;...&gt;....v...&gt;v&gt;&gt;.vvv.....&gt;
+&gt;&gt;&gt;&gt;&gt;&gt;&gt;.&gt;&gt;.v..v&gt;..&gt;.&gt;.v.vv.&gt;vvv......&gt;v......&gt;v&gt;v.v.vv.v&gt;.v.&gt;........&gt;v&gt;.v...&gt;....vvvv.&gt;v..v...v......v&gt;.v...&gt;..&gt;.&gt;..&gt;..&gt;.v..&gt;&gt;..vv.v..&gt;..&gt;
+&gt;..&gt;.vv.v&gt;.v..&gt;.&gt;v...&gt;.&gt;.v&gt;vvv&gt;.v...v...v&gt;vvv.&gt;....vvv&gt;&gt;.vv&gt;......&gt;.&gt;..&gt;.vv.v.v.v.v.v&gt;v.........&gt;v.&gt;v&gt;v..&gt;&gt;..vv.v&gt;v.v.v.&gt;&gt;&gt;v&gt;...v&gt;.&gt;v.&gt;v.&gt;.
+.&gt;&gt;.&gt;&gt;..v&gt;..v....&gt;&gt;..v&gt;&gt;v..&gt;..&gt;v..v.v..v..&gt;v..&gt;...&gt;v.v.&gt;&gt;&gt;v..vv.&gt;&gt;.v&gt;v...v.....v.&gt;v&gt;..v&gt;.v&gt;&gt;v.&gt;.&gt;..&gt;&gt;v....&gt;&gt;&gt;.&gt;vv..&gt;vv..vv..&gt;v&gt;.&gt;.v.&gt;&gt;vvv..
+..v.v&gt;&gt;..&gt;v..&gt;.&gt;.&gt;....v&gt;&gt;.v.v.v.....&gt;..&gt;....&gt;v&gt;&gt;.&gt;....&gt;.&gt;v&gt;&gt;.....v&gt;..vv.&gt;v.&gt;..&gt;v.....vv.&gt;&gt;&gt;...&gt;&gt;.....&gt;.&gt;v...........&gt;&gt;....&gt;..v&gt;....v..vv&gt;v.
+vv&gt;...&gt;&gt;..vv..v.v..&gt;&gt;.v.&gt;vvv.&gt;.v&gt;v&gt;v.&gt;&gt;&gt;&gt;...&gt;v.v&gt;...&gt;v&gt;..v.&gt;..v..v.&gt;....v.&gt;.&gt;v&gt;.&gt;...v..&gt;v..&gt;v.v&gt;..vv..&gt;.&gt;v.v&gt;.v.v&gt;.v.&gt;&gt;vv.&gt;v&gt;.v.v.&gt;..&gt;..v&gt;.
+...&gt;&gt;&gt;...vv&gt;v.v...&gt;v.&gt;&gt;..v.&gt;...v..vvv.v..v&gt;vv&gt;v.&gt;v.&gt;...v..&gt;.&gt;&gt;.&gt;v.&gt;...v..v&gt;.v&gt;v&gt;v&gt;..&gt;v.&gt;.&gt;&gt;vvvv&gt;&gt;.v..vv......&gt;.v.&gt;&gt;&gt;v&gt;.&gt;.v&gt;.v.&gt;.vv..&gt;&gt;.....
+&gt;&gt;&gt;..&gt;vv.v.vv...&gt;.&gt;v..v.&gt;.&gt;&gt;.v&gt;v&gt;&gt;&gt;v.v........v.v.v...&gt;..v&gt;&gt;v......v&gt;&gt;&gt;.v&gt;v..v&gt;...&gt;&gt;&gt;.vv.&gt;v..&gt;&gt;.vv&gt;&gt;v.v........&gt;..&gt;&gt;&gt;v.&gt;.&gt;..v&gt;v&gt;.vv...v..&gt;v
+.v.&gt;......&gt;...&gt;&gt;.&gt;.v..v&gt;&gt;v.&gt;vv..vv.&gt;..&gt;&gt;&gt;....&gt;.v.&gt;....v.&gt;..v......v.&gt;&gt;&gt;.&gt;v..v....vvvv.....v....&gt;.v&gt;&gt;v...v..v&gt;&gt;..v&gt;..&gt;.&gt;v&gt;v..&gt;.&gt;....v&gt;v.v&gt;..
+.&gt;.&gt;.vv.vv.....v.&gt;..v&gt;.&gt;v.v.v....v..&gt;&gt;vv.v..vv.&gt;..v...vvvvvv&gt;.vv......&gt;v.v..v.&gt;v&gt;.v..&gt;&gt;vv&gt;..v&gt;v.&gt;&gt;.v...v.....&gt;v&gt;..&gt;&gt;.v.&gt;..&gt;.&gt;..&gt;v.v&gt;.vv&gt;...
+........v.&gt;....vv.&gt;..&gt;vv&gt;...vv.&gt;.....&gt;..v.&gt;&gt;v..&gt;vv&gt;&gt;v&gt;.......v.&gt;&gt;v...&gt;vv&gt;...vv.&gt;...vv..v&gt;.v.&gt;...v.&gt;&gt;&gt;&gt;&gt;..v..v&gt;&gt;v.&gt;...&gt;.&gt;&gt;&gt;v&gt;...v&gt;.v..&gt;..&gt;..
+&gt;.v.&gt;&gt;.v......&gt;...v.&gt;&gt;..&gt;v...v.&gt;.....&gt;v....&gt;&gt;v&gt;.&gt;.&gt;..v&gt;&gt;..v.v&gt;.&gt;..vvvv.v......&gt;..v.v.&gt;&gt;.v..v....v.vvv.......vv&gt;...v.v...v&gt;v&gt;&gt;.&gt;..v&gt;.&gt;&gt;.....
+.v&gt;.&gt;&gt;v.v&gt;&gt;.&gt;&gt;.......&gt;&gt;.&gt;...v&gt;&gt;.&gt;&gt;v..&gt;...&gt;..vv.v...&gt;vv....vvv.vv..&gt;.v.&gt;vv&gt;.v&gt;.&gt;&gt;..&gt;.&gt;....v&gt;..v.v..v&gt;.&gt;...vvv.&gt;v...v...&gt;.v...&gt;&gt;vv&gt;...v..&gt;&gt;..
+..&gt;.....v.&gt;v.v..v.&gt;v.&gt;v&gt;&gt;..&gt;v.v.vv..v.v..v..v..v&gt;..&gt;.v...&gt;..&gt;v&gt;.v.v&gt;.v&gt;&gt;vv.v.vv&gt;vv&gt;v&gt;...&gt;...&gt;&gt;v.v&gt;.&gt;&gt;v.v&gt;....v..vv..&gt;&gt;&gt;&gt;&gt;.&gt;.&gt;..&gt;v..&gt;&gt;...&gt;&gt;&gt;
+&gt;&gt;&gt;.&gt;.&gt;.v.v&gt;.&gt;v&gt;..v....v.v.v.v.&gt;.vv&gt;...v.&gt;v.&gt;..v..&gt;.&gt;...v.....v&gt;v.&gt;vvvvvvv...&gt;&gt;&gt;..&gt;.&gt;..vv.v.&gt;vv.&gt;.v.&gt;&gt;&gt;.v&gt;&gt;.&gt;.v.&gt;.vvv&gt;v.&gt;&gt;.v.v.v.........vv
+.&gt;.v.vv.vv.&gt;v...v.&gt;..v&gt;&gt;&gt;v...v..&gt;..v.&gt;v.v.&gt;&gt;.v...v.v.vv.v...v...v&gt;.&gt;..v...&gt;.&gt;.vv..vv..vvvv&gt;.v.&gt;&gt;..&gt;v&gt;&gt;&gt;&gt;v..vv.&gt;..v.v.v.&gt;&gt;......&gt;.v....vv.vv
+&gt;v....&gt;vv&gt;..vv..v..&gt;.&gt;..&gt;v.vv.&gt;....&gt;&gt;&gt;...&gt;&gt;&gt;.vvv&gt;&gt;v.v.v.&gt;&gt;.v&gt;vvv&gt;.&gt;&gt;.&gt;..v.v&gt;&gt;&gt;&gt;....v&gt;&gt;.v&gt;.v...&gt;v....&gt;&gt;vvv.&gt;v.....v.&gt;v...v.&gt;v..&gt;&gt;v..v..vv.v.
+vv&gt;.v.v&gt;.&gt;v..&gt;.&gt;&gt;vv.v&gt;..vvvvv.......v&gt;..&gt;.vv.&gt;v.v..v..&gt;v&gt;&gt;&gt;v&gt;vvvvv&gt;v.vv.&gt;&gt;.v..v......v&gt;....v..&gt;...v&gt;v.&gt;vv.v&gt;.&gt;v.v..&gt;&gt;.v..&gt;&gt;&gt;v...&gt;..v.v...&gt;.
+v.&gt;v..&gt;....v.&gt;&gt;.&gt;..vv..&gt;v&gt;v.&gt;....&gt;....&gt;v.&gt;.v.&gt;&gt;.v&gt;..vv.&gt;v.vvv.&gt;.....&gt;..&gt;.&gt;...&gt;&gt;&gt;..vv&gt;&gt;v...&gt;&gt;..&gt;vvv.&gt;&gt;..v&gt;.vv...v...v..&gt;&gt;v..v&gt;..&gt;.v..vv....v
+&gt;v&gt;.&gt;v.&gt;&gt;..vv......vv..v...&gt;...vv....&gt;&gt;....&gt;.v..&gt;vvv&gt;..&gt;.vv.vv&gt;&gt;v.&gt;v&gt;.&gt;.v..v&gt;v...v&gt;&gt;..&gt;&gt;&gt;.&gt;...vv..v.&gt;&gt;&gt;...&gt;.v.v&gt;..vv.&gt;v&gt;......v..&gt;v&gt;.&gt;..v..
+.v&gt;.&gt;...vv&gt;vv.&gt;v...&gt;..&gt;v.&gt;v....&gt;..&gt;v&gt;v.&gt;.vv&gt;..v.&gt;v.&gt;v.v&gt;.vv.&gt;&gt;v.....&gt;.vv..v....&gt;vv.&gt;.v.&gt;&gt;vv.v...&gt;..&gt;&gt;v&gt;.&gt;v.&gt;...v.v..&gt;.&gt;......vvvvv...v.v&gt;.&gt;
+v..v&gt;v...v&gt;&gt;v.v.&gt;.&gt;.&gt;v.v&gt;.&gt;v&gt;.vv.v.v.v..&gt;vv..&gt;.&gt;v&gt;.&gt;v...&gt;v&gt;v.vv&gt;&gt;....&gt;...&gt;..vv.vv.vvvv.&gt;....&gt;&gt;&gt;v&gt;.....&gt;&gt;vvvv.&gt;.v...&gt;vv..vv.&gt;.&gt;&gt;.....&gt;v.....
+...&gt;v....&gt;.v&gt;..&gt;.v&gt;..v&gt;v..&gt;...&gt;.&gt;..v....&gt;&gt;&gt;..&gt;..vv.&gt;.v&gt;..&gt;&gt;v...v.v...v..v..v&gt;v&gt;....&gt;&gt;...vv.&gt;&gt;..&gt;v.vvv&gt;.....&gt;.&gt;v.v....&gt;v..&gt;.&gt;v......&gt;.v&gt;&gt;v&gt;.
+v....vv.....&gt;&gt;v.vv.vv..&gt;&gt;...&gt;v.&gt;v&gt;v...v&gt;&gt;..v&gt;.v&gt;&gt;&gt;v.v.....&gt;&gt;vv&gt;..v..v&gt;.vv&gt;v&gt;v&gt;..vv..&gt;&gt;...v...&gt;v&gt;....v&gt;..v&gt;.&gt;.&gt;&gt;...&gt;&gt;&gt;....&gt;v.&gt;.&gt;.&gt;.vvvvv.&gt;v&gt;
+v......&gt;v..v...&gt;&gt;vv&gt;&gt;&gt;.vvv.&gt;&gt;.vvv&gt;..&gt;..v&gt;.&gt;.&gt;&gt;..vv...v&gt;v...&gt;..&gt;&gt;....v........v...&gt;&gt;.v&gt;...v..&gt;.&gt;&gt;......&gt;..&gt;&gt;...&gt;v.v..&gt;..&gt;v.&gt;&gt;..&gt;.&gt;..v.v.&gt;v..
+.&gt;&gt;&gt;&gt;vv&gt;...&gt;.v...v.vvvv.&gt;&gt;&gt;&gt;&gt;...v&gt;&gt;.vv.&gt;..v&gt;.v&gt;&gt;vv.v..vv&gt;...&gt;.v...v..&gt;.v..&gt;..v..v..v.v&gt;..&gt;&gt;&gt;v.v.v.......&gt;v..&gt;.v&gt;&gt;&gt;v...&gt;....&gt;&gt;v&gt;&gt;v&gt;&gt;&gt;v&gt;&gt;.v&gt;.
+..v..v.....v..v&gt;&gt;vv&gt;&gt;.&gt;&gt;v&gt;&gt;...&gt;&gt;....&gt;&gt;.&gt;.v&gt;........&gt;.&gt;.&gt;&gt;.&gt;....v.&gt;v&gt;..v.&gt;v.v.vv&gt;..&gt;..v.&gt;.v...&gt;.&gt;v.&gt;..vv..&gt;vv.&gt;&gt;..v....&gt;.&gt;v..v&gt;.&gt;&gt;&gt;vv......&gt;
+&gt;.v........v&gt;..vv&gt;.v..v.&gt;&gt;.vv&gt;v&gt;..&gt;v.&gt;v&gt;.&gt;v....vv.&gt;..vv&gt;&gt;v..v.....v&gt;..&gt;v...&gt;...&gt;&gt;vv.&gt;&gt;vv&gt;&gt;&gt;v&gt;.&gt;.v...vv...vv...v..&gt;v...v.&gt;v.v&gt;..&gt;.v......&gt;..
+&gt;&gt;&gt;...vv.v.&gt;.v&gt;&gt;&gt;.v.v..&gt;&gt;&gt;.vvv&gt;....v&gt;&gt;....v...v.v&gt;&gt;..&gt;&gt;.&gt;....v..v..v.&gt;v..&gt;..&gt;...&gt;.vv.&gt;.v.v..&gt;v&gt;.v..&gt;......&gt;&gt;&gt;..&gt;&gt;.....&gt;.v&gt;&gt;..v..v.&gt;...v.v&gt;.
+.vv.v.&gt;.v...&gt;vvv&gt;.....vv.vv&gt;v&gt;..v....v.&gt;&gt;.v..v&gt;..&gt;.v&gt;.v.&gt;..&gt;&gt;....&gt;v.....&gt;vvv.&gt;v.....&gt;.v&gt;&gt;..&gt;&gt;.&gt;...v&gt;&gt;&gt;.vv.v&gt;v..&gt;&gt;.v&gt;.v........&gt;......v..&gt;&gt;&gt;
+v&gt;..&gt;&gt;.v...v&gt;.&gt;.v&gt;..vv.&gt;....v..&gt;...&gt;v.&gt;.&gt;..v&gt;.&gt;.&gt;&gt;.v..vv..vvv...v..vv.v&gt;.v&gt;..&gt;....&gt;v.&gt;vvv.&gt;&gt;.v.&gt;vvv...v..v&gt;&gt;.v.v.....&gt;.&gt;.&gt;...&gt;v.&gt;v.&gt;.vvv&gt;&gt;&gt;
+.&gt;&gt;.v&gt;.v..&gt;...&gt;.v.v...v&gt;&gt;.vvv..v&gt;.&gt;v.&gt;&gt;&gt;&gt;.v..&gt;v..vv...&gt;..&gt;&gt;&gt;.&gt;..&gt;...&gt;v&gt;&gt;v&gt;..v....&gt;&gt;vvv..&gt;.&gt;....&gt;.&gt;v&gt;.&gt;.vv.v..&gt;.v&gt;&gt;&gt;&gt;v&gt;&gt;v...v.&gt;&gt;&gt;.v.vvv.&gt;vvv
+.....v..v..&gt;.&gt;.&gt;..&gt;&gt;.&gt;.v&gt;vvv.v.....&gt;.v.&gt;v...&gt;v&gt;v....&gt;&gt;&gt;&gt;..&gt;&gt;...v.&gt;.&gt;.....&gt;..v.v.v.&gt;v&gt;.&gt;..&gt;v..&gt;v...vv.&gt;.v...v&gt;&gt;vvv...vv.v......v&gt;.&gt;&gt;..&gt;v&gt;...
+&gt;v..vv&gt;.v..&gt;v&gt;..v.vv.&gt;&gt;.&gt;&gt;v....vv&gt;..v&gt;&gt;v.&gt;.v&gt;.&gt;&gt;v...&gt;..&gt;..v&gt;&gt;..&gt;vv.....v&gt;&gt;v..&gt;v&gt;&gt;&gt;.&gt;.&gt;&gt;.v&gt;v...&gt;v...v...&gt;..v.v.v&gt;....&gt;.&gt;v.&gt;.v...vv.v&gt;&gt;.vvv.v
+...&gt;v&gt;.&gt;.&gt;&gt;.vv..&gt;.&gt;..v.&gt;&gt;v&gt;v..v&gt;&gt;...vv&gt;.v.v...&gt;..v&gt;&gt;..vv....&gt;v.v..&gt;v&gt;.&gt;.&gt;&gt;.......v...&gt;v&gt;.&gt;.v...v...&gt;&gt;.&gt;&gt;v.vv&gt;v..&gt;...vv&gt;..v&gt;.v..&gt;.v&gt;vvv&gt;vvv&gt;
+v.vv&gt;..&gt;&gt;.....&gt;&gt;.&gt;&gt;v.vv&gt;v.vv&gt;...vvv...&gt;..v&gt;.v&gt;.v&gt;..&gt;v.vv&gt;.v.&gt;..v.....&gt;v..&gt;v&gt;.vv&gt;.vv&gt;&gt;..&gt;v..v...v&gt;.v.v.v&gt;&gt;v.vv&gt;..&gt;.&gt;v.&gt;.vv&gt;.&gt;.&gt;v&gt;vv.&gt;v.&gt;&gt;.&gt;v
+&gt;&gt;..v&gt;.&gt;..v......&gt;v.v&gt;....&gt;.v.....&gt;&gt;.v.&gt;.v...vv&gt;&gt;...v&gt;.v&gt;..v..v&gt;..&gt;v.vv&gt;&gt;v&gt;..&gt;.v..&gt;.....v&gt;....vvv&gt;v&gt;...&gt;..v.v..&gt;vv..vv..v.v.v...&gt;&gt;.&gt;&gt;&gt;....v
+v&gt;...v&gt;vvvv..vvvv.v....&gt;v&gt;...&gt;v&gt;&gt;vv..&gt;v.v.&gt;&gt;.&gt;..&gt;.v.&gt;vv.&gt;..v&gt;&gt;&gt;.v&gt;vv&gt;&gt;.&gt;.v.........&gt;.....&gt;.....v.v&gt;.&gt;v.......&gt;..v&gt;..&gt;..v.v.&gt;v.&gt;v.&gt;vv.&gt;v...&gt;
+.v..vvv&gt;.vvv&gt;&gt;...&gt;..vvv...&gt;&gt;.....v&gt;v..vv.&gt;v...........v...v&gt;.&gt;.vvvv.....&gt;vv..&gt;v.v.&gt;..v&gt;v.&gt;v.&gt;&gt;.&gt;.v.&gt;.&gt;v&gt;.&gt;v.&gt;&gt;...&gt;vv&gt;v..&gt;&gt;v....v.&gt;.&gt;vv.&gt;vv&gt;
+.v&gt;.v.....&gt;vv.v..&gt;.&gt;v..&gt;&gt;..v.vv.&gt;v.v&gt;.vv&gt;..vv.&gt;....v...&gt;..&gt;..v&gt;.&gt;&gt;...&gt;&gt;&gt;....v..&gt;..v..vv.&gt;&gt;&gt;&gt;&gt;v.&gt;..&gt;.....vv&gt;.....&gt;v&gt;.&gt;..&gt;&gt;..vv.&gt;..&gt;..&gt;v&gt;.v..
+&gt;.&gt;.&gt;&gt;&gt;&gt;..&gt;.v.&gt;.&gt;.&gt;..v.&gt;.&gt;&gt;&gt;..vv&gt;.&gt;vv..&gt;.......&gt;&gt;v.v&gt;.&gt;.v&gt;v.v.&gt;.&gt;.....v..&gt;v..v.v.v.v&gt;v........&gt;v.&gt;vv.v.v&gt;&gt;.v&gt;..v&gt;.v...vv...v.vv.vvv..v.....
+.v&gt;.&gt;....v.v..v..v...&gt;&gt;v&gt;.......&gt;.v&gt;&gt;v.vv.&gt;.&gt;..&gt;.v&gt;.&gt;v..&gt;&gt;vvv.v.......&gt;v...v..v&gt;...v&gt;&gt;.v&gt;v&gt;&gt;vvv....v...&gt;.v&gt;..v.v....v&gt;.&gt;&gt;...&gt;..v....vv.v&gt;&gt;v
+...&gt;&gt;v.v.&gt;v.&gt;..&gt;&gt;...v&gt;vvvv.&gt;..&gt;...&gt;vv&gt;.&gt;..&gt;v.v.v.&gt;&gt;....&gt;&gt;.v.&gt;...&gt;&gt;&gt;&gt;.vv.&gt;.vvv&gt;v...vv.v&gt;v&gt;&gt;v....v&gt;.&gt;..v..&gt;&gt;..v.........&gt;v&gt;.&gt;&gt;.v&gt;&gt;&gt;.vv..v....
+.v......v.v.v&gt;&gt;..v..&gt;&gt;.&gt;v&gt;&gt;v&gt;&gt;..v&gt;v.v&gt;..v&gt;...&gt;&gt;.&gt;&gt;..&gt;v..vvvv..&gt;......v....v.v..&gt;&gt;.v&gt;v.&gt;.&gt;.v.vvvv&gt;.....&gt;v&gt;.&gt;..v&gt;&gt;..&gt;...&gt;vv..vvv&gt;vv.........v
+...&gt;.vv..v.v..v..&gt;&gt;..vvv...&gt;v..v..&gt;&gt;&gt;..v..v.&gt;..&gt;..&gt;v...&gt;......&gt;v.&gt;&gt;v...&gt;v.&gt;&gt;&gt;.&gt;.v..v.v..&gt;&gt;.v.&gt;&gt;..v...vvv....&gt;v&gt;&gt;..v..v&gt;v.&gt;...&gt;.v.vv&gt;v&gt;..v..
+&gt;..&gt;.&gt;.vv.&gt;.&gt;.v..v..v.&gt;v...&gt;.&gt;v....&gt;&gt;v.vvvvv&gt;&gt;v...&gt;vv.v....&gt;v...vv....v.v.......&gt;..v.&gt;.v.&gt;..v..v..&gt;&gt;v.&gt;&gt;&gt;v..v&gt;.&gt;vv...&gt;...&gt;v.&gt;&gt;.v.&gt;vv..&gt;&gt;..&gt;
+..&gt;.&gt;.v&gt;.v.v&gt;v.&gt;.&gt;&gt;.v...&gt;....&gt;&gt;v&gt;vv.vv&gt;v..&gt;v&gt;&gt;...&gt;vvv.&gt;.v..&gt;&gt;&gt;&gt;..v.&gt;&gt;.vv..&gt;&gt;..&gt;v&gt;..v&gt;v..&gt;&gt;v&gt;.vv.v.vv.....vv.v..&gt;.&gt;.v.v&gt;&gt;....v..&gt;....v&gt;v&gt;&gt;v.
+..&gt;.&gt;.v.vvv..v.&gt;&gt;.&gt;.&gt;.&gt;...&gt;.&gt;..&gt;.&gt;&gt;..v&gt;..&gt;v.v.....&gt;.vv...vv..&gt;&gt;&gt;..v&gt;&gt;.v.&gt;..&gt;..v&gt;..&gt;...v&gt;&gt;vv...v..v..v&gt;&gt;.v.v.v&gt;v.&gt;.&gt;&gt;..&gt;.&gt;..&gt;......v........
+&gt;....&gt;...v..v..&gt;...&gt;vv&gt;v.vv.&gt;vv.v&gt;.v.&gt;.v....v.&gt;......vv.&gt;vv&gt;.&gt;v....&gt;.v&gt;.vv&gt;&gt;.&gt;..&gt;v...v.v....&gt;&gt;...&gt;v.vv.v.....&gt;v...v......&gt;.&gt;.&gt;....&gt;...&gt;v&gt;v&gt;
+..&gt;vv...vv.&gt;.&gt;..v&gt;.&gt;.&gt;&gt;&gt;..v.v&gt;v&gt;&gt;.&gt;vv.&gt;.v.v.&gt;..&gt;&gt;....vv.....&gt;vv.vvv.&gt;&gt;&gt;vv.vv..v&gt;.&gt;.&gt;..v&gt;.v.&gt;&gt;...&gt;&gt;v..&gt;v.&gt;&gt;.v......vv&gt;&gt;.&gt;&gt;v.&gt;.&gt;.&gt;&gt;.&gt;.v...&gt;.&gt;
+&gt;..v&gt;&gt;.v&gt;..v.v.&gt;.vv.&gt;...v....&gt;...&gt;..vvvvvv........v.vv&gt;&gt;.....v&gt;.v...&gt;.&gt;&gt;...vv..&gt;...&gt;&gt;....v&gt;.....&gt;&gt;.v....&gt;v.v...v..v..&gt;.vvv.&gt;v...v.v&gt;v.&gt;...&gt;
+.&gt;.vv.&gt;..&gt;&gt;..&gt;.v&gt;..vv.vv.v&gt;v.&gt;.v.&gt;....&gt;..vv.&gt;.&gt;..&gt;v..&gt;..v.&gt;&gt;v..&gt;vvv.&gt;.&gt;vvvvv..&gt;.&gt;...&gt;&gt;.v..v&gt;v....&gt;...&gt;..&gt;v.&gt;...v....v&gt;&gt;v.v.v.v&gt;v&gt;.v.&gt;.&gt;...&gt;
+&gt;.&gt;&gt;v..&gt;..&gt;....&gt;v&gt;.v.v&gt;.v.&gt;.&gt;..v&gt;v.&gt;v&gt;&gt;&gt;.&gt;&gt;..v...&gt;.v.vv&gt;.&gt;.....&gt;.v.&gt;...v.v.v&gt;&gt;&gt;.v..&gt;&gt;v&gt;...v&gt;.&gt;v....v.&gt;&gt;.vv&gt;....&gt;v&gt;.vv...&gt;v.&gt;..v&gt;v&gt;v.&gt;..v...
+v.v..&gt;&gt;v..v&gt;&gt;.vv&gt;.&gt;.v.&gt;v...v....v.vv&gt;..vv...&gt;..v&gt;..vvvv..v.v&gt;v.vv....&gt;.&gt;.&gt;....v&gt;&gt;..&gt;vv.&gt;..&gt;v.&gt;.&gt;..&gt;...v.&gt;.&gt;v&gt;.v.&gt;v&gt;&gt;&gt;&gt;&gt;&gt;v.v&gt;.&gt;v&gt;.v...&gt;..&gt;..
+&gt;&gt;..vv.&gt;...v&gt;.&gt;.v.&gt;v.&gt;..vv&gt;&gt;vv&gt;.v&gt;v&gt;...vv...v&gt;.&gt;.&gt;&gt;v...v&gt;&gt;vv.v.vv.....v....v&gt;v........&gt;v&gt;v..&gt;v.&gt;&gt;v...v&gt;&gt;..v..v.&gt;&gt;....v&gt;....&gt;vv&gt;.v.&gt;vv.&gt;.v..
+&gt;..&gt;&gt;...&gt;.v.vv&gt;v..v&gt;&gt;&gt;&gt;.&gt;v.vv....v...&gt;v..&gt;&gt;vv&gt;v...&gt;..v.&gt;v&gt;&gt;..v&gt;.&gt;&gt;&gt;.&gt;....vv..v..vvv&gt;v.....v.&gt;.&gt;v..vvv....&gt;..vv....&gt;&gt;v..v.v...v.....&gt;&gt;v.....
+...&gt;.&gt;..v&gt;vv&gt;....vv&gt;v.v&gt;&gt;&gt;..vv...&gt;......&gt;.....&gt;..&gt;...vv&gt;..v&gt;.&gt;v&gt;&gt;.v..&gt;&gt;..vv&gt;v.v..&gt;.&gt;.v..v.&gt;v&gt;&gt;.v...v.v&gt;v..v&gt;v&gt;v.&gt;.v&gt;v..v.v...&gt;.&gt;v&gt;..&gt;.....&gt;
+v.v&gt;.v.&gt;.....&gt;..&gt;v....vvvv&gt;&gt;v&gt;v&gt;.&gt;v.&gt;vv.&gt;.v....&gt;v..v.v....v&gt;vv..&gt;...v....v..v....v&gt;v&gt;.&gt;..&gt;.v&gt;.vv.v.vv..v&gt;.v&gt;.&gt;v.&gt;.&gt;..&gt;..&gt;v......v..&gt;v.v..vv
+v&gt;.v&gt;....&gt;...&gt;v..&gt;v&gt;..vv&gt;....&gt;v&gt;v..&gt;v...v..v&gt;&gt;...v&gt;&gt;...&gt;v&gt;..v.&gt;v.v......vvv&gt;.v.v.....v......v&gt;v.&gt;...v&gt;.&gt;.&gt;.&gt;&gt;.v.&gt;&gt;&gt;.v&gt;...v..vvv&gt;&gt;....&gt;v...&gt;
+vv..v&gt;v&gt;..v...v.&gt;&gt;&gt;vv..v...&gt;.v...&gt;..v..v.v&gt;..&gt;.vvv..&gt;v..v.vv&gt;v..&gt;...&gt;vvv&gt;v&gt;...&gt;v&gt;..v&gt;..v&gt;.v&gt;&gt;..&gt;&gt;..v&gt;v.v.&gt;v.v&gt;....&gt;..&gt;v..&gt;.v..v&gt;&gt;&gt;v..&gt;&gt;.&gt;v.
+v...&gt;v&gt;.&gt;&gt;vv&gt;.vv....&gt;.&gt;&gt;v.v&gt;&gt;v.v..v&gt;&gt;.vvv....&gt;.&gt;&gt;.v&gt;&gt;........v.&gt;v....v....v&gt;.&gt;.&gt;v..&gt;v....v&gt;&gt;v...&gt;.&gt;.&gt;v.v.v.v.&gt;...&gt;&gt;..v..&gt;v.v&gt;...vv.v&gt;v...&gt;v
+.&gt;...&gt;vv..&gt;v..&gt;.vv&gt;.&gt;.&gt;v.&gt;vv&gt;v..&gt;v.&gt;..v&gt;&gt;vvvv.v&gt;...v..&gt;.&gt;v.v.vv....&gt;v...v............&gt;vv.&gt;.v&gt;..&gt;v...&gt;&gt;..v&gt;.&gt;.&gt;...&gt;.v.vv.v.&gt;...&gt;.&gt;.&gt;&gt;v..vv..
+..&gt;.&gt;...&gt;vvv&gt;.....&gt;&gt;vv.&gt;&gt;v.&gt;.&gt;...vv&gt;v.&gt;.v...&gt;.&gt;.....&gt;&gt;..v....&gt;..&gt;..vvv.&gt;vvvvv...&gt;...&gt;..v&gt;v&gt;vvv...&gt;v&gt;.....vvv.&gt;&gt;&gt;.&gt;.......&gt;.......&gt;v..v.v&gt;..
+v...&gt;&gt;vv..&gt;&gt;..vv..v&gt;.&gt;.......&gt;.vv.&gt;&gt;&gt;&gt;..&gt;.&gt;v..&gt;...&gt;.v.vv..v.v.....v&gt;v...&gt;&gt;.&gt;..&gt;....&gt;&gt;..&gt;.v..v.&gt;vv..v&gt;..vv&gt;.&gt;.v&gt;v.&gt;..v.&gt;.v.vv.&gt;...&gt;..&gt;v.v&gt;vv
+.v..vv&gt;...vv.v&gt;.vv.v.v...&gt;v&gt;.vvv..&gt;&gt;.&gt;&gt;v&gt;&gt;.&gt;.vvvv.&gt;...v&gt;&gt;&gt;vv.&gt;v&gt;..&gt;.&gt;...&gt;.v&gt;.vv.v.&gt;...v.......v.&gt;.&gt;v.v.v.&gt;vv&gt;...v.&gt;.&gt;...v..v&gt;vv.&gt;&gt;.......&gt;.
+&gt;.&gt;.....v.&gt;&gt;v.&gt;v.&gt;.&gt;v.v&gt;v&gt;..&gt;.&gt;&gt;v..v..v.v..&gt;.....&gt;.v&gt;v.v.v&gt;vv..v........&gt;.&gt;v...v&gt;v..vv&gt;v.vv.&gt;vv.&gt;v..v..&gt;vv...&gt;...vv.&gt;.&gt;.v&gt;.&gt;.vv.v&gt;..v.vv.v.
+...&gt;v&gt;.&gt;&gt;.&gt;..vv...v.v.v..v..vv...&gt;.v......v&gt;.&gt;&gt;vv..v.&gt;.&gt;&gt;&gt;....v.v..vv.vv....&gt;v&gt;.&gt;&gt;.vv.v&gt;.v.&gt;....v.&gt;&gt;.vvv&gt;v....v&gt;v&gt;.&gt;v&gt;.v.&gt;vv.vv.&gt;v&gt;&gt;&gt;.&gt;&gt;..v
+.v..v.v&gt;.&gt;vv.vv.&gt;&gt;.v&gt;v&gt;v.&gt;....&gt;&gt;.vv..v.&gt;.vv.&gt;...&gt;&gt;......v.&gt;v&gt;.v...v.&gt;&gt;v.v&gt;vvvv&gt;vvv.vv&gt;..v&gt;...v&gt;&gt;.vv.vvv&gt;.&gt;.v.v.&gt;&gt;vv&gt;&gt;&gt;&gt;v...vv&gt;.v&gt;v&gt;v...&gt;vv&gt;
+.v&gt;vv&gt;&gt;...&gt;&gt;....vvv&gt;.......vvvv..&gt;&gt;&gt;v&gt;v..v......&gt;..vvv.v&gt;vv.&gt;...&gt;..&gt;.v......&gt;....v&gt;.&gt;v...v&gt;&gt;.vv&gt;..v....&gt;vv.&gt;...&gt;&gt;.&gt;&gt;&gt;.&gt;vvv&gt;&gt;&gt;&gt;.v.&gt;.v..&gt;.v.v
+&gt;.v&gt;..v..v&gt;..&gt;....&gt;&gt;&gt;v.vv&gt;...&gt;.&gt;&gt;&gt;v.&gt;v&gt;.vv...v.&gt;v...vv..&gt;&gt;&gt;&gt;.&gt;&gt;..v....v.......&gt;.&gt;.v.&gt;.&gt;v&gt;&gt;&gt;..&gt;....vv..&gt;..&gt;&gt;.&gt;v&gt;.&gt;..&gt;v.&gt;&gt;v....v..&gt;&gt;&gt;v.&gt;vv&gt;..
+vv.v..v&gt;&gt;....v.&gt;v&gt;&gt;.&gt;&gt;.&gt;..&gt;.v&gt;v..&gt;v..&gt;vv......v&gt;.v.v..&gt;&gt;.v&gt;.v&gt;vv&gt;.&gt;..&gt;...&gt;&gt;.vvv&gt;...v.v.....v.&gt;vvv&gt;.&gt;.v&gt;.&gt;&gt;.v.v.&gt;v...&gt;...&gt;.....v.&gt;&gt;&gt;&gt;vv..v..
+v.&gt;&gt;.&gt;...&gt;..&gt;&gt;.&gt;&gt;vv&gt;&gt;&gt;...&gt;v&gt;v&gt;&gt;vv..v....&gt;...vv.....&gt;vv&gt;.&gt;&gt;.v....vv&gt;.&gt;.&gt;...&gt;v..&gt;.vv.vv.vv....&gt;v&gt;.&gt;..v&gt;....v&gt;.&gt;.vv.&gt;.&gt;&gt;...&gt;.v..v.&gt;&gt;v&gt;&gt;...vv..
+v....&gt;..&gt;&gt;..&gt;&gt;&gt;&gt;v.&gt;..&gt;vv..v&gt;&gt;....v&gt;vv.v..&gt;v.&gt;v.v.&gt;...&gt;v....&gt;v.&gt;&gt;&gt;v&gt;.&gt;..&gt;v.&gt;&gt;...v&gt;&gt;..vv.&gt;vv&gt;v&gt;..&gt;&gt;v.&gt;.v.&gt;v........&gt;v.v&gt;.........&gt;&gt;..&gt;&gt;.v&gt;v.&gt;
+vv..v.&gt;&gt;&gt;v&gt;....vv..vv.v&gt;&gt;v.v...vvv&gt;...vv&gt;.&gt;...&gt;&gt;&gt;vv&gt;&gt;...&gt;v.v&gt;..&gt;v....v.&gt;v.v..v.&gt;v&gt;&gt;&gt;&gt;.&gt;v.v.vv.&gt;&gt;..v.....v...v&gt;...&gt;vv&gt;.&gt;vvvv&gt;&gt;.v..&gt;.v..&gt;v...
+&gt;...v..vv.....v..&gt;.&gt;&gt;...v..&gt;..v.vv&gt;&gt;&gt;&gt;..&gt;.&gt;.&gt;v.v&gt;v...&gt;v&gt;&gt;v.&gt;&gt;..&gt;.vv.v.&gt;&gt;vv..vv.&gt;&gt;&gt;.&gt;v.&gt;v.&gt;&gt;...&gt;&gt;&gt;.&gt;.&gt;&gt;.&gt;...v&gt;v...v&gt;.&gt;&gt;.&gt;&gt;.v.vv.&gt;.&gt;&gt;&gt;.&gt;&gt;vvvv
+.vvv&gt;.&gt;v.&gt;.....v&gt;&gt;.&gt;.vvv.v.v..vv.v&gt;.....vvv.vv........vv...&gt;...&gt;.v.v.&gt;.....v.&gt;.....v.&gt;.v&gt;&gt;.v.....&gt;v.v&gt;.&gt;...v&gt;..&gt;&gt;.v.v.v.&gt;..v&gt;&gt;&gt;&gt;.&gt;...v&gt;vv.v
+&gt;&gt;&gt;&gt;...&gt;v..&gt;vv&gt;.&gt;v...v..v&gt;&gt;v...v.v..v...&gt;.&gt;&gt;..v&gt;v.v.vv&gt;.&gt;v....v...v.v&gt;.v&gt;&gt;v..v.v&gt;v&gt;...&gt;vv&gt;..&gt;vv&gt;&gt;..vv&gt;..&gt;.&gt;.&gt;..&gt;.v.&gt;&gt;&gt;..&gt;...v&gt;..&gt;.&gt;.v.v&gt;vvv
+&gt;v&gt;.&gt;.&gt;.v..vv.&gt;v.vv&gt;..v..v.....v&gt;.&gt;&gt;&gt;&gt;..&gt;v...v.&gt;vvv.&gt;.&gt;&gt;&gt;.&gt;&gt;&gt;.....v&gt;.v..v.&gt;.vv.v&gt;..v..&gt;vvvv..&gt;vv.v&gt;&gt;&gt;v.v&gt;..v.v..v..&gt;....&gt;&gt;&gt;.&gt;...v..&gt;..v..&gt;.
+.&gt;..v&gt;v&gt;.v.vvv....&gt;..v&gt;..v...&gt;.vv.&gt;v..&gt;.v.v&gt;&gt;..&gt;&gt;.v.v.v.&gt;...&gt;.&gt;..v&gt;v&gt;.......&gt;&gt;.&gt;&gt;.&gt;v...&gt;&gt;v&gt;.v..&gt;.&gt;&gt;&gt;....v&gt;&gt;..v.&gt;.&gt;v...v&gt;v&gt;&gt;v.&gt;.v&gt;...&gt;.v&gt;...
+..&gt;&gt;&gt;v.&gt;....vvv..&gt;.v...v.v&gt;v&gt;.v.vv&gt;..&gt;.&gt;v.v.&gt;vv.v..&gt;....v...&gt;v.v&gt;........&gt;v&gt;vv.v.v.v..&gt;v&gt;....&gt;.&gt;...&gt;....v.v.&gt;&gt;v...&gt;v.&gt;v.v&gt;&gt;&gt;v.v.v&gt;v...&gt;&gt;&gt;..
+&gt;.vvv.v.v&gt;vv.v..v&gt;.&gt;.&gt;.vvvvv.&gt;.vv&gt;vv....v&gt;&gt;&gt;v.&gt;v..v.v.&gt;&gt;&gt;.&gt;&gt;&gt;.&gt;.&gt;&gt;..v......&gt;vv&gt;...&gt;v....&gt;&gt;&gt;&gt;......v&gt;..v&gt;vv..v...v&gt;.&gt;.v..&gt;v.&gt;..&gt;&gt;.v&gt;.&gt;......
+...v......vv.&gt;.&gt;...&gt;v&gt;vvv&gt;&gt;v&gt;...v...&gt;v...v.&gt;....v.v...&gt;vv..vv&gt;v..&gt;vv..v&gt;.&gt;.....v...v....&gt;&gt;...&gt;v&gt;v.vvv&gt;..&gt;&gt;v.vvvvv...&gt;&gt;.v..&gt;v.&gt;.&gt;v&gt;..v&gt;&gt;.&gt;&gt;v
+..v&gt;.&gt;..vv&gt;v.&gt;v.&gt;&gt;.&gt;&gt;&gt;...v&gt;vvv&gt;v.v&gt;&gt;v&gt;v&gt;vv..vv...v......v..&gt;.&gt;.v..&gt;.&gt;.v.v.&gt;&gt;.&gt;&gt;&gt;&gt;...vvv..&gt;&gt;v&gt;...v.&gt;...&gt;vv..vv&gt;v.vv.&gt;.v...&gt;vv.&gt;&gt;&gt;&gt;&gt;.&gt;..v&gt;v.&gt;
+&gt;.........&gt;.v&gt;.&gt;...&gt;.v&gt;.....&gt;&gt;..v.......&gt;.v&gt;...&gt;&gt;v&gt;.vvv.......vv.&gt;...v.&gt;.v&gt;...&gt;v&gt;.....&gt;...v.&gt;&gt;vvv....&gt;vv&gt;..v&gt;.vvv&gt;...&gt;.v.v...&gt;v.&gt;.v.&gt;.....v
+.v.&gt;&gt;&gt;.vv&gt;...&gt;vv.&gt;..vv..&gt;v.&gt;&gt;.&gt;..v.....v..&gt;&gt;&gt;v..&gt;..v&gt;&gt;.....&gt;..v..vv.....v&gt;......&gt;v&gt;vvv.vvv&gt;&gt;.&gt;...v.&gt;.v&gt;.&gt;v....&gt;&gt;&gt;.......&gt;..&gt;&gt;vv...&gt;...&gt;..&gt;.
+..&gt;v&gt;&gt;...vv&gt;.&gt;&gt;v.&gt;.&gt;.&gt;vv.&gt;&gt;v...&gt;..&gt;v&gt;..v&gt;v&gt;vv.v...&gt;v&gt;v.&gt;..v&gt;.v&gt;&gt;&gt;.&gt;...v&gt;......v&gt;..&gt;v&gt;v.v.&gt;vv&gt;v.&gt;v.v..v.&gt;..v..&gt;.&gt;v&gt;&gt;....v.&gt;v&gt;&gt;vv&gt;vv..&gt;.....&gt;
+.v.&gt;.v&gt;v&gt;...&gt;vv&gt;.vv...vvv.v.v&gt;&gt;..v&gt;&gt;&gt;&gt;..&gt;&gt;...&gt;.vvv....v...&gt;...&gt;..&gt;.&gt;..v...v....&gt;...&gt;&gt;.vv....v.v.&gt;vv&gt;v.&gt;.&gt;..vv&gt;&gt;vv&gt;v&gt;&gt;&gt;v&gt;.&gt;v.v&gt;&gt;..v&gt;.&gt;v..v..
+.&gt;..v..........&gt;.&gt;.vv.vvv.&gt;v...&gt;.vv.v..&gt;v........v..&gt;&gt;vv&gt;..&gt;.v.&gt;..&gt;.&gt;..v..&gt;..vv.v&gt;&gt;v.....&gt;&gt;vv&gt;&gt;.&gt;v.....&gt;...v...&gt;.v.v&gt;.v&gt;..v..&gt;.&gt;.&gt;v&gt;&gt;..&gt;.&gt;.
+.vv.&gt;&gt;&gt;v.&gt;.&gt;...vv.v....&gt;vv.&gt;.v&gt;&gt;.v...v.&gt;.&gt;..&gt;&gt;&gt;..&gt;vv.&gt;&gt;..vvv.&gt;....&gt;&gt;&gt;..&gt;v....vvv.&gt;&gt;.&gt;.v&gt;...&gt;&gt;...v.&gt;..v...v.&gt;&gt;&gt;.&gt;&gt;&gt;..&gt;&gt;....vv.vvv.v...v..&gt;.v
+v&gt;.v&gt;.&gt;...v&gt;vvv.vv.v..v.v.v&gt;.&gt;.vv.&gt;.&gt;...v&gt;&gt;.v..v&gt;...&gt;&gt;.v.........v&gt;&gt;vvv.v&gt;.v&gt;v...v..v&gt;&gt;&gt;.v.&gt;.&gt;&gt;&gt;&gt;v.......&gt;vv..vv..v.vv&gt;&gt;...&gt;vv.v..v.v......
+&gt;&gt;.v&gt;..&gt;.&gt;.&gt;&gt;...&gt;...v..v&gt;.v...v.&gt;.&gt;.v..vv....v..v.v&gt;.&gt;&gt;.&gt;&gt;&gt;v....&gt;.&gt;.v.&gt;&gt;&gt;v....v&gt;.&gt;......v&gt;..&gt;&gt;&gt;v.&gt;..v..vv&gt;.v&gt;&gt;....&gt;v&gt;v....&gt;v.&gt;.v..&gt;....vvvv
+.vvv&gt;&gt;.v.&gt;..vv..vvv......&gt;.v&gt;v.vv.&gt;v&gt;v.&gt;&gt;&gt;..&gt;v&gt;...v.&gt;.&gt;vvvv......&gt;vvv.v..&gt;v.v..&gt;v...v&gt;&gt;..&gt;vv....v..v&gt;v&gt;....vv&gt;..&gt;.&gt;....&gt;....&gt;v.vv.v&gt;&gt;.&gt;&gt;.v&gt;
+&gt;.vvvvv..&gt;v&gt;v.&gt;..v&gt;.v....v..&gt;..v.vv.&gt;v&gt;&gt;&gt;v&gt;&gt;v....&gt;v....&gt;v.&gt;v&gt;...&gt;&gt;vv.&gt;...&gt;v..&gt;....&gt;.&gt;.v..v.&gt;.v&gt;&gt;...vv.&gt;.v.v&gt;&gt;v....vvv..v&gt;....v&gt;v.&gt;v.&gt;.v..&gt;.
+.v&gt;.&gt;v..&gt;.v..&gt;v.v...v.vv&gt;....v.v&gt;vv&gt;.vvv&gt;.&gt;&gt;.v.&gt;v&gt;&gt;..&gt;&gt;&gt;vvvv...&gt;.&gt;vv....v..v&gt;.&gt;.&gt;...v.v&gt;v&gt;&gt;..&gt;v.v&gt;v.v&gt;&gt;.&gt;.v.&gt;v&gt;..v..&gt;v&gt;..&gt;...&gt;..&gt;vvv&gt;.v&gt;..v
+&gt;.&gt;.vv&gt;.&gt;&gt;.&gt;v&gt;v&gt;&gt;&gt;.&gt;.&gt;.&gt;v..v..vv...&gt;..........v&gt;vv.&gt;v..&gt;..v.&gt;v..&gt;..v&gt;.v&gt;......&gt;.v...v..v.v.v..v..&gt;&gt;..v..v&gt;...v&gt;vv&gt;v.&gt;&gt;v.&gt;&gt;..vv...v.v&gt;vv.&gt;v.
+...&gt;v..vv&gt;v..&gt;&gt;.vv&gt;&gt;.v..v&gt;&gt;...&gt;.vvvv&gt;..v.&gt;v...&gt;..&gt;v.v...v.&gt;&gt;&gt;.v...&gt;&gt;..v.&gt;&gt;.&gt;....&gt;.v.vv..v&gt;....vv.v..&gt;..vv..&gt;....vv.v.v&gt;.......v.&gt;v.vv.&gt;v&gt;..
+.v.v...&gt;v......vvv&gt;..&gt;.v..&gt;&gt;..v..&gt;v..&gt;..v.&gt;.&gt;&gt;.&gt;.&gt;.vv..&gt;...&gt;..vvv.&gt;..v....v&gt;v.&gt;&gt;.&gt;&gt;...&gt;......vvv.vv....&gt;&gt;....&gt;v.v&gt;v&gt;&gt;&gt;vv.&gt;..&gt;v...v.v.&gt;....&gt;
+v.&gt;.v&gt;.&gt;&gt;&gt;.v...&gt;&gt;.....v&gt;...&gt;v&gt;&gt;v..&gt;..v....&gt;&gt;v.vv..&gt;.v...&gt;.&gt;.&gt;v..v.&gt;.&gt;..&gt;v&gt;&gt;..v.&gt;.&gt;v&gt;v&gt;.&gt;&gt;.v.vvvv.v.&gt;..&gt;vv.....&gt;&gt;v....&gt;.v.&gt;&gt;....&gt;...&gt;.v..vv.
+v.vvvvv.v.......&gt;..v&gt;.v&gt;v...v.&gt;&gt;&gt;..&gt;..&gt;&gt;&gt;&gt;..v..v..v...&gt;....vv&gt;v.v&gt;......&gt;.....&gt;&gt;&gt;...v...v&gt;vv&gt;v&gt;&gt;.v.&gt;.v...v.v&gt;.v.&gt;v..&gt;..v.......vvvv.v.&gt;v.&gt;.&quot;:</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L3" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">testinput := &quot;v...&gt;&gt;.vv&gt;
+.vv&gt;&gt;.vv..
+&gt;&gt;.&gt;v&gt;...v
+&gt;&gt;v&gt;&gt;.&gt;.v.
+v&gt;v.vv.v..
+&gt;.&gt;&gt;..v...
+.vv..&gt;.&gt;v.
+v.v..&gt;&gt;v.v
+....v..v.&gt;&quot;;</Text-field>
+</Input>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEqdGVzdGlucHV0RicvJSdpdGFsaWNHUSV0cnVlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkjbW9HRiQ2LVEpJkFzc2lnbjtGJy9GM1Enbm9ybWFsRicvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRj0vJSlzdHJldGNoeUdGPS8lKnN5bW1ldHJpY0dGPS8lKGxhcmdlb3BHRj0vJS5tb3ZhYmxlbGltaXRzR0Y9LyUnYWNjZW50R0Y9LyUnbHNwYWNlR1EsMC4yNzc3Nzc4ZW1GJy8lJ3JzcGFjZUdGTC1JI21zR0YkNiNRXXF2Li4uPj4udnY+fCsudnY+Pi52di4ufCs+Pi4+dj4uLi52fCs+PnY+Pi4+LnYufCt2PnYudnYudi4ufCs+Lj4+Li52Li4ufCsudnYuLj4uPnYufCt2LnYuLj4+di52fCsuLi4udi4udi4+RidGOQ==">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSp0ZXN0aW5wdXRHRihRXXF2Li4uPj4udnY+fCsudnY+Pi52di4ufCs+Pi4+dj4uLi52fCs+PnY+Pi4+LnYufCt2PnYudnYudi4ufCs+Lj4+Li52Li4ufCsudnYuLj4uPnYufCt2LnYuLj4+di52fCsuLi4udi4udi4+Rig3I0Yu</Equation></Text-field>
+</Output>
+</Group>
+<Group hide-input="false" labelreference="L9" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">toyinput := &quot;...&gt;...
+.......
+......&gt;
+v.....&gt;
+......&gt;
+.......
+..vvv..&quot;;</Text-field>
+</Input>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEpdG95aW5wdXRGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUSkmQXNzaWduO0YnL0YzUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGPS8lKXN0cmV0Y2h5R0Y9LyUqc3ltbWV0cmljR0Y9LyUobGFyZ2VvcEdGPS8lLm1vdmFibGVsaW1pdHNHRj0vJSdhY2NlbnRHRj0vJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZMLUkjbXNHRiQ2I1FYLi4uPi4uLnwrLi4uLi4uLnwrLi4uLi4uPnwrdi4uLi4uPnwrLi4uLi4uPnwrLi4uLi4uLnwrLi52dnYuLkYnRjk=">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSl0b3lpbnB1dEdGKFFYLi4uPi4uLnwrLi4uLi4uLnwrLi4uLi4uPnwrdi4uLi4uPnwrLi4uLi4uPnwrLi4uLi4uLnwrLi52dnYuLkYoNyNGLg==</Equation></Text-field>
+</Output>
+</Group>
+<Group hide-input="false" labelreference="L4" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Font encoding="UTF-8">grid := Matrix( (Explode~(Split(input, &quot;\134n&quot;))) ):</Font></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L5" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">(gridl,gridw) := upperbound(grid);</Text-field>
+</Input>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYqLUkjbWlHRiQ2JVEmZ3JpZGxGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUSgmY29tbWE7RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0YxLyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHUSwwLjMzMzMzMzNlbUYnLUYsNiVRJmdyaWR3RidGL0YyLUY2Ni1RKSZBc3NpZ247RidGOUY7L0Y/Rj1GQEZCRkRGRkZIL0ZLUSwwLjI3Nzc3NzhlbUYnL0ZORlgtSSNtbkdGJDYkUSQxMzdGJ0Y5RjUtRmVuNiRRJDEzOUYnRjlGOQ==">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+NiRJJmdyaWRsR0YoSSZncmlkd0dGKDYkIiRQIiIkUiI3JEYxRjI=</Equation></Text-field>
+</Output>
+</Group>
+<Group hide-input="false" labelreference="L6" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Font encoding="UTF-8">grid := Matrix( (Explode~(Split(input, &quot;\134n&quot;))) ):</Font>
+updates := FAIL: gens := 1:
+<Font encoding="UTF-8">PRINTF(cat(&quot;%s\134n&quot;$gridl,&quot;\134n&quot;), seq(cat(seq(grid[i,j],j=1..gridw)),i=1..gridl))
+:
+</Font>
+while updates &lt;&gt; 0 do
+updates := 0;
+updated := table(sparse=false):
+for i from 1 to gridl do
+    for j from 1 to gridw do
+        if not updated[i,j] and grid[i,j] = &quot;&gt;&quot; and
+           not updated[i,j mod gridw+1] and grid[i,j mod gridw+1] = &quot;.&quot;
+        then
+            grid[i, j mod gridw +1] := &quot;&gt;&quot;;
+            grid[i, j] := &quot;.&quot;;
+            updated[i, j mod gridw+1] := true;
+            updated[i,j] := true;
+            updates += 1;
+
+        end if;    
+    end do;
+    
+end do;
+
+#<Font encoding="UTF-8">PRINTF(cat(&quot;%s\134n&quot;$gridl,&quot;\134n&quot;), seq(cat(seq(grid[i,j],j=1..gridw)),i=1..gridl));
+</Font>updated := table(sparse=false):
+for j from 1 to gridw do
+    for i from 1 to gridl do
+       # print([i,j]=grid[i,j],[(i mod 10)+1, j]);
+        if not updated[i,j] and grid[i,j] = &quot;v&quot; and
+           not updated[i mod gridl +1, j] and grid[i mod gridl+1,j] = &quot;.&quot;
+        then
+            grid[i mod gridl +1, j] := &quot;v&quot;;
+            grid[i, j] := &quot;.&quot;;
+            updated[i mod gridl +1, j] := true;
+            updated[i,j] := true;
+            updates += 1;
+   
+        end if;    
+    end do;
+    
+end do;
+
+
+if updates = 0 then
+ print(DONE);
+
+else
+<Font encoding="UTF-8">
+PRINTF(&quot;After %d steps:\134n&quot;,gens);
+PRINTF(cat(&quot;%s\134n&quot;$gridl,&quot;\134n&quot;), seq(cat(seq(grid[i,j],j=1..gridw)),i=1..gridl));</Font>
+gens += 1;
+
+end if;
+
+end do:
+answer1 := gens;</Text-field>
+</Input>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkjbWlHNiMvSSttb2R1bGVuYW1lRzYiSSxUeXBlc2V0dGluZ0dJKF9zeXNsaWJHRic2JVElRE9ORUYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJw==">SSVET05FRzYi</Equation></Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEoYW5zd2VyMUYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RKSZBc3NpZ247RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtSSNtbkdGJDYkUSQ0OTJGJ0Y5Rjk=">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SShhbnN3ZXIxR0YoIiQjXDcjRi4=</Equation></Text-field>
+</Output>
+</Group>
+<Group hide-input="false" labelreference="L7" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Font encoding="UTF-8">printf(cat(&quot;%s\134n&quot;$gridl,&quot;\134n&quot;), seq(cat(seq(grid[i,j],j=1..gridw)),i=1..gridl));</Font></Text-field>
+</Input>
+<Output><Text-field style="Line Printed Output" layout="Line Printed Output">vv.&gt;&gt;vvvvvvvvvv.vv..v.vv........................................................................&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;vv&gt;&gt;&gt;vvv........&gt;vv
+vv.&gt;v&gt;vvvvvvvvv.vv.vv.vv.v..............................................................&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;vv&gt;&gt;&gt;vvv.....&gt;&gt;&gt;&gt;v
+vv.&gt;vv&gt;vvvvvvvvvvv.vv.vv.v.v.................................................................&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;vv&gt;&gt;&gt;vvvv.....&gt;&gt;&gt;
+&gt;vv&gt;vvvvvvvvvvvvvv.vv.vv.v.v......................................................................&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;vv&gt;&gt;&gt;vvvv.....&gt;&gt;
+&gt;&gt;vv&gt;vvvvvvvvvvvvv.vv.vvvv.vv..........................................................................&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;vv&gt;&gt;&gt;vvvv.....&gt;
+&gt;&gt;&gt;vv&gt;v&gt;vvvvvvvvvv.vvvvvvv.vv..................................................................&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;vv&gt;&gt;&gt;&gt;vvv....&gt;
+.&gt;&gt;vvv&gt;v&gt;vvvvvvvvvvvvvvvvv.vv.................................................................&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;vv&gt;&gt;&gt;&gt;vvv....
+.&gt;&gt;vvvvvv&gt;vvvvvvvvvvvvvvvv.vvv...........................................................&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;vv&gt;&gt;&gt;&gt;vvv...
+..&gt;&gt;vvvvvv&gt;vvvvvvvvvvvvvvv.vvv..........................................................................&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;vv&gt;&gt;&gt;&gt;vvv..
+..&gt;&gt;&gt;vvvvvvvvvvvvvvvvvvvvv.vvv........................................................................&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;v&gt;vvv..&gt;&gt;vvv.
+...&gt;&gt;&gt;vvvvvvvvvvvvvvvvvvvv.vvvvv................................................................&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;vv&gt;&gt;&gt;&gt;vvv&gt;&gt;&gt;&gt;vvv
+v...&gt;&gt;&gt;vvvvvvvvvvvvvvvvvvvvvvvvvv..................................................................&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;vvv.&gt;&gt;&gt;vvv&gt;&gt;&gt;&gt;vv
+vv...&gt;&gt;&gt;vvv&gt;vvvvvvvvvvvvvvvvvvvvv....................................................................&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;vvv..&gt;&gt;&gt;vvv&gt;&gt;&gt;&gt;v
+vv....&gt;&gt;&gt;vvv&gt;vvvvvvvvvvvvvvvvvvvv........................................................&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;vv....&gt;vvv&gt;&gt;&gt;&gt;
+&gt;vv....&gt;&gt;&gt;vvv&gt;vvvvvvvvvvvvvvvvvvv.....................................................................&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;v.v.&gt;&gt;&gt;vvv&gt;&gt;&gt;
+&gt;&gt;v.....&gt;&gt;&gt;vvv&gt;vvvvvvvvvvvvvvvvvv..................................................................&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;vvv...&gt;vvvv.
+v.&gt;vv....&gt;&gt;&gt;vvv&gt;vvvvvvvvvvvvvvvvvv.......................................................................&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;vv...vvvvv
+vv.vv......&gt;&gt;vvv&gt;vvvvvvvvvvvvvvvvv........................................................................&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;vvv.&gt;vvvv
+vv.vv&gt;vv....&gt;&gt;vvv&gt;vvvvvvvvvvvvvvvv.v..................................................................&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;vvvv&gt;vvv
+vv.&gt;&gt;&gt;v&gt;v....&gt;vvvv&gt;vvvvvvvvvvvvvvv.v...........................................................................&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;vvvv&gt;vv
+vvv...&gt;&gt;&gt;v...&gt;vvvvvvvvvvvvvvvvvvvv.v......................................................................&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;vvvv&gt;v
+vvvv..&gt;&gt;&gt;&gt;v..v&gt;vvvv&gt;vvvvvvvvvvvvvv.vv..v...............................................................&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;vvvv
+vvvvv....&gt;vvv&gt;v&gt;vvvvvvvvvvvvvvvvvvvvv..vv..........................................................&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;vvv
+&gt;vvvvv...&gt;&gt;vv.&gt;v&gt;vvvvvvvvvvvvvvvvvvvvv.vv............................................................&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;
+&gt;&gt;vvvvv.v.&gt;&gt;vvv&gt;v&gt;vvvvvvvvvvvvvvvvvvvv.vv.v..v....................................................&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;
+&gt;&gt;&gt;vvvvvv.vv&gt;vvv&gt;v&gt;vvvvvvvvvvvvvvvvvvv.vv.v..v.......................................................................&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;
+&gt;&gt;&gt;&gt;vvvvvvvvvvvvvvv&gt;&gt;vvvvvvvvvvvvvvvvv.vv.v..v...............................................................&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;
+&gt;&gt;&gt;&gt;&gt;vvv&gt;&gt;v&gt;v&gt;vvvvv.&gt;&gt;vvvvvvvvvvvvvvvv.vvvv..v...............................................................&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;
+&gt;&gt;&gt;&gt;&gt;&gt;vvv.vvvvvvvvvvv.&gt;vvvvvvvvvvvvvvvvvvvv..v..v...........................................................&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;
+&gt;&gt;&gt;&gt;&gt;&gt;&gt;vv.vv&gt;v&gt;vvvvvvv.vvvvvvvvvvvvvvvvvvvv..v..v.............................................................&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;
+&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;vv&gt;v&gt;vvvvvvvvvvvvvvvvvvvvvvvvvvv..v..v....v.............................................................&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;
+&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;vv&gt;v&gt;vvvvvvvvvvvvvvvvvvvvvvvvvv..vv.v..vvv....................................................................&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;
+&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;vv&gt;v&gt;vvvvvvvvvvvvvvvvvvvvvvvvvv.vv.v..vvv....v.............................................................&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;
+&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;vv&gt;v&gt;vvvvvvvvvvvvvvvvvvvvvvvvv.vv.v.vvvv....v...............................................................&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;
+&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;vv&gt;v&gt;vvv&gt;vvvvvvvvvvvvvvvvvvvvvvvvv.vvvv....v.........................................................&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;
+&gt;&gt;v.&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;vv&gt;v&gt;vv&gt;vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv...v.............................................................&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;
+&gt;&gt;&gt;v..&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;vv&gt;v&gt;v&gt;&gt;vvvvvvvvvvvvvvvvvvvvvvvvvvvvvv...v.......................................................................&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;
+&gt;&gt;&gt;&gt;v...&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;vv&gt;v&gt;&gt;v&gt;vvvvvvvvvvvvvvvvvvvvvvvvvvvvv..vv........................................................................&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;
+&gt;&gt;&gt;&gt;&gt;v..&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;vv&gt;v&gt;&gt;v&gt;vvvvvvvvvvvvvvvvvvvvvvvvvvvv..vv.................................................................&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;
+&gt;&gt;&gt;&gt;&gt;&gt;v....&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;vv&gt;v&gt;&gt;v&gt;vvvvvvvvvvvvvvvvvvvvvvvvvvv..vv...................................................................&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;
+&gt;&gt;&gt;&gt;&gt;&gt;&gt;v.....&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;vv&gt;v&gt;&gt;v&gt;vvvvvvvvvvvvvvvvvvvvvvvvvv..vvv..................................................................&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;
+&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;v.&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;vv&gt;v&gt;&gt;v&gt;vvvvvvvvvvvvvvvvvvvvvvvvvvvvvv................................................................&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;
+&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;v..&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;vv&gt;v&gt;&gt;v&gt;vvvvvvvvvvvvvvvvvvvvvvvvvvvvv.v...................................................................&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;
+&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;v..&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;vv&gt;v&gt;&gt;v&gt;vvvvvvvvvvvvvvvvvvvvvvvvvvvv.v........v........................................................&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;
+&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;v...&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;vv&gt;v&gt;&gt;v&gt;vvvvvvvvvvvvvvvvvvvvvvvvvvv.vv.......v........................................................&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;
+&gt;v&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;v..&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;vv&gt;v&gt;&gt;v&gt;vvvvvvvvvvvvvvvvvvvvvvvvvv.vv.......v........................................................&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;
+&gt;&gt;v&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;v.....&gt;&gt;&gt;&gt;&gt;&gt;&gt;vv&gt;v&gt;&gt;v&gt;vvvvvvvvvvvvvvvvvvvvvvvvv.vv.......v............................................................&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;
+&gt;&gt;&gt;v&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;v...&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;vv&gt;v&gt;&gt;v&gt;vvvvvvvvvvvvvvvvvvvvvvvvvvv.v.....v.v.................................................................&gt;
+&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;v&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;vv&gt;v&gt;&gt;v&gt;vvvvvvvvvvvvvvvvvvvvvvvvvvvv.....v.v.v..v..........................................................&gt;&gt;&gt;
+&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;v.........&gt;&gt;&gt;vv&gt;v&gt;&gt;v&gt;vvvvvvvvvvvvvvvvvvvvvvvvvvvv....v.v.v..v........................................................&gt;&gt;&gt;&gt;&gt;
+&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;v......&gt;&gt;&gt;&gt;&gt;&gt;vv&gt;v&gt;&gt;vvvvvvvvvvvvvvvvvvvvvvvvvvvvvv..vv.v.v..v.....................................................&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;
+&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;v&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;vv&gt;v&gt;&gt;&gt;vvvvvvvvvvvvvvvvvvvvvvvvvvvv.vvv.v.v..v..........................................................&gt;&gt;&gt;
+&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;v&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;vvvv..&gt;vvvvvvvvvvvvvvvvvvvvvvvvvvv.vvv.v.v..v.............................................................
+........&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;v&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;vvvv..&gt;vvvvvvvvvvvvvvvvvvvvvvvvvv.vvv.v.v..v.....v...v...................................................
+&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;v&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;vvvv..&gt;vvvvvvvvvvvvvvvvvvvvvvvvvvvvv.vvv..v.....v...v.................................................&gt;&gt;
+.....&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;v&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;vvvv..&gt;vvvvvvvvvvvvvvvvvvvvvvvvvvvv.vvv..v.....v...v......v............................................
+..&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;v&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv.vvv..v.....v...v......v............................................
+...&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;v&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv.vvv..v.v...v...v......v............................................
+......&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;v&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv..v.v...v...v......vv...........................................
+......&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;v&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv..v.v...v.v.v.vv...vv...........................................
+.........&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;v&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv.v.v.vvvvvvv.vv...vvv..........................................
+......&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;v&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv.vvvvvvv.vv...vvvvv........................................
+..........&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;v&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv.vv...vvvvv........................................
+.....&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;v&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv.vv...vvvvv........................................
+.........&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;v&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv.vv...vvvvv........................................
+................&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;vv&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv.vvvvvv........................................
+..............&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv.vvvvvvv....v..................................
+..................&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv.vvvvvvvv...v..................................
+...................&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;vv&gt;vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv.vvvvvvvvv..v..................................
+............&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;vv&gt;vv&gt;vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv.vvvvvvvvv..v..................................
+........................&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;vv&gt;vv&gt;vvvvvvvvv&gt;vvvvvvvvvvvvvvvvvvvvvv.vvvvvvvvv..v..................................
+...................&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;vv&gt;vv&gt;vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv.vvvvvvvvv..v..................................
+.....................&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;vv&gt;vv&gt;vvvvvvvvvvvvvvvvvvvvvvvvvvvvvv.vvvvvvvvv..v..v...............................
+.....................&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;vv&gt;vv&gt;vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv..v..v...............................
+.............................&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;vv&gt;vv&gt;vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv..vv.v...............................
+............................&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;vv&gt;vv&gt;vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv..vv.v...............................
+..............................&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;vv&gt;vv&gt;vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv..vvvv...............................
+...........................&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;vv&gt;vv&gt;vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv..vvvv...............................
+................................&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;vv&gt;vv&gt;vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv...............................
+................................&gt;&gt;&gt;&gt;&gt;&gt;v...&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;vv&gt;vv&gt;v&gt;vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv...............................
+.............................&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;vv&gt;vv&gt;v&gt;vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv...............................
+....................................&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;vv&gt;vv&gt;v&gt;vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv...............................
+......................................&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;vv&gt;vv&gt;v&gt;vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv...............................
+......................................&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;vv&gt;vv&gt;v&gt;vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv...............................
+.................................&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;vv&gt;vv&gt;v&gt;vvvvvvvvvv&gt;vvvvvvvvvvvvvvvvvvvvv..v...v........................
+......................................&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;vv&gt;vv&gt;v&gt;vvvvvvvvv.&gt;vvvvvvvvvvvvvvvvvvvvv.v.v.v........................
+.................................vvvvv.....&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;vv&gt;vvvvvvvvvvvvvv.&gt;vvvvvvvvvvvvvvvvvvvvvv.vvv........................
+.................................&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;vv&gt;v&gt;v&gt;vvvvvvvvvv.&gt;vvvvvvvvvvvvvvvvvvvvv.vvv....v...................
+................................................&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;vv&gt;v&gt;vvvvvvvvvvvv.vvvvvvvvvvvvvvvvvvvvv.vvv....v...................
+..........................................&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;vv&gt;v&gt;&gt;vvv&gt;vvvvvvvvvvvvvvvvvvvvvvvvvvvv.vvv.v..v...................
+.........................................&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;vv&gt;v&gt;&gt;&gt;&gt;&gt;vvvvvvv&gt;vvvvvvvvvvvvvvvvvvvv.vvv.vv.v...................
+............................................&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;vv&gt;v&gt;&gt;&gt;&gt;&gt;vvvvvv.vvvvvvvvvvvvvvvvvvvvvvvv.vv.v...................
+..................................................&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;vv&gt;v&gt;&gt;&gt;&gt;&gt;vvvvvv&gt;vvvvvvvvvvvvvvvvvvvvvvvvvv.v.....v.............
+.......................................................&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;vv&gt;v&gt;&gt;&gt;&gt;&gt;vvvvv&gt;&gt;v&gt;vvvvvvvvvvvvvvvvvvvvvvv.v.....v.............
+......................................................&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;vv&gt;&gt;&gt;v&gt;&gt;&gt;vvvvv&gt;&gt;v&gt;&gt;vvv&gt;vvvvvvvvvvvvvvvvv.v.....v.............
+...............................................................&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;vv&gt;&gt;&gt;v&gt;&gt;&gt;vvvvv&gt;&gt;v&gt;&gt;vvv&gt;vvvvvvvvvvvvvvvv.v.....v.............
+..........................................................&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;v&gt;&gt;v&gt;v&gt;&gt;&gt;vvvv.&gt;&gt;&gt;&gt;vvvv&gt;vvvvvvvvvvvvvvvvvv....v.............
+.........................................................&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;vv&gt;v&gt;&gt;&gt;vvv.&gt;&gt;&gt;&gt;vvvvv&gt;vvvvvvvvvvvvvvvvvvv..v.............
+...........................................................&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;vv&gt;v&gt;&gt;&gt;vv.&gt;&gt;&gt;&gt;vvvvvv&gt;vvvvvvvvvvvvvvvvvv.vv...v.........
+...............................................................&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;vv&gt;v&gt;&gt;&gt;v.&gt;&gt;&gt;&gt;&gt;vvvvvv&gt;vvvvvvvvvvvvvvvvv.vv...v.........
+..................................................................&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;vv&gt;v&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;vvvvvv&gt;vvvvvvvvvvvvvvvvvvv...v.........
+.................................................................&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;vv&gt;v&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;vvvvvv&gt;vvvvvvvvvvvvvvvvvvv..v.........
+...................................................................&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;vv&gt;v.&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;vvvvvv&gt;vvvvvvvvvvvvvvvvvvvvv.........
+......................................................................&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;vv&gt;v..&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;vvvvvv&gt;vvvvvvvvvvvvvvvvvvvv.........
+......................................................................&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;v.&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;vvvvvv&gt;vvvvvvvvvvvvvvvvvvv.........
+....................................................................&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;v.&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;vvvvvv&gt;vvvvvvvvvvvvvvvvvvv..v.....
+...............................................................&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;vvvv...&gt;v.&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;vvvvvv&gt;vvvvvvvvvvvvvvvvvv..v.....
+.............................................................&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;v.&gt;&gt;&gt;&gt;v.&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;vvvvvv&gt;vvvvvvvvvvvvvvvvv..v.....
+.v...................................................................&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;v.&gt;&gt;&gt;&gt;v.&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;vvvvvv&gt;vvvvvvvvvvvvvvvv..v.....
+.v................................................................&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;v.&gt;&gt;&gt;&gt;v..&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;vvvvvv&gt;vvvvvvvvvvvvvvvv.vv....
+.v................................................................&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;v.&gt;&gt;&gt;&gt;&gt;v&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;vvvvvv&gt;vvvvvvvvvvvvvvvvvv....
+.v.........................................................................&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;v&gt;&gt;&gt;&gt;&gt;&gt;v.&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;vvvvvv&gt;vvvvvvvvvvvvvvvvvvv..
+.v................................................................&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;vvvvvv&gt;vvvvvvvvvvvvvvvvvv..
+.v...........................................................................&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;v.........&gt;&gt;&gt;&gt;vvvvvv&gt;vvvvvvvvvvvvvvvvv..
+vv..v..................................................................&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;vvv..&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;vvvvvv&gt;vvvvvvvvvvvvvvvv..
+vv..v.........................................................................&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;v.&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;vvvvvv&gt;vvvvvvvvvvvvvvv..
+vv..v......v...............................................................&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;v.&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;vvvvvv&gt;vvvvvvvvvvvvvv..
+vv..v......v................................................................&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;vvv.......&gt;&gt;&gt;&gt;&gt;&gt;&gt;vvvvvv&gt;vvvvvvvvvvvvv..
+vv..vv.....v....................................................................&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;v.&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;vvvvvv&gt;vvvvvvvvvvvv..
+vv..vv..v..v...................................................................&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;vv........&gt;&gt;&gt;&gt;&gt;&gt;&gt;vvvvvv&gt;vvvvvvvvvvv..
+vv..vv..v..v.................................................................&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;v.v&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;vvvvvv&gt;vvvvvvvvvvv.
+vv..vvv.v..v...........................................................................&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;v.vv..&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;vvvvvv&gt;vvvvvvvvvvv
+vvv.vvv.v..v.....................................................................&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;v.vvvvv&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;vvvvvv&gt;vvvvvvvvvv
+vvv.vvv.v..v.................................................................&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;vvvv&gt;&gt;v&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;vvvvvv&gt;vvvvvvvvv
+vvvvvvv.v..v..................................................................&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;vvvvvvv...&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;vvvvvv&gt;vvvvvvvv
+vvvvvvv.vv.v..........................................................................&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;vvvvvvv.&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;vvvvvv&gt;vvvvvvv
+vvvvvvvvvv.vv...v...................................................................&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;vv&gt;&gt;vvv&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;vvvvvv&gt;vvvvvv
+vvvvvvvvvvvvv...v.........................................................................&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;vvvvvvv..&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;vvvvvv&gt;vvvvv
+vvvvvvvvvvvvv...v................................................................&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;vvvvvvv....&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;vvvvvv&gt;vvvv
+vvvvvvvvvvvvv.v.v..................................................................&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;vvvvvv.........&gt;&gt;vvvvvv&gt;vvv
+vvvvvvvvvvvvv.v.v......................................................................&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;vvvvvv..v.&gt;&gt;&gt;&gt;&gt;&gt;&gt;vvvvvv&gt;vv
+vvvvvvvvvvvvv.v.v.....................................................................&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;vvvvvv.&gt;v&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;vvvvvv&gt;v
+vvvvvvvvvvvvv.v.v...................................................................&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;vvvvvv&gt;vvv.&gt;v.....&gt;&gt;&gt;vvvvvv&gt;
+&gt;vvvvvvvvvvvvvv.v.............................................................................&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;vvv&gt;vv..&gt;v...&gt;&gt;&gt;&gt;&gt;vvvvvv
+v&gt;&gt;vvvvvvvvvvvv.v.............................................................................&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;vv&gt;vv..vv..&gt;&gt;&gt;&gt;&gt;&gt;vvvvv
+vv&gt;&gt;vvvvvvvvvvv.v...v.v.....................................................................&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;vv&gt;vvv&gt;vv&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;vvvv
+vv&gt;&gt;vvvvvvvvvvv.v...v.vv........................................................................&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;vv&gt;vvvvvv......&gt;&gt;vvv
+
+</Text-field>
+</Output>
+</Group>
+<Group labelreference="L12" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L13" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+</Worksheet>

@@ -89,248 +89,402 @@
 </Task-table>
 <Task/>
 <Group labelreference="L1" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
-<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">restart;with(StringTools):</Text-field>
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">restart; with(StringTools):</Text-field>
 </Input>
 </Group>
 <Group hide-input="false" labelreference="L2" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
-<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">input:=&quot;#############
-#...........#
-###C#A#B#D###
-  #C#A#D#B#
-  #########&quot;;</Text-field>
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">input :=&quot;inp w
+mul x 0
+add x z
+mod x 26
+div z 1
+add x 15
+eql x w
+eql x 0
+mul y 0
+add y 25
+mul y x
+add y 1
+mul z y
+mul y 0
+add y w
+add y 9
+mul y x
+add z y
+inp w
+mul x 0
+add x z
+mod x 26
+div z 1
+add x 11
+eql x w
+eql x 0
+mul y 0
+add y 25
+mul y x
+add y 1
+mul z y
+mul y 0
+add y w
+add y 1
+mul y x
+add z y
+inp w
+mul x 0
+add x z
+mod x 26
+div z 1
+add x 10
+eql x w
+eql x 0
+mul y 0
+add y 25
+mul y x
+add y 1
+mul z y
+mul y 0
+add y w
+add y 11
+mul y x
+add z y
+inp w
+mul x 0
+add x z
+mod x 26
+div z 1
+add x 12
+eql x w
+eql x 0
+mul y 0
+add y 25
+mul y x
+add y 1
+mul z y
+mul y 0
+add y w
+add y 3
+mul y x
+add z y
+inp w
+mul x 0
+add x z
+mod x 26
+div z 26
+add x -11
+eql x w
+eql x 0
+mul y 0
+add y 25
+mul y x
+add y 1
+mul z y
+mul y 0
+add y w
+add y 10
+mul y x
+add z y
+inp w
+mul x 0
+add x z
+mod x 26
+div z 1
+add x 11
+eql x w
+eql x 0
+mul y 0
+add y 25
+mul y x
+add y 1
+mul z y
+mul y 0
+add y w
+add y 5
+mul y x
+add z y
+inp w
+mul x 0
+add x z
+mod x 26
+div z 1
+add x 14
+eql x w
+eql x 0
+mul y 0
+add y 25
+mul y x
+add y 1
+mul z y
+mul y 0
+add y w
+add y 0
+mul y x
+add z y
+inp w
+mul x 0
+add x z
+mod x 26
+div z 26
+add x -6
+eql x w
+eql x 0
+mul y 0
+add y 25
+mul y x
+add y 1
+mul z y
+mul y 0
+add y w
+add y 7
+mul y x
+add z y
+inp w
+mul x 0
+add x z
+mod x 26
+div z 1
+add x 10
+eql x w
+eql x 0
+mul y 0
+add y 25
+mul y x
+add y 1
+mul z y
+mul y 0
+add y w
+add y 9
+mul y x
+add z y
+inp w
+mul x 0
+add x z
+mod x 26
+div z 26
+add x -6
+eql x w
+eql x 0
+mul y 0
+add y 25
+mul y x
+add y 1
+mul z y
+mul y 0
+add y w
+add y 15
+mul y x
+add z y
+inp w
+mul x 0
+add x z
+mod x 26
+div z 26
+add x -6
+eql x w
+eql x 0
+mul y 0
+add y 25
+mul y x
+add y 1
+mul z y
+mul y 0
+add y w
+add y 4
+mul y x
+add z y
+inp w
+mul x 0
+add x z
+mod x 26
+div z 26
+add x -16
+eql x w
+eql x 0
+mul y 0
+add y 25
+mul y x
+add y 1
+mul z y
+mul y 0
+add y w
+add y 10
+mul y x
+add z y
+inp w
+mul x 0
+add x z
+mod x 26
+div z 26
+add x -4
+eql x w
+eql x 0
+mul y 0
+add y 25
+mul y x
+add y 1
+mul z y
+mul y 0
+add y w
+add y 4
+mul y x
+add z y
+inp w
+mul x 0
+add x z
+mod x 26
+div z 26
+add x -2
+eql x w
+eql x 0
+mul y 0
+add y 25
+mul y x
+add y 1
+mul z y
+mul y 0
+add y w
+add y 9
+mul y x
+add z y&quot;:</Text-field>
 </Input>
 </Group>
 <Group hide-input="false" labelreference="L3" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
-<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">testinput:=&quot;#############
-#...........#
-###B#C#B#D###
-  #A#D#C#A#
-  #########&quot;;</Text-field>
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">toyinput := &quot;inp z
+inp x
+mul z 3
+eql z x&quot;;</Text-field>
 </Input>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEpdG95aW5wdXRGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUSkmQXNzaWduO0YnL0YzUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGPS8lKXN0cmV0Y2h5R0Y9LyUqc3ltbWV0cmljR0Y9LyUobGFyZ2VvcEdGPS8lLm1vdmFibGVsaW1pdHNHRj0vJSdhY2NlbnRHRj0vJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZMLUkjbXNHRiQ2I1E8aW5wfnp8K2lucH54fCttdWx+en4zfCtlcWx+en54RidGOQ==">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSl0b3lpbnB1dEdGKFE8aW5wfnp8K2lucH54fCttdWx+en4zfCtlcWx+en54Rig3I0Yu</Equation></Text-field>
+</Output>
+</Group>
+<Group hide-input="false" labelreference="L9" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">testinput := &quot;inp w
+add z w
+mod z 2
+div w 2
+add y w
+mod y 2
+div w 2
+add x w
+mod x 2
+div w 2
+mod w 2&quot;;</Text-field>
+</Input>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEqdGVzdGlucHV0RicvJSdpdGFsaWNHUSV0cnVlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkjbW9HRiQ2LVEpJkFzc2lnbjtGJy9GM1Enbm9ybWFsRicvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRj0vJSlzdHJldGNoeUdGPS8lKnN5bW1ldHJpY0dGPS8lKGxhcmdlb3BHRj0vJS5tb3ZhYmxlbGltaXRzR0Y9LyUnYWNjZW50R0Y9LyUnbHNwYWNlR1EsMC4yNzc3Nzc4ZW1GJy8lJ3JzcGFjZUdGTC1JI21zR0YkNiNRYHBpbnB+d3wrYWRkfnp+d3wrbW9kfnp+MnwrZGl2fnd+MnwrYWRkfnl+d3wrbW9kfnl+MnwrZGl2fnd+MnwrYWRkfnh+d3wrbW9kfnh+MnwrZGl2fnd+MnwrbW9kfnd+MkYnRjk=">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSp0ZXN0aW5wdXRHRihRYHBpbnB+d3wrYWRkfnp+d3wrbW9kfnp+MnwrZGl2fnd+MnwrYWRkfnl+d3wrbW9kfnl+MnwrZGl2fnd+MnwrYWRkfnh+d3wrbW9kfnh+MnwrZGl2fnd+MnwrbW9kfnd+MkYoNyNGLg==</Equation></Text-field>
+</Output>
 </Group>
 <Group hide-input="false" labelreference="L4" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
-<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Font encoding="UTF-8">themap := Split(input,&quot;\134n&quot;);
-</Font>rooms := zip(()-&gt;[args], Split(Trim(SubstituteAll(themap[3],&quot;#&quot;,&quot; &quot;))),Split(Trim(SubstituteAll(themap[4],&quot;#&quot;,&quot; &quot;))));
-roompos := [3,5,7,9];
-movecost := table([&quot;A&quot;=1,&quot;B&quot;=10,&quot;C&quot;=100,&quot;D&quot;=1000]);
-hallway := [seq(&quot;.&quot;, 1..length(themap[2])-2)];
-totalcost := 0;
-istate := [hallway, rooms];</Text-field>
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Font encoding="UTF-8">prog := Split(input, &quot;\134n&quot;): nops(prog);</Font></Text-field>
 </Input>
-</Group>
-<Group hide-input="false" labelreference="L12" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
-<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">drawstate := proc(state)
-<Font encoding="UTF-8">printf(&quot;#############\134n#%s#\134n###%s#%s#%s#%s###\134n  #%s#%s#%s#%s#\134n  #########\134n\134n&quot;, 
-</Font>cat(state[1][]), seq(state[2][i][1],i=1..4), seq(state[2][i][2],i=1..4) );
-end proc:
-state2string := proc(state)
-   sprintf(&quot;%s%s%s%s%s&quot;, cat(state[1][]), seq(cat(state[2][i][]),i=1..4));
-end proc;
-string2state := proc(s)
-   return [Explode(s[1..11]), [seq([seq(s[11+(i+2*j)],i=1..2)],j=0..3)]];
-end proc;
-
-drawstate(istate);
-state2string(istate);
-drawstate(string2state(%));</Text-field>
-</Input>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkjbW5HNiMvSSttb2R1bGVuYW1lRzYiSSxUeXBlc2V0dGluZ0dJKF9zeXNsaWJHRic2JFEkMjUyRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYn">IiRfIw==</Equation></Text-field>
+</Output>
 </Group>
 <Group hide-input="false" labelreference="L5" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
-<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">moveR2H := proc(state, room, pos, {r2r::truefalse:=false})
-  local newstate, newroom, actor, steps, start;
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">run := proc(prog, input::list := [],$)
+local i, varcounter, regs, registers, ins, op1, op2, tmp, XX;
 
-  if pos in [3,5,7,9] and not r2r then
-     error &quot;illegal position in the hallway&quot;, pos;
-  elif state[1][pos] &lt;&gt; &quot;.&quot; then
-     error &quot;position occupied&quot;, pos, state[1][pos];
-  end if;
-  if state[2][room] = [&quot;.&quot;,&quot;.&quot;] then error &quot;room empty&quot;, room;
-  elif state[2][room][1] = &quot;.&quot; then
-     actor := state[2][room][2];
-     steps := 2;
-     start := roompos[room];
-     newroom := [&quot;.&quot;,&quot;.&quot;];
-  else
-     actor := state[2][room][1];
-     steps := 1;
-     start := roompos[room];
-     newroom := [&quot;.&quot;, state[2][room][2]];
-  end if;
-  steps += abs(pos - start);
+assume(XX&gt;0);
 
-  local path := state[1][`..`(min,max)(pos,start)];  
-  if nops(path)&gt;2 and {path[2..-2][]} &lt;&gt; {&quot;.&quot;} then
-     error &quot;path blocked&quot;;
-  end if;
+varcounter := 1;
+regs := [&quot;x&quot;,&quot;y&quot;,&quot;z&quot;,&quot;w&quot;];
+registers := table(map(`=`,regs,0)); #initialize with 0s
 
-  newstate := [subsop(pos=actor, state[1]), subsop(room=newroom, state[2])];
+for i to 150 do #nops(prog) do
+   ins := prog[i];
+<Font encoding="UTF-8">   #printf(&quot;%d : %s\134n&quot;, i, ins);
+</Font>   if ins[1..3] = &quot;inp&quot; then
+      if nops(input) &gt;= varcounter then
+          registers[ins[-1]] := input[varcounter];
+      else
+          registers[ins[-1]] := cat(`v__`,varcounter);
+      end if;
+      varcounter += 1;
+      next;
+   end if;
 
-  return steps*movecost[actor], newstate;
+      (op1, op2) := Split(ins[5..-1])[];
+      if op2 in regs then
+          op2 := registers[op2];
+      else
+          op2 := parse(op2); # integer
+      end if;
 
-end proc:
+   if ins[1..3] = &quot;add&quot; then
+      registers[op1] := ( registers[op1] + op2 );
+   elif ins[1..3] = &quot;mul&quot; then
+      registers[op1] := ( registers[op1] * op2 );
+   elif ins[1..3] = &quot;div&quot; then
+      registers[op1] := ifelse(op2=1,registers[op1], iquo(registers[op1],op2) );
+   elif ins[1..3] = &quot;mod&quot; then
+      if type(op2,posint) then
+          tmp := `modp`(registers[op1],op2);
+      end if;
+      registers[op1] := ifelse(is(tmp&lt;op2),tmp, irem(tmp,op2) ) ;
+   elif ins[1..3] = &quot;eql&quot; then
+     if numoccur(op(0,registers[op1]),'irem')=1 then tmp := subsindets(registers[op1], specfunc(irem), ()-&gt;XX); print(&quot;replacing irem in&quot;, registers[op1]); else tmp := registers[op1]; end if;
+    (*  if registers[op1]=irem(iquo(17576*input[1] + 159158 + 676*input[2] + 26*input[3], 26), 26) + 11 and is(op2 &lt; 10)
+      or 
+         registers[op1]=irem(iquo(676*iquo(17576*input[1] + 159158 + 676*input[2] + 26*input[3], 26) + 26*input[6] + 139, 26), 26) + 10 and is(op2&lt;10)
+      then
+          registers[op1] := 0; next;
+      end if; *)
+      if coulditbe( tmp=op2 ) = false then
+           registers[op1] := 0;
+      elif is( tmp=op2 ) = true then
+           registers[op1] := 1;
+      else
+      registers[op1] := ( ifelse(type(registers[op1]-op2,constant),
+            ifelse(registers[op1]=op2,1,0),
+            piecewise(registers[op1]=op2,1,0)) );
+      end if;
+   end if;
+ 
 
-moveH2R := proc(state, pos, room, {r2r::truefalse:=false})
-  local newstate, newroom, actor, steps, start;
-  if pos in [3,5,7,9] and not r2r then
-     error &quot;illegal position in the hallway&quot;, pos;
-  end if;
-  actor := state[1][pos];
-  if actor = &quot;.&quot; then
-     error &quot;position empty&quot;, pos;
-  elif state[2][room][1] &lt;&gt; &quot;.&quot; then
-     error &quot;room full&quot;, room;
-  elif state[2][room][2] = &quot;.&quot; then
-     steps := 2;
-     newroom := [&quot;.&quot;,actor];
-  else
-     steps := 1;
-     newroom := [actor, state[2][room][2]];
-  end if;
-  if {state[2][room][]} minus {&quot;.&quot;, actor} &lt;&gt; {} then
-     error &quot;cannot enter a room until empty of wrong types&quot;, actor, state[2][room]
-;
-  end if;
-  local path := state[1][`..`(min,max)(pos,roompos[room])];  
-  if nops(path)&gt;2 and {path[2..-2][]} &lt;&gt; {&quot;.&quot;} then
-     error &quot;path blocked&quot;;
-  end if;
+end do;
 
-  steps += abs(pos - roompos[room]);
-
-  newstate := [subsop(pos=&quot;.&quot;, state[1]), subsop(room=newroom, state[2])];
-
-  return steps*movecost[actor], newstate;
-
-end proc:
-moveR2R := proc(state, room1, room2)
-local c1, c2, ns;
-   (c1, ns) := moveR2H(state, room1, roompos[room2], 'r2r');
-   (c2, ns) := moveH2R(ns, roompos[room2], room2, 'r2r');
-   return (c1+c2), ns;
-end proc:
-</Text-field>
-</Input>
-</Group>
-<Group hide-input="false" labelreference="L15" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
-<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">istate;</Text-field>
+#return entries(registers, 'pairs');
+return registers[&quot;z&quot;];
+end proc:</Text-field>
 </Input>
 </Group>
 <Group hide-input="false" labelreference="L6" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
-<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">totalcost := 0;ns := istate:
-(c,ns) := moveR2H(ns, 2, 1): totalcost += c: drawstate(ns);
-(c,ns) := moveR2H(ns, 2, 2): totalcost += c: drawstate(ns);
-(c,ns) := moveR2H(ns, 4, 10): totalcost += c: drawstate(ns);
-(c,ns) := moveR2R(ns, 4, 2): totalcost += c: drawstate(ns);
-(c,ns) := moveH2R(ns, 10, 4): totalcost += c: drawstate(ns);
-(c,ns) := moveR2R(ns, 3, 2): totalcost += c: drawstate(ns);
-(c,ns) := moveR2R(ns, 3, 4): totalcost += c: drawstate(ns);
-(c,ns) := moveR2R(ns, 1, 3): totalcost += c: drawstate(ns);
-(c,ns) := moveR2R(ns, 1, 3): totalcost += c: drawstate(ns);
-(c,ns) := moveH2R(ns, 2, 1): totalcost += c: drawstate(ns);
-(c,ns) := moveH2R(ns, 1, 1): totalcost += c: drawstate(ns);
-totalcost; drawstate(ns);</Text-field>
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">
+for i to 14 do
+   assume(v[i]::posint,v[i]&gt;0,v[i]&lt;10);
+end do;
+
+out := ( run(prog, [v[1], v[2], v[3], v[4], v[5], v[6], v[7], v[8], v[9], v[10], v[11], v[12], v[13], v[14]])): ifelse(length([out])&lt;10000, out, &quot;long&quot;=length(out));
+
+
+</Text-field>
 </Input>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUYjNiYtRiM2Ji1JI21pR0YkNiVRJWlxdW9GJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUTAmQXBwbHlGdW5jdGlvbjtGJy9GN1Enbm9ybWFsRicvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRkEvJSlzdHJldGNoeUdGQS8lKnN5bW1ldHJpY0dGQS8lKGxhcmdlb3BHRkEvJS5tb3ZhYmxlbGltaXRzR0ZBLyUnYWNjZW50R0ZBLyUnbHNwYWNlR1EmMC4wZW1GJy8lJ3JzcGFjZUdGUC1JKG1mZW5jZWRHRiQ2JC1GIzYoLUYjNiYtRiM2Ji1GVDYkLUYjNiYtRiM2Ji1GVDYkLUYjNiYtRiM2Ji1GIzYmRi9GOS1GVDYkLUYjNigtRiM2LC1GIzYmLUkjbW5HRiQ2JFEmMTc1NzZGJ0Y9LUY6Ni1RMSZJbnZpc2libGVUaW1lcztGJ0Y9Rj9GQkZERkZGSEZKRkxGTkZRLUklbXN1YkdGJDYlLUkqbWNvbXBsZXRlR0YkNiQtRjA2JlEjdnxpckYnRjNGNi9JK21zZW1hbnRpY3NHRiRRJ2Fzc3VtZUYnLUYwNiVGW3FGM0Y2LUZdcDYkUSIxRidGPS8lL3N1YnNjcmlwdHNoaWZ0R1EiMEYnRj0tRjo2LVEnJnBsdXM7RidGPUY/RkJGREZGRkhGSkZML0ZPUSwwLjIyMjIyMjJlbUYnL0ZSRltyLUZdcDYkUScxNTkxNDlGJ0Y9RmdxLUYjNiYtRl1wNiRRJDY3NkYnRj1GYHAtRmRwNiVGZnAtRl1wNiRRIjJGJ0Y9RmRxRj1GZ3EtRiM2Ji1GXXA2JFEjMjZGJ0Y9RmBwLUZkcDYlRmZwLUZdcDYkUSIzRidGPUZkcUY9RmdxLUZkcDYlRmZwLUZdcDYkUSI0RidGPUZkcUY9LUY6Ni1RIixGJ0Y9Rj8vRkNGNUZERkZGSEZKRkxGTi9GUlEsMC4zMzMzMzMzZW1GJ0Zccy8lK2ZvcmVncm91bmRHUShbMCwwLDBdRicvJSlyZWFkb25seUdGQUY9Rj1GPUZgcC1GVDYkLUYjNiYtRiM2Ji1GXXA2JFEjMjVGJ0Y9RmBwLUZUNiQtRlQ2KC1GIzYmLUknbXRhYmxlR0YkNjYtSSRtdHJHRiQ2Jy1JJG10ZEdGJDYoRmFxLyUpcm93YWxpZ25HUSFGJy8lLGNvbHVtbmFsaWduR0Zedi8lK2dyb3VwYWxpZ25HRl52LyUocm93c3BhbkdGY3EvJStjb2x1bW5zcGFuR0ZjcS1GanU2KC1GIzYmLUZUNigtRiM2Ji1GZHU2Ni1GZ3U2J0ZpdS1GanU2KC1GIzYmLUYjNiZGZHMtRjo2LVEoJm1pbnVzO0YnRj1GP0ZCRkRGRkZIRkpGTEZqcUZcci1GXXA2JFEiOEYnRj1GPS1GOjYtUSkmZXF1YWxzO0YnRj1GP0ZCRkRGRkZIRkpGTC9GT1EsMC4yNzc3Nzc4ZW1GJy9GUkZjeC1GZHA2JUZmcC1GXXA2JFEiNUYnRj1GZHFGPUZcdkZfdkZhdkZjdkZldkZcdkZfdkZhdi1GZ3U2Jy1GanU2KC1GXXA2JEZmcUY9Rlx2Rl92RmF2RmN2RmV2LUZqdTYoLUYwNiVRKm90aGVyd2lzZUYnRjNGNkZcdkZfdkZhdkZjdkZldkZcdkZfdkZhdi8lJmFsaWduR1ElYXhpc0YnL0ZddlEpYmFzZWxpbmVGJy9GYHZRJ2NlbnRlckYnL0ZidlEnfGZybGVmdHxockYnLyUvYWxpZ25tZW50c2NvcGVHRjUvJSxjb2x1bW53aWR0aEdRJWF1dG9GJy8lJndpZHRoR0Ziei8lK3Jvd3NwYWNpbmdHUSYxLjBleEYnLyUuY29sdW1uc3BhY2luZ0dRJDJlbUYnLyUpcm93bGluZXNHUSVub25lRicvJSxjb2x1bW5saW5lc0dGXVtsLyUmZnJhbWVHRl1bbC8lLWZyYW1lc3BhY2luZ0dRLDAuNGVtfjAuNWV4RicvJSplcXVhbHJvd3NHRkEvJS1lcXVhbGNvbHVtbnNHRkEvJS1kaXNwbGF5c3R5bGVHRkEvJSVzaWRlR1EmcmlnaHRGJy8lMG1pbmxhYmVsc3BhY2luZ0dRJjAuOGVtRidGX3RGYnRGPUY9L0ZdcVEqcGllY2V3aXNlRicvJSVvcGVuR1EnJmxjdWI7RicvJSZjbG9zZUdGXnZGYVxsRl94Rl55Rj1GXHZGX3ZGYXZGY3ZGZXZGXHZGX3ZGYXZGanhGZXlGaHlGanlGXHpGXnpGYHpGY3pGZXpGaHpGW1tsRl5bbEZgW2xGYltsRmVbbEZnW2xGaVtsRltcbEZeXGxGX3RGYnRGPUY9RmFcbEZjXGxGZlxsRmFcbEY9Rj1GZ3FGYXFGPUY9Rj1GZ3EtRiM2Ji1GVDYkLUYjNiZGZXhGZ3EtRl1wNiRRIzEwRidGPUY9Rj1GYHBGXXVGPUY9Rj1GYHAtRlQ2JC1GIzYmLUYjNiZGanRGYHAtRlQ2JC1GVDYoLUYjNiYtRmR1NjYtRmd1NidGaXUtRmp1NigtRiM2Ji1GVDYoLUYjNiYtRmR1NjYtRmd1NidGaXUtRmp1NigtRiM2Ji1GIzYmLUYjNiYtRjA2JVElaXJlbUYnRjNGNkY5LUZUNiQtRiM2KEZeb0Zpc0Zcc0ZfdEZidEY9Rj1GPUZncS1GXXA2JFEjMTFGJ0Y9Rj1GX3gtRmRwNiVGZnAtRl1wNiRRIjZGJ0Y9RmRxRj1GXHZGX3ZGYXZGY3ZGZXZGXHZGX3ZGYXZGanhGZXlGaHlGanlGXHpGXnpGYHpGY3pGZXpGaHpGW1tsRl5bbEZgW2xGYltsRmVbbEZnW2xGaVtsRltcbEZeXGxGX3RGYnRGPUY9RmFcbEZjXGxGZlxsRmFcbEZfeEZeeUY9Rlx2Rl92RmF2RmN2RmV2Rlx2Rl92RmF2Rmp4RmV5Rmh5Rmp5Rlx6Rl56RmB6RmN6RmV6Rmh6RltbbEZeW2xGYFtsRmJbbEZlW2xGZ1tsRmlbbEZbXGxGXlxsRl90RmJ0Rj1GPUZhXGxGY1xsRmZcbEZhXGxGPUY9RmdxRmFxRj1GPUY9RmdxLUYjNiYtRlQ2JC1GIzYmRl9gbEZncUZneEY9Rj1GYHBGZ11sRj1GPUY9RmBwLUZUNiQtRiM2Ji1GIzYmRmp0RmBwLUZUNiQtRlQ2KC1GIzYmLUZkdTY2LUZndTYnRml1LUZqdTYoLUYjNiYtRlQ2KC1GIzYmLUZkdTY2LUZndTYnRml1LUZqdTYoLUYjNiYtRiM2Ji1GIzYmRmVfbEY5LUZUNiQtRiM2KEZobkZpc0Zcc0ZfdEZidEY9Rj1GPUZncS1GXXA2JFEjMTRGJ0Y9Rj1GX3gtRmRwNiVGZnAtRl1wNiRRIjdGJ0Y9RmRxRj1GXHZGX3ZGYXZGY3ZGZXZGXHZGX3ZGYXZGanhGZXlGaHlGanlGXHpGXnpGYHpGY3pGZXpGaHpGW1tsRl5bbEZgW2xGYltsRmVbbEZnW2xGaVtsRltcbEZeXGxGX3RGYnRGPUY9RmFcbEZjXGxGZlxsRmFcbEZfeEZeeUY9Rlx2Rl92RmF2RmN2RmV2Rlx2Rl92RmF2Rmp4RmV5Rmh5Rmp5Rlx6Rl56RmB6RmN6RmV6Rmh6RltbbEZeW2xGYFtsRmJbbEZlW2xGZ1tsRmlbbEZbXGxGXlxsRl90RmJ0Rj1GPUZhXGxGY1xsRmZcbEZhXGxGPUY9RmdxRmFxRj1GPUY9RmdxLUYjNiZGZWNsRmBwRmBhbEY9Rj1GaXNGXHNGX3RGYnRGPUY9Rj1GYHAtRlQ2JC1GIzYmLUYjNiZGanRGYHAtRlQ2JC1GVDYoLUYjNiYtRmR1NjYtRmd1NidGaXUtRmp1NigtRiM2Ji1GVDYoLUYjNiYtRmR1NjYtRmd1NidGaXUtRmp1NigtRiM2Ji1GIzYmLUYjNiZGZV9sRjlGU0Y9Rml3RmFgbEY9Rl94LUZkcDYlRmZwRlx4RmRxRj1GXHZGX3ZGYXZGY3ZGZXZGXHZGX3ZGYXZGanhGZXlGaHlGanlGXHpGXnpGYHpGY3pGZXpGaHpGW1tsRl5bbEZgW2xGYltsRmVbbEZnW2xGaVtsRltcbEZeXGxGX3RGYnRGPUY9RmFcbEZjXGxGZlxsRmFcbEZfeEZeeUY9Rlx2Rl92RmF2RmN2RmV2Rlx2Rl92RmF2Rmp4RmV5Rmh5Rmp5Rlx6Rl56RmB6RmN6RmV6Rmh6RltbbEZeW2xGYFtsRmJbbEZlW2xGZ1tsRmlbbEZbXGxGXlxsRl90RmJ0Rj1GPUZhXGxGY1xsRmZcbEZhXGxGPUY9RmdxRmFxRj1GPUY9RmdxLUYjNiYtRlQ2JC1GIzYmRmBmbEZncUZnY2xGPUY9RmBwRmJkbEY9Rj0=">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyMsJiomLUklaXF1b0dGJjYkLCYqJiwmKiYsJiomLUYvNiQsLCZJI3Z8aXJHNiMvSSdfbG9jYWxHRiZJMF9uMjczMDMzOTEzNzY2NEdGKDYjIiIiIiZ3diIiJ1wiZiJGQSZGOzYjIiIjIiR3JyZGOzYjIiIkIiNFJkY7NiMiIiVGQUZLRkEsJi1JKlBJRUNFV0lTRUdGJTYkNyRGQS8tRlE2JDckRkEvLCZGTEZBISIpRkEmRjs2IyIiJjckIiIhSSpvdGhlcndpc2VHRihGaW5GaG4iI0RGQUZBRkFGQSomLCZGZW5GQSIjNUZBRkFGUEZBRkFGQSwmLUZRNiQ3JEZBLy1GUTYkNyRGQS8sJi1JJWlyZW1HRiY2JEY1RktGQSIjNkZBJkY7NiMiIidGaG5GaW5GaG5GW29GQUZBRkFGQSomLCZGXXBGQUZnbkZBRkFGYG9GQUZBRkEsJi1GUTYkNyRGQS8tRlE2JDckRkEvLCYtRmpvNiRGM0ZLRkEiIzlGQSZGOzYjIiIoRmhuRmluRmhuRltvRkFGQUZBRkEqJkZfcUZBRmNwRkFGQUZLRkEsJi1GUTYkNyRGQS8tRlE2JDckRkEvLCYtRmpvRjBGQSEiJ0ZBJkY7NiMiIilGaG5GaW5GaG5GW29GQUZBRkFGQSomLCZGX3JGQUZhcUZBRkFGZHFGQUZBNyMsJiomLUYvNiQsJiomLCYqJiwmKiZGN0ZBLCYtSSpwaWVjZXdpc2VHRiY2JS8tRmFzNiVGWEZBRmluRmluRkFGaW5GW29GQUZBRkFGQSomRl1vRkFGYHNGQUZBRkEsJi1GYXM2JS8tRmFzNiUvLCYtRmpvNiRGXXNGS0ZBRlxwRkFGXXBGQUZpbkZpbkZBRmluRltvRkFGQUZBRkEqJkZhcEZBRmhzRkFGQUZBLCYtRmFzNiUvLUZhczYlLywmLUZqbzYkRltzRktGQUZecUZBRl9xRkFGaW5GaW5GQUZpbkZbb0ZBRkFGQUZBKiZGX3FGQUZjdEZBRkFGS0ZBLCYtRmFzNiUvLUZhczYlLywmLUZqb0ZockZBRl5yRkFGX3JGQUZpbkZpbkZBRmluRltvRkFGQUZBRkEqJkZjckZBRl51RkFGQQ==</Equation></Text-field>
+</Output>
 </Group>
-<Group hide-input="false" labelreference="L7" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
-<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">start := state2string(istate);
-theend := state2string([[&quot;.&quot;$11],[[&quot;A&quot;,&quot;A&quot;],[&quot;B&quot;,&quot;B&quot;],[&quot;C&quot;,&quot;C&quot;],[&quot;D&quot;,&quot;D&quot;]]]);</Text-field>
+<Group hide-input="false" labelreference="L11" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">subsindets(out, specfunc(iquo), x-&gt;op(1,x)/op(2,x));</Text-field>
 </Input>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkmbWZyYWNHRiQ2KC1JJW1zdWJHRiQ2JS1JKm1jb21wbGV0ZUdGJDYkLUkjbWlHRiQ2JlEjdnxpckYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy9JK21zZW1hbnRpY3NHRiRRJ2Fzc3VtZUYnLUY1NiVGN0Y4RjstSSNtbkdGJDYkUSIxRicvRjxRJ25vcm1hbEYnLyUvc3Vic2NyaXB0c2hpZnRHUSIwRictRkQ2JFEjMjZGJ0ZHLyUubGluZXRoaWNrbmVzc0dGRi8lK2Rlbm9tYWxpZ25HUSdjZW50ZXJGJy8lKW51bWFsaWduR0ZTLyUpYmV2ZWxsZWRHUSZmYWxzZUYnLUkjbW9HRiQ2LVEnJnBsdXM7RidGRy8lJmZlbmNlR0ZYLyUqc2VwYXJhdG9yR0ZYLyUpc3RyZXRjaHlHRlgvJSpzeW1tZXRyaWNHRlgvJShsYXJnZW9wR0ZYLyUubW92YWJsZWxpbWl0c0dGWC8lJ2FjY2VudEdGWC8lJ2xzcGFjZUdRLDAuMjIyMjIyMmVtRicvJSdyc3BhY2VHRmdvLUYsNigtRkQ2JFEiOUYnRkdGTEZPRlFGVEZWRkc=">LCYmSSN2fGlyRzYjL0knX2xvY2FsRyUqcHJvdGVjdGVkR0kwX24yNzMwMzU1MzgzNzc2RzYiNiMiIiIjRiwiI0UjIiIqRi5GLA==</Equation></Text-field>
+</Output>
 </Group>
-<Group hide-input="false" labelreference="L17" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
-<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">nbs := proc(s)
-option remember;
-local output, tmpc, tmps, tmph, state, i, j;
-    output := NULL;
-    state := string2state(s);
-
-    # room to hall
-    for i in [1,2,4,6,8,10,11] do
-        for j from 1 to 4 do
-            try:
-                tmpc,tmps := moveR2H( state, j, i);
-                tmph := tmpc/10^ilog10(tmpc);            
-                output := output, [tmpc, state2string(tmps), tmph];
-            catch:
-            end try;
-         end do;
-     end do;
-
-    # hall to room
-    for i in [1,2,4,6,8,10,11] do
-        for j from 1 to 4 do
-            try:
-                tmpc,tmps := moveH2R( state, i, j);
-                output := output, [tmpc, state2string(tmps),0];
-            catch:
-            end try;
-         end do;
-     end do;
-
-    # room to room
-    for i from 1 to 4 do
-        for j from 1 to 4 do
-            if i = j then next; end if;
-            try:
-                tmpc,tmps := moveR2R( state, i, j);
-                output := output, [tmpc, state2string(tmps),0];
-            catch:
-            end try;
-         end do;
-     end do;
-
-     return [output];
-end proc:</Text-field>
+<Group hide-input="false" labelreference="L20" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">coulditbe(XX+11 = v[6]) assuming XX&gt;0;</Text-field>
 </Input>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkjbWlHNiMvSSttb2R1bGVuYW1lRzYiSSxUeXBlc2V0dGluZ0dJKF9zeXNsaWJHRic2JVEmZmFsc2VGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRic=">SSZmYWxzZUclKnByb3RlY3RlZEc=</Equation></Text-field>
+</Output>
 </Group>
-<Group hide-input="false" labelreference="L18" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
-<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">nbs(start);</Text-field>
-</Input>
-</Group>
-<Group labelreference="L14" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
-<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Dijkstra := proc(start, theend, Bound)
-local pq, costsofar, curr, nb, newcost, pt; 
-uses priqueue;
-#option trace;
-
-costsofar := table(sparse=Bound):
-
-
-initialize(pq):
-insert([0,start], pq):
-costsofar[start] := 0:
-
-while pq[0] &lt;&gt; 0 do
-   curr := extract(pq)[2];
-   if curr = theend then
-       return costsofar[theend];
-   end if;
-
-   nb := nbs(curr);
-   for pt in nb do
-       newcost := costsofar[curr] + pt[1];
-       if newcost &lt; costsofar[pt[2]] then
-           costsofar[pt[2]] := newcost;
-           insert([-newcost, pt[2]], pq);
-       end if;
-   end do;
-end do:
-
-end proc:</Text-field>
-</Input>
-</Group>
-<Group hide-input="false" labelreference="L21" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
-<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
-</Input>
-</Group>
-<Group hide-input="false" labelreference="L16" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
-<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">CodeTools:-Usage( Dijkstra(start, theend, add(11*2*10^i,i=0..3)) );</Text-field>
-</Input>
-</Group>
-<Group labelreference="L19" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Group labelreference="L21" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
 <Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
 </Input>
 </Group>
 <Group labelreference="L22" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L23" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L24" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
 <Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
 </Input>
 </Group>
